@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "equWeaponCDBg",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 25
+    },
+    "offset": {
+      "x": 0,
+      "y": 0.5
+    },
+    "originalSize": {
+      "width": 200,
+      "height": 26
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -100,
+        -12.5,
+        0,
+        100,
+        -12.5,
+        0,
+        -100,
+        12.5,
+        0,
+        100,
+        12.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        26,
+        200,
+        26,
+        0,
+        1,
+        200,
+        1
+      ],
+      "nuv": [
+        0,
+        0.038461538461538464,
+        1,
+        0.038461538461538464,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -100,
+        "y": -12.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 100,
+        "y": 12.5,
+        "z": 0
+      }
+    },
+    "texture": "1ba12be5-0a34-4d9e-8e55-1ffc72a301e9@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

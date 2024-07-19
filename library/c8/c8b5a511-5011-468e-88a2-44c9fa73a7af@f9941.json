@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blackHole",
+    "atlas": "",
+    "rect": {
+      "x": 4,
+      "y": 0,
+      "width": 252,
+      "height": 251
+    },
+    "offset": {
+      "x": 2,
+      "y": 2.5
+    },
+    "originalSize": {
+      "width": 256,
+      "height": 256
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -126,
+        -125.5,
+        0,
+        126,
+        -125.5,
+        0,
+        -126,
+        125.5,
+        0,
+        126,
+        125.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        4,
+        256,
+        256,
+        256,
+        4,
+        5,
+        256,
+        5
+      ],
+      "nuv": [
+        0.015625,
+        0.01953125,
+        1,
+        0.01953125,
+        0.015625,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -126,
+        "y": -125.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 126,
+        "y": 125.5,
+        "z": 0
+      }
+    },
+    "texture": "c8b5a511-5011-468e-88a2-44c9fa73a7af@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

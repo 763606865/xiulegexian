@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mergeEquLayerBg",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 750,
+      "height": 714
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 750,
+      "height": 714
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -375,
+        -357,
+        0,
+        375,
+        -357,
+        0,
+        -375,
+        357,
+        0,
+        375,
+        357,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        714,
+        750,
+        714,
+        0,
+        0,
+        750,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -375,
+        "y": -357,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 375,
+        "y": 357,
+        "z": 0
+      }
+    },
+    "texture": "54d6f10f-5d8b-487d-b4c0-d9af02a2cdc1@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

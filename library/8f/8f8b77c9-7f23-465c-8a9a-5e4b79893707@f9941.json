@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "light_00000",
+    "atlas": "",
+    "rect": {
+      "x": 25,
+      "y": 16,
+      "width": 348,
+      "height": 74
+    },
+    "offset": {
+      "x": -1,
+      "y": -3
+    },
+    "originalSize": {
+      "width": 400,
+      "height": 100
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -174,
+        -37,
+        0,
+        174,
+        -37,
+        0,
+        -174,
+        37,
+        0,
+        174,
+        37,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        25,
+        84,
+        373,
+        84,
+        25,
+        10,
+        373,
+        10
+      ],
+      "nuv": [
+        0.0625,
+        0.1,
+        0.9325,
+        0.1,
+        0.0625,
+        0.84,
+        0.9325,
+        0.84
+      ],
+      "minPos": {
+        "x": -174,
+        "y": -37,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 174,
+        "y": 37,
+        "z": 0
+      }
+    },
+    "texture": "8f8b77c9-7f23-465c-8a9a-5e4b79893707@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

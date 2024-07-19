@@ -1,0 +1,1506 @@
+{
+  "path": {
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\defaultSprite2D.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\effect.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\enemyDied.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\common-fun.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\fireBall.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\flashWhite.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\flashWhite.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\flashWhite.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\gray.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\imageStroke.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\labelDynamicEffect.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs-sin.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs-one-after-another.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dfs-sin.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dfs-one-after-another.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\labelStroke.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\loadingFog.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\common-fun.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\mapFrozen.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\common-fun.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\monsterLeader.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\selfFog.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\common-fun.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\shadow.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\shieldColor.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\thousandsSwordToTomb.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\thunder.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\common-fun.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\res\\font\\damageTex-export.fnt": [
+      "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\res\\font\\damageTex-export.png"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\defaultSprite2D.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\effect.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\fireBall.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\enemyDied.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\common-fun.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\flashWhite.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\flashWhite.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\flashWhite.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\gray.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\imageStroke.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\labelDynamicEffect.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs-sin.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs-one-after-another.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dfs-sin.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dfs-one-after-another.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\labelStroke.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\loadingFog.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\common-fun.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\mapFrozen.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\common-fun.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\monsterLeader.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\selfFog.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\common-fun.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\shadow.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\shieldColor.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\thousandsSwordToTomb.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\thunder.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\common-fun.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\res\\font\\damageTex-export.fnt": [
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\res\\font\\damageTex-export.png"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\defaultSprite2D.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\effect.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\enemyDied.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\common-fun.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\fireBall.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\flashWhite.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\flashWhite.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\flashWhite.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\gray.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\imageStroke.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\labelDynamicEffect.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs-sin.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs-one-after-another.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dfs-sin.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dfs-one-after-another.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\loadingFog.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\common-fun.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\labelStroke.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\mapFrozen.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\common-fun.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\monsterLeader.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\selfFog.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\common-fun.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\shadow.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\shieldColor.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\thousandsSwordToTomb.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\thunder.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\common-fun.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\res\\font\\damageTex-export.fnt": [
+      "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\res\\font\\damageTex-export.png"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\defaultSprite2D.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\effect.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\fireBall.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\enemyDied.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\common-fun.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\flashWhite.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\flashWhite.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\flashWhite.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\gray.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\imageStroke.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\labelDynamicEffect.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs-sin.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs-one-after-another.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dfs-sin.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dfs-one-after-another.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\labelStroke.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\loadingFog.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\common-fun.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\mapFrozen.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\common-fun.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\monsterLeader.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dfs-shadow.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\selfFog.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\common-fun.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\shadow.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\shieldColor.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\thousandsSwordToTomb.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\thunder.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dvs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\2dfs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\shader\\common-fun.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dvs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\2dfs.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\chunks\\builtin\\internal\\sprite-texture.chunk",
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\common-fun.chunk"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\res\\font\\damageTex-export.fnt": [
+      "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\res\\font\\damageTex-export.png"
+    ]
+  },
+  "uuid": {
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\material\\frozen111.mtl": [
+      "26f619da-2ddd-4093-a04c-c509c4e86341"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\material\\killCountLabel.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\material\\loadingFog.mtl": [
+      "3f2a9faa-b362-4db4-9049-d5a4b173cf46"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\material\\map_frozen.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\material\\massMonsterComming.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\material\\shieldColor.mtl": [
+      "25803919-e565-4566-8321-eb40e8d0a8ee"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\material\\thousandsSwordToTomb.mtl": [
+      "8ea0cfd9-daf1-479c-a515-492e41169b8e"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\material\\timeLabel.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\material\\trainingLvLabel.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\particleEffect\\snowEffect.plist": [
+      "77823cd8-0070-4cb6-bb97-cfc3c5a32865@f9941"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\material\\mainColor\\mianColor_gray.mtl": [
+      "f7dab14e-f690-400e-91fb-973b9eadcc71"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\material\\AAA.mtl": [
+      "d42ae1ac-d936-45da-b366-b07493159e83"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\material\\fireBall.mtl": [
+      "2502acf1-0068-4186-bf0c-3eb98d34bd85"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\material\\flashWhite.mtl": [
+      "b40485bb-b881-4ddd-8ea9-f5247fe684ce"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\material\\imageStroke.mtl": [
+      "9c599f56-ff23-4fdd-a430-b0ada56dcb36"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\material\\labelStroke.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\material\\monsterLeader.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\material\\selfFog.mtl": [
+      "74971f3e-d6cf-4d3f-9837-048614c3ceeb"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\shader\\material\\thunder.mtl": [
+      "422c60ae-0e57-427f-bbf3-4a9d7d503ad9"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\prefab\\enemy\\material\\boss_material_purple.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\prefab\\enemy\\material\\defaultSprite2D_green.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\prefab\\enemy\\material\\defaultSprite2D_normal.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\prefab\\enemy\\material\\defaultSprite2D_red.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\prefab\\enemy\\material\\defaultSprite2D_yellow.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\prefab\\enemy\\material\\enemyDied.mtl": [
+      "089b8572-0b2d-4152-a3ef-553faa0111d6"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\prefab\\enemy\\material\\enemy_debuff_frozen.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\prefab\\enemy\\material\\enemy_debuff_paralysis.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\prefab\\enemy\\material\\enemy_effect_frozen.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\prefab\\enemy\\material\\MLStrengthBlood.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\prefab\\enemy\\material\\MLStrengthDamage.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\prefab\\enemy\\material\\MLStrengthMoveSpeed.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\prefab\\enemy\\material\\MLSuperArmor.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\prefab\\hero\\material\\heroNormal.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\TSGFDemo\\Demo\\修了个仙\\assets\\prefab\\hero\\material\\wudifenghuolun.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\material\\frozen111.mtl": [
+      "26f619da-2ddd-4093-a04c-c509c4e86341"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\material\\killCountLabel.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\material\\loadingFog.mtl": [
+      "3f2a9faa-b362-4db4-9049-d5a4b173cf46"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\material\\map_frozen.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\material\\massMonsterComming.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\material\\shieldColor.mtl": [
+      "25803919-e565-4566-8321-eb40e8d0a8ee"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\material\\thousandsSwordToTomb.mtl": [
+      "8ea0cfd9-daf1-479c-a515-492e41169b8e"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\material\\timeLabel.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\material\\trainingLvLabel.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\particleEffect\\snowEffect.plist": [
+      "77823cd8-0070-4cb6-bb97-cfc3c5a32865@f9941"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\material\\mainColor\\mianColor_gray.mtl": [
+      "f7dab14e-f690-400e-91fb-973b9eadcc71"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\material\\AAA.mtl": [
+      "d42ae1ac-d936-45da-b366-b07493159e83"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\material\\fireBall.mtl": [
+      "2502acf1-0068-4186-bf0c-3eb98d34bd85"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\material\\flashWhite.mtl": [
+      "b40485bb-b881-4ddd-8ea9-f5247fe684ce"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\material\\imageStroke.mtl": [
+      "9c599f56-ff23-4fdd-a430-b0ada56dcb36"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\material\\labelStroke.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\material\\monsterLeader.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\material\\selfFog.mtl": [
+      "74971f3e-d6cf-4d3f-9837-048614c3ceeb"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\shader\\material\\thunder.mtl": [
+      "422c60ae-0e57-427f-bbf3-4a9d7d503ad9"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\prefab\\enemy\\material\\defaultSprite2D_green.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\prefab\\enemy\\material\\boss_material_purple.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\prefab\\enemy\\material\\defaultSprite2D_normal.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\prefab\\enemy\\material\\defaultSprite2D_red.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\prefab\\enemy\\material\\defaultSprite2D_yellow.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\prefab\\enemy\\material\\enemyDied.mtl": [
+      "089b8572-0b2d-4152-a3ef-553faa0111d6"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\prefab\\enemy\\material\\enemy_debuff_frozen.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\prefab\\enemy\\material\\enemy_debuff_paralysis.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\prefab\\enemy\\material\\enemy_effect_frozen.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\prefab\\enemy\\material\\MLStrengthBlood.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\prefab\\enemy\\material\\MLStrengthDamage.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\prefab\\enemy\\material\\MLStrengthMoveSpeed.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\prefab\\enemy\\material\\MLSuperArmor.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\prefab\\hero\\material\\heroNormal.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\修了个仙\\assets\\prefab\\hero\\material\\wudifenghuolun.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\material\\frozen111.mtl": [
+      "26f619da-2ddd-4093-a04c-c509c4e86341"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\material\\killCountLabel.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\material\\loadingFog.mtl": [
+      "3f2a9faa-b362-4db4-9049-d5a4b173cf46"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\material\\map_frozen.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\material\\massMonsterComming.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\material\\thousandsSwordToTomb.mtl": [
+      "8ea0cfd9-daf1-479c-a515-492e41169b8e"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\material\\shieldColor.mtl": [
+      "25803919-e565-4566-8321-eb40e8d0a8ee"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\material\\timeLabel.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\material\\trainingLvLabel.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\particleEffect\\snowEffect.plist": [
+      "77823cd8-0070-4cb6-bb97-cfc3c5a32865@f9941"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\material\\mainColor\\mianColor_gray.mtl": [
+      "f7dab14e-f690-400e-91fb-973b9eadcc71"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\material\\AAA.mtl": [
+      "d42ae1ac-d936-45da-b366-b07493159e83"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\material\\fireBall.mtl": [
+      "2502acf1-0068-4186-bf0c-3eb98d34bd85"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\material\\flashWhite.mtl": [
+      "b40485bb-b881-4ddd-8ea9-f5247fe684ce"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\material\\imageStroke.mtl": [
+      "9c599f56-ff23-4fdd-a430-b0ada56dcb36"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\material\\labelStroke.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\material\\monsterLeader.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\material\\selfFog.mtl": [
+      "74971f3e-d6cf-4d3f-9837-048614c3ceeb"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\shader\\material\\thunder.mtl": [
+      "422c60ae-0e57-427f-bbf3-4a9d7d503ad9"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\prefab\\enemy\\material\\boss_material_purple.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\prefab\\enemy\\material\\defaultSprite2D_green.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\prefab\\enemy\\material\\defaultSprite2D_normal.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\prefab\\enemy\\material\\defaultSprite2D_red.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\prefab\\enemy\\material\\defaultSprite2D_yellow.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\prefab\\enemy\\material\\enemyDied.mtl": [
+      "089b8572-0b2d-4152-a3ef-553faa0111d6"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\prefab\\enemy\\material\\enemy_debuff_frozen.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\prefab\\enemy\\material\\enemy_debuff_paralysis.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\prefab\\enemy\\material\\enemy_effect_frozen.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\prefab\\enemy\\material\\MLStrengthBlood.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\prefab\\enemy\\material\\MLStrengthDamage.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\prefab\\enemy\\material\\MLStrengthMoveSpeed.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\prefab\\enemy\\material\\MLSuperArmor.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\prefab\\hero\\material\\heroNormal.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\修了个仙\\assets\\prefab\\hero\\material\\wudifenghuolun.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\material\\frozen111.mtl": [
+      "26f619da-2ddd-4093-a04c-c509c4e86341"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\material\\killCountLabel.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\material\\loadingFog.mtl": [
+      "3f2a9faa-b362-4db4-9049-d5a4b173cf46"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\material\\map_frozen.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\material\\massMonsterComming.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\material\\shieldColor.mtl": [
+      "25803919-e565-4566-8321-eb40e8d0a8ee"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\material\\thousandsSwordToTomb.mtl": [
+      "8ea0cfd9-daf1-479c-a515-492e41169b8e"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\material\\timeLabel.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\material\\trainingLvLabel.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\particleEffect\\snowEffect.plist": [
+      "77823cd8-0070-4cb6-bb97-cfc3c5a32865@f9941"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\material\\mainColor\\mianColor_gray.mtl": [
+      "f7dab14e-f690-400e-91fb-973b9eadcc71"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\material\\AAA.mtl": [
+      "d42ae1ac-d936-45da-b366-b07493159e83"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\material\\fireBall.mtl": [
+      "2502acf1-0068-4186-bf0c-3eb98d34bd85"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\material\\flashWhite.mtl": [
+      "b40485bb-b881-4ddd-8ea9-f5247fe684ce"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\material\\imageStroke.mtl": [
+      "9c599f56-ff23-4fdd-a430-b0ada56dcb36"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\material\\monsterLeader.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\material\\labelStroke.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\material\\selfFog.mtl": [
+      "74971f3e-d6cf-4d3f-9837-048614c3ceeb"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\shader\\material\\thunder.mtl": [
+      "422c60ae-0e57-427f-bbf3-4a9d7d503ad9"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\prefab\\enemy\\material\\boss_material_purple.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\prefab\\enemy\\material\\defaultSprite2D_green.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\prefab\\enemy\\material\\defaultSprite2D_normal.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\prefab\\enemy\\material\\defaultSprite2D_red.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\prefab\\enemy\\material\\defaultSprite2D_yellow.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\prefab\\enemy\\material\\enemyDied.mtl": [
+      "089b8572-0b2d-4152-a3ef-553faa0111d6"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\prefab\\enemy\\material\\enemy_debuff_frozen.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\prefab\\enemy\\material\\enemy_debuff_paralysis.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\prefab\\enemy\\material\\enemy_effect_frozen.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\prefab\\enemy\\material\\MLStrengthBlood.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\prefab\\enemy\\material\\MLStrengthDamage.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\prefab\\enemy\\material\\MLSuperArmor.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\prefab\\enemy\\material\\MLStrengthMoveSpeed.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\prefab\\hero\\material\\heroNormal.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\prefab\\hero\\material\\wudifenghuolun.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ]
+  }
+}

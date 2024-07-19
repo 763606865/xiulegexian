@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tipFrame",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 440,
+      "height": 60
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 440,
+      "height": 60
+    },
+    "rotated": false,
+    "capInsets": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "vertices": {
+      "rawPosition": [
+        -220,
+        -30,
+        0,
+        220,
+        -30,
+        0,
+        -220,
+        30,
+        0,
+        220,
+        30,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        60,
+        440,
+        60,
+        0,
+        0,
+        440,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -220,
+        "y": -30,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 220,
+        "y": 30,
+        "z": 0
+      }
+    },
+    "texture": "51692f2d-d572-4d11-b771-8062bec6a102@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

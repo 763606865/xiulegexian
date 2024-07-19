@@ -1,0 +1,1096 @@
+2024-1-16 06:01:12-debug: =================================== build Task (wechatgame) Start ================================
+2024-1-16 06:01:12-debug: Build with Cocos Creator 3.8.1
+2024-1-16 06:01:12-debug: Start build task, options:{"name":"修了个仙","server":"","platform":"wechatgame","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"polyfills":{"asyncFunctions":false},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"ecf9f657-a586-4565-aae7-21fdd9a378a0","outputName":"wechatgame","taskName":"wechatgame","scenes":[{"url":"db://assets/scene/game.scene","uuid":"ecf9f657-a586-4565-aae7-21fdd9a378a0"},{"url":"db://assets/scene/mainMenu.scene","uuid":"047de972-cd7b-4191-af60-f2090cf15b93"},{"url":"db://assets/scene/preLoad.scene","uuid":"c5959bdb-ecb9-40c9-8ddc-04d430f5785e"}],"packages":{"engine":{"cleanupImageCache":"on","__version__":"1.0.7"},"cocos-service":{"configID":"49f21d","services":[]},"wechatgame":{"orientation":"portrait","appid":"wx6ac3f5090a6b99c5","buildOpenDataContextTemplate":"","separateEngine":false,"highPerformanceMode":false,"enabelWebGL2":"off","wasm":"wasm","__version__":"1.0.4"}},"__version__":"1.3.7","buildMode":"normal","logDest":"project://temp/builder/log/wechatgame2024-1-16 06-01.log"}
+2024-1-16 06:01:12-debug: cocos-service:(onBeforeBuild) start...0%
+2024-1-16 06:01:12-debug: // ---- build task cocos-service：onBeforeBuild ----
+2024-1-16 06:01:12-debug: // ---- build task cocos-service：onBeforeBuild ---- (183ms)
+2024-1-16 06:01:12-debug: scene:(onBeforeBuild) start...2%
+2024-1-16 06:01:12-debug: cocos-service:(onBeforeBuild) in 183 ms ✓2%
+2024-1-16 06:01:12-debug: // ---- build task scene：onBeforeBuild ----
+2024-1-16 06:01:12-debug: // ---- build task scene：onBeforeBuild ---- (15ms)
+2024-1-16 06:01:12-debug: scene:(onBeforeBuild) in 15 ms ✓4%
+2024-1-16 06:01:12-debug: Start lock asset db...4%
+2024-1-16 06:01:12-log: Asset DB is paused with build!
+2024-1-16 06:01:12-debug: Query all assets info in project
+2024-1-16 06:01:12-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-1-16 06:01:12-debug:   Number of all scenes: 3
+2024-1-16 06:01:12-debug:   Number of all scripts: 190
+2024-1-16 06:01:12-debug:   Number of other assets: 3571
+2024-1-16 06:01:12-debug: wechatgame:(onAfterInit) start...4%
+2024-1-16 06:01:12-debug: // ---- build task wechatgame：onAfterInit ----
+2024-1-16 06:01:12-debug: // ---- build task wechatgame：onAfterInit ---- (30ms)
+2024-1-16 06:01:12-debug: wechatgame:(onAfterInit) in 30 ms ✓7%
+2024-1-16 06:01:12-debug: cocos-service:(onAfterInit) start...7%
+2024-1-16 06:01:12-debug: // ---- build task cocos-service：onAfterInit ----
+2024-1-16 06:01:13-debug: // ---- build task cocos-service：onAfterInit ---- (145ms)
+2024-1-16 06:01:13-debug: cocos-service:(onAfterInit) in 145 ms ✓9%
+2024-1-16 06:01:13-debug: engine:(onAfterInit) start...9%
+2024-1-16 06:01:13-debug: // ---- build task engine：onAfterInit ----
+2024-1-16 06:01:13-debug: // ---- build task engine：onAfterInit ---- (14ms)
+2024-1-16 06:01:13-debug: // ---- build task wechatgame：onBeforeBundleInit ----
+2024-1-16 06:01:13-debug: wechatgame:(onBeforeBundleInit) start...11%
+2024-1-16 06:01:13-debug: engine:(onAfterInit) in 14 ms ✓11%
+2024-1-16 06:01:13-debug: // ---- build task wechatgame：onBeforeBundleInit ---- (8ms)
+2024-1-16 06:01:13-debug: wechatgame:(onBeforeBundleInit) in 8 ms ✓11%
+2024-1-16 06:01:13-debug: adsense-h5g-plugin:(onBeforeBundleInit) start...11%
+2024-1-16 06:01:13-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
+2024-1-16 06:01:13-debug: [adsense-h5g-plugin] remove script success
+2024-1-16 06:01:13-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (8ms)
+2024-1-16 06:01:13-debug: adsense-h5g-plugin:(onBeforeBundleInit) in 8 ms ✓11%
+2024-1-16 06:01:13-debug: Init all bundles start...11%
+2024-1-16 06:01:13-warn: Bundle res 已配置为远程包，构建平台未配置远程服务器地址，可能会运行异常
+2024-1-16 06:01:13-warn: Bundle resources 已配置为远程包，构建平台未配置远程服务器地址，可能会运行异常
+2024-1-16 06:01:13-debug: Num of bundles: 4...11%
+2024-1-16 06:01:13-debug: reload all scripts.
+2024-1-16 06:01:13-groupCollapsed: Invalidate all modules
+2024-1-16 06:01:13-debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2024-1-16 06:01:13-debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+2024-1-16 06:01:13-groupEnd: Invalidate all modules
+2024-1-16 06:01:13-groupCollapsed: Imports all modules
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\bf\bf2a5ff7e8de9b32e53abd7c8de160e985314530.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\bf\bf2a5ff7e8de9b32e53abd7c8de160e985314530.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register DebugViewRuntimeControl
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/bf/bf2a5ff7e8de9b32e53abd7c8de160e985314530.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\95\95d694bc8a7457e96e98ec471ee397a97e43cd90.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\95\95d694bc8a7457e96e98ec471ee397a97e43cd90.js is not in module cache!
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\6a\6a5019a719a9014c047e67aa1cf34453ab8392ce.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\6a\6a5019a719a9014c047e67aa1cf34453ab8392ce.js is not in module cache!
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\db\db959468566d98916cd1492fda15058daaf7e862.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\db\db959468566d98916cd1492fda15058daaf7e862.js is not in module cache!
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\eb\eb0a27c1cdccb2a068c7fb6374e218cf2a9ed01d.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\eb\eb0a27c1cdccb2a068c7fb6374e218cf2a9ed01d.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/eb/eb0a27c1cdccb2a068c7fb6374e218cf2a9ed01d.js" loaded.
+2024-1-16 06:01:13-log: wx-v-1.0.3.2
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/db/db959468566d98916cd1492fda15058daaf7e862.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register PassRewardLayer
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/95/95d694bc8a7457e96e98ec471ee397a97e43cd90.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\1c\1cf6d6339cdbd3b9f13c87652c219afeb540e16c.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\1c\1cf6d6339cdbd3b9f13c87652c219afeb540e16c.js is not in module cache!
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\f3\f3598e76e885209dae92e8edd2ca5e4d72a54ae8.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\f3\f3598e76e885209dae92e8edd2ca5e4d72a54ae8.js is not in module cache!
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\44\44a742dd73fd8ace3277c7c54c7e4a95afc5b0ec.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\44\44a742dd73fd8ace3277c7c54c7e4a95afc5b0ec.js is not in module cache!
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\fc\fc7a099a55a46e5d7ff46295d3852457dda69781.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\fc\fc7a099a55a46e5d7ff46295d3852457dda69781.js is not in module cache!
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\1e\1e54d59f37391365433e7d107f0e582dfbd523f0.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\1e\1e54d59f37391365433e7d107f0e582dfbd523f0.js is not in module cache!
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\11\110144da1dfb2f9f4da9e1de76881a75002ef2fc.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\11\110144da1dfb2f9f4da9e1de76881a75002ef2fc.js is not in module cache!
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\07\0761e34fa6f2eb1372a155db0fd61e8775e3858a.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\07\0761e34fa6f2eb1372a155db0fd61e8775e3858a.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/fc/fc7a099a55a46e5d7ff46295d3852457dda69781.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\01\01e27c1fe109d2f14b7644bf76277ed3702320c7.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\01\01e27c1fe109d2f14b7644bf76277ed3702320c7.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/f3/f3598e76e885209dae92e8edd2ca5e4d72a54ae8.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/11/110144da1dfb2f9f4da9e1de76881a75002ef2fc.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/44/44a742dd73fd8ace3277c7c54c7e4a95afc5b0ec.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/01/01e27c1fe109d2f14b7644bf76277ed3702320c7.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/07/0761e34fa6f2eb1372a155db0fd61e8775e3858a.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/1e/1e54d59f37391365433e7d107f0e582dfbd523f0.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/1c/1cf6d6339cdbd3b9f13c87652c219afeb540e16c.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\45\454ed02ce536749e8a68c854478bba94787ca4c2.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\45\454ed02ce536749e8a68c854478bba94787ca4c2.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/45/454ed02ce536749e8a68c854478bba94787ca4c2.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\95\95ec3d86d5b376610cbdb53b24f7278480f11515.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\95\95ec3d86d5b376610cbdb53b24f7278480f11515.js is not in module cache!
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\1d\1d42016285c50c8b42ed18e60525c784d7ce4ea3.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\1d\1d42016285c50c8b42ed18e60525c784d7ce4ea3.js is not in module cache!
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\5f\5fda120570cf39d528e564bad43ba5ab89e89825.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\5f\5fda120570cf39d528e564bad43ba5ab89e89825.js is not in module cache!
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\f9\f917a07164872ad4e307202510c97cd0df593181.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\f9\f917a07164872ad4e307202510c97cd0df593181.js is not in module cache!
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\e5\e59fd25122f5de43c9a96965f876bd200fe1bd86.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\e5\e59fd25122f5de43c9a96965f876bd200fe1bd86.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/5f/5fda120570cf39d528e564bad43ba5ab89e89825.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/f9/f917a07164872ad4e307202510c97cd0df593181.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/1d/1d42016285c50c8b42ed18e60525c784d7ce4ea3.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/e5/e59fd25122f5de43c9a96965f876bd200fe1bd86.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/95/95ec3d86d5b376610cbdb53b24f7278480f11515.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\8a\8a346f23f3c36134f2ee6543646fe24f89287ef3.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\8a\8a346f23f3c36134f2ee6543646fe24f89287ef3.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss1
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/8a/8a346f23f3c36134f2ee6543646fe24f89287ef3.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\50\500bdeaac96dab26a18c9edb37798ea25529a424.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\50\500bdeaac96dab26a18c9edb37798ea25529a424.js is not in module cache!
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\27\279494d579b57ee7198ef4c1af8490cfe550bbe4.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\27\279494d579b57ee7198ef4c1af8490cfe550bbe4.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/27/279494d579b57ee7198ef4c1af8490cfe550bbe4.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss5
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss10
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/50/500bdeaac96dab26a18c9edb37798ea25529a424.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\43\43a85701ecf9421ecd823b9e5b815c55b64dccff.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\43\43a85701ecf9421ecd823b9e5b815c55b64dccff.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss11
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/43/43a85701ecf9421ecd823b9e5b815c55b64dccff.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\a2\a2a710e64c955aea86ab20a9a0fb8611d947f082.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\a2\a2a710e64c955aea86ab20a9a0fb8611d947f082.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss12
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/a2/a2a710e64c955aea86ab20a9a0fb8611d947f082.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\9d\9d2980fbe090239941a8886d923733689d9278c7.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\9d\9d2980fbe090239941a8886d923733689d9278c7.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss13
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/9d/9d2980fbe090239941a8886d923733689d9278c7.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\b9\b9858e328877d0c897a14025964a694206449132.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\b9\b9858e328877d0c897a14025964a694206449132.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/b9/b9858e328877d0c897a14025964a694206449132.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss14
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\88\883b6323e20a745407884a1adf33e48a6fe2ccbc.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\88\883b6323e20a745407884a1adf33e48a6fe2ccbc.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss15
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/88/883b6323e20a745407884a1adf33e48a6fe2ccbc.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\88\882bfddddce1a9a871cebe67ffbada778a55fa63.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\88\882bfddddce1a9a871cebe67ffbada778a55fa63.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss16
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/88/882bfddddce1a9a871cebe67ffbada778a55fa63.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\4a\4a4a177b837e1764b2cc2805dd7d795f969c0bee.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\4a\4a4a177b837e1764b2cc2805dd7d795f969c0bee.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss17
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/4a/4a4a177b837e1764b2cc2805dd7d795f969c0bee.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\f8\f8638e26f1eee08df2a9142aa8ba1fbdf7a00dc7.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\f8\f8638e26f1eee08df2a9142aa8ba1fbdf7a00dc7.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss18
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/f8/f8638e26f1eee08df2a9142aa8ba1fbdf7a00dc7.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\c7\c7d79031a8a1341035cf58b0844e7278e5dedf53.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\c7\c7d79031a8a1341035cf58b0844e7278e5dedf53.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/c7/c7d79031a8a1341035cf58b0844e7278e5dedf53.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss19
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\80\80a5150a39d48cb8ce930169ed356ae3e93edc5b.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\80\80a5150a39d48cb8ce930169ed356ae3e93edc5b.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss2
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/80/80a5150a39d48cb8ce930169ed356ae3e93edc5b.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\fe\fea39b8252346798d7a97dd905697159a2cac49c.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\fe\fea39b8252346798d7a97dd905697159a2cac49c.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss20
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/fe/fea39b8252346798d7a97dd905697159a2cac49c.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\17\17e3fbb5eb2ef2893c04804638011542104b7a48.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\17\17e3fbb5eb2ef2893c04804638011542104b7a48.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss21
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/17/17e3fbb5eb2ef2893c04804638011542104b7a48.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\57\57cbf0478ddefcc34f1b16120ced516748519348.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\57\57cbf0478ddefcc34f1b16120ced516748519348.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss22
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/57/57cbf0478ddefcc34f1b16120ced516748519348.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\e2\e249990c6f301222803916709af2102fc0f83a9f.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\e2\e249990c6f301222803916709af2102fc0f83a9f.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss23
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/e2/e249990c6f301222803916709af2102fc0f83a9f.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\bb\bbf94fa7199c2a2b3cc027a827ff793971f93d85.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\bb\bbf94fa7199c2a2b3cc027a827ff793971f93d85.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss24
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/bb/bbf94fa7199c2a2b3cc027a827ff793971f93d85.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\62\62d0aeb5bd920efb2f9c38af8d46f81a8a01e4da.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\62\62d0aeb5bd920efb2f9c38af8d46f81a8a01e4da.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss25
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/62/62d0aeb5bd920efb2f9c38af8d46f81a8a01e4da.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\8a\8ace771d562bf6c6a28451680978f694b000bf0b.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\8a\8ace771d562bf6c6a28451680978f694b000bf0b.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss26
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/8a/8ace771d562bf6c6a28451680978f694b000bf0b.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\7d\7d180bc687d3c9a450361e669d967b3380bda633.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\7d\7d180bc687d3c9a450361e669d967b3380bda633.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss27
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/7d/7d180bc687d3c9a450361e669d967b3380bda633.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\1f\1f09f8f1a26474e6496c487ccac50152eb52972e.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\1f\1f09f8f1a26474e6496c487ccac50152eb52972e.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss28
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/1f/1f09f8f1a26474e6496c487ccac50152eb52972e.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss29
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\60\60fb58c206c7f98916cd9d0a70e3a0300fc2e605.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\60\60fb58c206c7f98916cd9d0a70e3a0300fc2e605.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/60/60fb58c206c7f98916cd9d0a70e3a0300fc2e605.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\11\1106bf9bc9d5f83fb9c0d77108a03769156ad3c7.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\11\1106bf9bc9d5f83fb9c0d77108a03769156ad3c7.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss3
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/11/1106bf9bc9d5f83fb9c0d77108a03769156ad3c7.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\fe\feb113d494fe5df50bd05ae8d92084da75d1a897.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\fe\feb113d494fe5df50bd05ae8d92084da75d1a897.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/fe/feb113d494fe5df50bd05ae8d92084da75d1a897.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss30
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\d4\d46f42736eea6acd7ff65639a324b06336e559f0.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\d4\d46f42736eea6acd7ff65639a324b06336e559f0.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss31
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/d4/d46f42736eea6acd7ff65639a324b06336e559f0.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\78\78e87c4fab472972144f6ee3e4c3d1c19de16ebb.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\78\78e87c4fab472972144f6ee3e4c3d1c19de16ebb.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss32
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/78/78e87c4fab472972144f6ee3e4c3d1c19de16ebb.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\11\118956ccc381f97a446468745134fe8b4898e72a.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\11\118956ccc381f97a446468745134fe8b4898e72a.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss33
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/11/118956ccc381f97a446468745134fe8b4898e72a.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\92\925f6e2d67194c298216811fc3f28461e5456431.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\92\925f6e2d67194c298216811fc3f28461e5456431.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss34
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/92/925f6e2d67194c298216811fc3f28461e5456431.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\26\2674d802f371e2dc1e31ce106233f8d93d0f8583.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\26\2674d802f371e2dc1e31ce106233f8d93d0f8583.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss35
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/26/2674d802f371e2dc1e31ce106233f8d93d0f8583.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\d1\d12dd3c065e1a54aa5e92665635f5592fdea6dc2.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\d1\d12dd3c065e1a54aa5e92665635f5592fdea6dc2.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss36
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/d1/d12dd3c065e1a54aa5e92665635f5592fdea6dc2.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\ec\ecc0994305ccedfeaf209c546222ee8e56c24751.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\ec\ecc0994305ccedfeaf209c546222ee8e56c24751.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss37
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/ec/ecc0994305ccedfeaf209c546222ee8e56c24751.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\5b\5b418ed3afe24a0fbd40e2759394e3beead4c796.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\5b\5b418ed3afe24a0fbd40e2759394e3beead4c796.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss38
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/5b/5b418ed3afe24a0fbd40e2759394e3beead4c796.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\37\374389566d174f082aa764af8cbc1f13ee1ac101.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\37\374389566d174f082aa764af8cbc1f13ee1ac101.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss39
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/37/374389566d174f082aa764af8cbc1f13ee1ac101.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\67\67831f9b4021a8eb2df2446304a44fb6e5606384.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\67\67831f9b4021a8eb2df2446304a44fb6e5606384.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss4
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/67/67831f9b4021a8eb2df2446304a44fb6e5606384.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\f6\f679d1d03454c4825da510fa4be8e391e591db5b.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\f6\f679d1d03454c4825da510fa4be8e391e591db5b.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss40
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/f6/f679d1d03454c4825da510fa4be8e391e591db5b.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\19\19fce5bdf3ce9ef5e5ff786f3577c87f58e78268.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\19\19fce5bdf3ce9ef5e5ff786f3577c87f58e78268.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss41
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/19/19fce5bdf3ce9ef5e5ff786f3577c87f58e78268.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\fb\fb9a49df1264652a4ff648d882390b4121df7caf.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\fb\fb9a49df1264652a4ff648d882390b4121df7caf.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss42
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/fb/fb9a49df1264652a4ff648d882390b4121df7caf.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\bb\bbb53762daa88f4b65764dedfe7ab2e84e2c7d2d.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\bb\bbb53762daa88f4b65764dedfe7ab2e84e2c7d2d.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss43
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/bb/bbb53762daa88f4b65764dedfe7ab2e84e2c7d2d.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\78\7819839e80785b82ce75523f44b28b446ad7a458.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\78\7819839e80785b82ce75523f44b28b446ad7a458.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss44
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/78/7819839e80785b82ce75523f44b28b446ad7a458.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\f9\f98cc5d159e307e879aee987abb3aa9ce076ec93.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\f9\f98cc5d159e307e879aee987abb3aa9ce076ec93.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss45
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/f9/f98cc5d159e307e879aee987abb3aa9ce076ec93.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\8c\8c0021418db938a9f1ffec1101e2599a4e653974.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\8c\8c0021418db938a9f1ffec1101e2599a4e653974.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss46
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/8c/8c0021418db938a9f1ffec1101e2599a4e653974.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\47\471ba31e104777b6bf37c0fe0cc95d9dfed953a7.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\47\471ba31e104777b6bf37c0fe0cc95d9dfed953a7.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/47/471ba31e104777b6bf37c0fe0cc95d9dfed953a7.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss47
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\c4\c47480f906ea2d4467e3d0df34655bf7945aef8e.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\c4\c47480f906ea2d4467e3d0df34655bf7945aef8e.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss48
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/c4/c47480f906ea2d4467e3d0df34655bf7945aef8e.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\38\382e36f06c6d32ad2d4f818b7cb61f951c08fb0a.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\38\382e36f06c6d32ad2d4f818b7cb61f951c08fb0a.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss49
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/38/382e36f06c6d32ad2d4f818b7cb61f951c08fb0a.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\a2\a2fb35adc5d36ac91ab580521101534919c53bc0.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\a2\a2fb35adc5d36ac91ab580521101534919c53bc0.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss50
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/a2/a2fb35adc5d36ac91ab580521101534919c53bc0.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\a9\a9f46fc8c6efd66f89d78ae6681c7be72e932697.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\a9\a9f46fc8c6efd66f89d78ae6681c7be72e932697.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/a9/a9f46fc8c6efd66f89d78ae6681c7be72e932697.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss51
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\b7\b7e3f335ce996f61768ace5be9817193f676b747.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\b7\b7e3f335ce996f61768ace5be9817193f676b747.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss52
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/b7/b7e3f335ce996f61768ace5be9817193f676b747.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\09\0963b840bb97e89e189d5b119fe92e1e248d4356.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\09\0963b840bb97e89e189d5b119fe92e1e248d4356.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss53
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/09/0963b840bb97e89e189d5b119fe92e1e248d4356.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\d3\d350a0ff439878efa17c2b790af57ce67cf8704d.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\d3\d350a0ff439878efa17c2b790af57ce67cf8704d.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss54
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/d3/d350a0ff439878efa17c2b790af57ce67cf8704d.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\59\59e05976447fbb446c46eb9e07a4d5c9a6259ed8.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\59\59e05976447fbb446c46eb9e07a4d5c9a6259ed8.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss55
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/59/59e05976447fbb446c46eb9e07a4d5c9a6259ed8.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\a4\a401d0696ed90ce120e9f00431a40c94c7c1d6c1.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\a4\a401d0696ed90ce120e9f00431a40c94c7c1d6c1.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss56
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/a4/a401d0696ed90ce120e9f00431a40c94c7c1d6c1.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\c5\c5a57e9e8cae222b1933321e79fc1d03f1c52a48.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\c5\c5a57e9e8cae222b1933321e79fc1d03f1c52a48.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss57
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/c5/c5a57e9e8cae222b1933321e79fc1d03f1c52a48.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\b7\b7f593ad372a6bf4a2a9e05590ca9dceb7f79aae.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\b7\b7f593ad372a6bf4a2a9e05590ca9dceb7f79aae.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss58
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/b7/b7f593ad372a6bf4a2a9e05590ca9dceb7f79aae.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\fe\feb7667588e70c562b0918e09eee4a27419e2bc6.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\fe\feb7667588e70c562b0918e09eee4a27419e2bc6.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss59
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/fe/feb7667588e70c562b0918e09eee4a27419e2bc6.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\b7\b7ce9ecdc4a042e136f6de373a4c639e68c79c58.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\b7\b7ce9ecdc4a042e136f6de373a4c639e68c79c58.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/b7/b7ce9ecdc4a042e136f6de373a4c639e68c79c58.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss6
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\4d\4dd8400e97bb2839ddfc84ba0c86063a2b40cd56.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\4d\4dd8400e97bb2839ddfc84ba0c86063a2b40cd56.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss60
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/4d/4dd8400e97bb2839ddfc84ba0c86063a2b40cd56.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\33\33c93804eaf92fad9eb66c37c3825ebb22dd641c.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\33\33c93804eaf92fad9eb66c37c3825ebb22dd641c.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss61
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/33/33c93804eaf92fad9eb66c37c3825ebb22dd641c.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\e9\e934cbe68a8c78992adc63c99ba48dd3ba6e0a96.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\e9\e934cbe68a8c78992adc63c99ba48dd3ba6e0a96.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss62
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/e9/e934cbe68a8c78992adc63c99ba48dd3ba6e0a96.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\71\712353fc1d4417e3560738706611d79d6d438165.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\71\712353fc1d4417e3560738706611d79d6d438165.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss63
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/71/712353fc1d4417e3560738706611d79d6d438165.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\da\da34341d969011efb3a67fbf6ddad5c7a5052fa4.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\da\da34341d969011efb3a67fbf6ddad5c7a5052fa4.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss64
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/da/da34341d969011efb3a67fbf6ddad5c7a5052fa4.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\88\88da8fb3b80d56f8ff5ad3e08c7535ef40f275e5.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\88\88da8fb3b80d56f8ff5ad3e08c7535ef40f275e5.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss65
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/88/88da8fb3b80d56f8ff5ad3e08c7535ef40f275e5.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\88\88a0a6ae46ec97475e78e2d2685ce6189cb9b445.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\88\88a0a6ae46ec97475e78e2d2685ce6189cb9b445.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss66
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/88/88a0a6ae46ec97475e78e2d2685ce6189cb9b445.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\6a\6aa659c4fd87e464d65aad16e7a229268f328386.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\6a\6aa659c4fd87e464d65aad16e7a229268f328386.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss67
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/6a/6aa659c4fd87e464d65aad16e7a229268f328386.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\75\756ecbd7eba501fd0c364b467929c5c71b8342d8.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\75\756ecbd7eba501fd0c364b467929c5c71b8342d8.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss68
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/75/756ecbd7eba501fd0c364b467929c5c71b8342d8.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\62\62442bf4f49293b0fbcaf3ea9957765b3b7703c9.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\62\62442bf4f49293b0fbcaf3ea9957765b3b7703c9.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss69
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/62/62442bf4f49293b0fbcaf3ea9957765b3b7703c9.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\0c\0c3f1577a97632a8689449a2a1c9e40b26067593.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\0c\0c3f1577a97632a8689449a2a1c9e40b26067593.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss7
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/0c/0c3f1577a97632a8689449a2a1c9e40b26067593.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\35\35a82a67167330b83731c6825264d6cf1cf9db2d.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\35\35a82a67167330b83731c6825264d6cf1cf9db2d.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss70
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/35/35a82a67167330b83731c6825264d6cf1cf9db2d.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\95\958c5ac38c953c339b8bf7d74d671103bfdf311d.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\95\958c5ac38c953c339b8bf7d74d671103bfdf311d.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/95/958c5ac38c953c339b8bf7d74d671103bfdf311d.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss71
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\ef\ef83a07e66192950b76550e2af9e2a02275b0ae1.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\ef\ef83a07e66192950b76550e2af9e2a02275b0ae1.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss72
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/ef/ef83a07e66192950b76550e2af9e2a02275b0ae1.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\a4\a4ef56c54c295bc502ee4d126cffef7c34e7a499.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\a4\a4ef56c54c295bc502ee4d126cffef7c34e7a499.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss73
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/a4/a4ef56c54c295bc502ee4d126cffef7c34e7a499.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\d5\d5574189c115a53777abf2dce260f0deaefc89b9.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\d5\d5574189c115a53777abf2dce260f0deaefc89b9.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss74
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/d5/d5574189c115a53777abf2dce260f0deaefc89b9.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\8a\8aa666e99553c5755a29796435db842cfa4e6156.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\8a\8aa666e99553c5755a29796435db842cfa4e6156.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss75
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/8a/8aa666e99553c5755a29796435db842cfa4e6156.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\df\df82314f48198ea578fd66f98146e15883e2caa4.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\df\df82314f48198ea578fd66f98146e15883e2caa4.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss76
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/df/df82314f48198ea578fd66f98146e15883e2caa4.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\26\266503d0d9113b2d2b837b06b46232d664f59b20.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\26\266503d0d9113b2d2b837b06b46232d664f59b20.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss77
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/26/266503d0d9113b2d2b837b06b46232d664f59b20.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\f5\f52c1236d83a7ed4fce31bfe0e2fa7dadf9365e4.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\f5\f52c1236d83a7ed4fce31bfe0e2fa7dadf9365e4.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss78
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/f5/f52c1236d83a7ed4fce31bfe0e2fa7dadf9365e4.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\3e\3e77bcf63752d89a760092e28d088e2d95624959.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\3e\3e77bcf63752d89a760092e28d088e2d95624959.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss79
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/3e/3e77bcf63752d89a760092e28d088e2d95624959.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\64\64c5cace96cbb9e300f6f888f8aab1d0ad03af12.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\64\64c5cace96cbb9e300f6f888f8aab1d0ad03af12.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss8
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/64/64c5cace96cbb9e300f6f888f8aab1d0ad03af12.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\72\72b23ed800d77fa7ce7fb8038117bb20f40dc6d2.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\72\72b23ed800d77fa7ce7fb8038117bb20f40dc6d2.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/72/72b23ed800d77fa7ce7fb8038117bb20f40dc6d2.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss80
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\d5\d5ca9067a71700d05a7481c88dd7b77ae48b9e4a.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\d5\d5ca9067a71700d05a7481c88dd7b77ae48b9e4a.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/d5/d5ca9067a71700d05a7481c88dd7b77ae48b9e4a.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register Boss9
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\e0\e08f00f47a87989facb9ee7ba2069a280f486e7d.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\e0\e08f00f47a87989facb9ee7ba2069a280f486e7d.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Monster
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/e0/e08f00f47a87989facb9ee7ba2069a280f486e7d.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\e4\e49a8c4081087e6b50a8a2aba6d8f48230445591.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\e4\e49a8c4081087e6b50a8a2aba6d8f48230445591.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/e4/e49a8c4081087e6b50a8a2aba6d8f48230445591.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register MonsterLeader
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\88\88d942990f9664c08ef3b66c21057bc0eb648fb7.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\88\88d942990f9664c08ef3b66c21057bc0eb648fb7.js is not in module cache!
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\86\865c8d818efc0aca1c38ff36add496f982907369.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\86\865c8d818efc0aca1c38ff36add496f982907369.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/86/865c8d818efc0aca1c38ff36add496f982907369.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register MonsterManager
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/88/88d942990f9664c08ef3b66c21057bc0eb648fb7.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\83\833ba813c033252f67054886720940647aeb4e73.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\83\833ba813c033252f67054886720940647aeb4e73.js is not in module cache!
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\19\19307ac5c0af058434c8fe214f4f740b14b8b1e4.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\19\19307ac5c0af058434c8fe214f4f740b14b8b1e4.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/19/19307ac5c0af058434c8fe214f4f740b14b8b1e4.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register EnemySkill
+2024-1-16 06:01:13-debug: [[Executor]] Register BlackHole
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/83/833ba813c033252f67054886720940647aeb4e73.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\bc\bc17d9ce05426ec34ca3fa3471e438a872080d59.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\bc\bc17d9ce05426ec34ca3fa3471e438a872080d59.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register DarkMask
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/bc/bc17d9ce05426ec34ca3fa3471e438a872080d59.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\be\bef1f746b60b2c7c12756cef5c967f375ff61ff6.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\be\bef1f746b60b2c7c12756cef5c967f375ff61ff6.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register GreenThunder
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/be/bef1f746b60b2c7c12756cef5c967f375ff61ff6.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\93\93eb592836b5f79fd4a0d3b9881720651fdf7c80.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\93\93eb592836b5f79fd4a0d3b9881720651fdf7c80.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/93/93eb592836b5f79fd4a0d3b9881720651fdf7c80.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register CommonCallback
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\3f\3fb5e7095534897ed0f962b2c5ec73fc14cb0c29.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\3f\3fb5e7095534897ed0f962b2c5ec73fc14cb0c29.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register GameAnimManager
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/3f/3fb5e7095534897ed0f962b2c5ec73fc14cb0c29.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\49\49c3cee7e97b9a127177bc6cb73fe856a91c8853.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\49\49c3cee7e97b9a127177bc6cb73fe856a91c8853.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register StageManager
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/49/49c3cee7e97b9a127177bc6cb73fe856a91c8853.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\a6\a6ad1ab416802e0e0b16d38c9353259507771ffe.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\a6\a6ad1ab416802e0e0b16d38c9353259507771ffe.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register AnimCommonFun
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/a6/a6ad1ab416802e0e0b16d38c9353259507771ffe.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\7c\7c5b961c918a18c461dde37601ba8f2330731431.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\7c\7c5b961c918a18c461dde37601ba8f2330731431.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/7c/7c5b961c918a18c461dde37601ba8f2330731431.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\cf\cf848b9c5bc1991d1096fc4d85a2cf6efb66cb0f.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\cf\cf848b9c5bc1991d1096fc4d85a2cf6efb66cb0f.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/cf/cf848b9c5bc1991d1096fc4d85a2cf6efb66cb0f.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\40\4068e3f8553114c45c7508fc034a85e833d99f57.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\40\4068e3f8553114c45c7508fc034a85e833d99f57.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/40/4068e3f8553114c45c7508fc034a85e833d99f57.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\31\3174f8435aefae6df660ac1e614f7db07293b441.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\31\3174f8435aefae6df660ac1e614f7db07293b441.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register VersionNotice
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/31/3174f8435aefae6df660ac1e614f7db07293b441.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\64\64d5dfa248de9b5c3f4059956f12cd992c79d2e4.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\64\64d5dfa248de9b5c3f4059956f12cd992c79d2e4.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register HeroCollider
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/64/64d5dfa248de9b5c3f4059956f12cd992c79d2e4.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\63\634f3e987b03ab9d1612118b8f74d48721eed06a.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\63\634f3e987b03ab9d1612118b8f74d48721eed06a.js is not in module cache!
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\3a\3ae2466170a22459bb7b40434d609b6316a30690.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\3a\3ae2466170a22459bb7b40434d609b6316a30690.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/3a/3ae2466170a22459bb7b40434d609b6316a30690.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register HeroControl
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/63/634f3e987b03ab9d1612118b8f74d48721eed06a.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\82\82adf8fdd9ec4dbf0246d7b15446d9c99e23a344.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\82\82adf8fdd9ec4dbf0246d7b15446d9c99e23a344.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register HerpWeapon
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/82/82adf8fdd9ec4dbf0246d7b15446d9c99e23a344.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\24\24f3a9203b720d30f13a8b8eb173ebb95b502dd4.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\24\24f3a9203b720d30f13a8b8eb173ebb95b502dd4.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Puppet
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/24/24f3a9203b720d30f13a8b8eb173ebb95b502dd4.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\03\03776cd4a4f4748f2aa2ce280acd9c43c3f58d78.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\03\03776cd4a4f4748f2aa2ce280acd9c43c3f58d78.js is not in module cache!
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\bf\bff4be443202074c449e738a382c2aa3a4f40794.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\bf\bff4be443202074c449e738a382c2aa3a4f40794.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Weapon
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/bf/bff4be443202074c449e738a382c2aa3a4f40794.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/03/03776cd4a4f4748f2aa2ce280acd9c43c3f58d78.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register ContinueArrow
+2024-1-16 06:01:13-debug: [[Executor]] Register GiantArrow
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\51\51fe6acba37bc62bf403e2459dfe641b29a9da17.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\51\51fe6acba37bc62bf403e2459dfe641b29a9da17.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/51/51fe6acba37bc62bf403e2459dfe641b29a9da17.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\04\046f6c17376a3e75ec1f070b0991876fe35c1944.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\04\046f6c17376a3e75ec1f070b0991876fe35c1944.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register GiantAxe
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/04/046f6c17376a3e75ec1f070b0991876fe35c1944.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\56\56aaa5201f197af7274432fd7954f3744262b388.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\56\56aaa5201f197af7274432fd7954f3744262b388.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/56/56aaa5201f197af7274432fd7954f3744262b388.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register GiantSword
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\2a\2a5f66662b4463162cdd6413e1d1b3e356b3253d.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\2a\2a5f66662b4463162cdd6413e1d1b3e356b3253d.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register LongSword
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/2a/2a5f66662b4463162cdd6413e1d1b3e356b3253d.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\28\28717e6367196927a9ef4c8ff1036f77f59dd174.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\28\28717e6367196927a9ef4c8ff1036f77f59dd174.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register RotationAxeChild
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/28/28717e6367196927a9ef4c8ff1036f77f59dd174.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\ce\cedacbaad26bf0dbda40b2901393c6dbef89d8a6.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\ce\cedacbaad26bf0dbda40b2901393c6dbef89d8a6.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register RotationAxe
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/ce/cedacbaad26bf0dbda40b2901393c6dbef89d8a6.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\64\642a17576f243e4af64e9db2589a7008f4c67fcc.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\64\642a17576f243e4af64e9db2589a7008f4c67fcc.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register ShockWave
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/64/642a17576f243e4af64e9db2589a7008f4c67fcc.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\44\4462abdd3bb6a828d0f47324df5ace07a55089d3.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\44\4462abdd3bb6a828d0f47324df5ace07a55089d3.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register CurrentRoundMessage
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/44/4462abdd3bb6a828d0f47324df5ace07a55089d3.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\66\66ada9c24fb73a1ce4d83d907e7c16e1ac983609.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\66\66ada9c24fb73a1ce4d83d907e7c16e1ac983609.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register GameSettings
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/66/66ada9c24fb73a1ce4d83d907e7c16e1ac983609.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\dc\dc734504da2cfc70c13e2cbf1ebfdb9e7a619fa1.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\dc\dc734504da2cfc70c13e2cbf1ebfdb9e7a619fa1.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/dc/dc734504da2cfc70c13e2cbf1ebfdb9e7a619fa1.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register DangerWindToNear
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\cf\cf9ffc8b0619fe41c4df5dc3ea7ba0743c33c454.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\cf\cf9ffc8b0619fe41c4df5dc3ea7ba0743c33c454.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Darts
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/cf/cf9ffc8b0619fe41c4df5dc3ea7ba0743c33c454.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\ee\eed76adc35f2ecf616bf40c774af57a23495b040.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\ee\eed76adc35f2ecf616bf40c774af57a23495b040.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register DoomsdayStorm
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/ee/eed76adc35f2ecf616bf40c774af57a23495b040.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\98\98f257235c92295f7aeee4cbfde38b25e7f4fe7a.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\98\98f257235c92295f7aeee4cbfde38b25e7f4fe7a.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/98/98f257235c92295f7aeee4cbfde38b25e7f4fe7a.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register FanPrefab
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\ee\ee748b2cf5fc4a872138fed627925ea197fa8b8f.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\ee\ee748b2cf5fc4a872138fed627925ea197fa8b8f.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/ee/ee748b2cf5fc4a872138fed627925ea197fa8b8f.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register FingerLikeWind
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\71\717a20de6d4d8b330c9c399daed0e7a1e78ae6b5.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\71\717a20de6d4d8b330c9c399daed0e7a1e78ae6b5.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register FireBloom
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/71/717a20de6d4d8b330c9c399daed0e7a1e78ae6b5.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\df\df63fdac191936106a0bb20d65724087635ab320.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\df\df63fdac191936106a0bb20d65724087635ab320.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register FlySword
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/df/df63fdac191936106a0bb20d65724087635ab320.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\ad\adb3c8f21868ba045b37dc1817a5fe833af5fa55.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\ad\adb3c8f21868ba045b37dc1817a5fe833af5fa55.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register FlyingThunderGod
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/ad/adb3c8f21868ba045b37dc1817a5fe833af5fa55.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\c0\c06abc16c08cfb23930b15486c4f19ea6690bfc8.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\c0\c06abc16c08cfb23930b15486c4f19ea6690bfc8.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Guard
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/c0/c06abc16c08cfb23930b15486c4f19ea6690bfc8.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\b2\b2f1b9f28e16a36caf804020f0f91c1ccd69c044.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\b2\b2f1b9f28e16a36caf804020f0f91c1ccd69c044.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register HellFire
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/b2/b2f1b9f28e16a36caf804020f0f91c1ccd69c044.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\a3\a3e5781bc2f34e21fe90563cfa7bed4e76570c3d.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\a3\a3e5781bc2f34e21fe90563cfa7bed4e76570c3d.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register IceCone
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/a3/a3e5781bc2f34e21fe90563cfa7bed4e76570c3d.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\dd\dd1c9d518a5c16adca44a07d35a4fbb1a89816d9.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\dd\dd1c9d518a5c16adca44a07d35a4fbb1a89816d9.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/dd/dd1c9d518a5c16adca44a07d35a4fbb1a89816d9.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register IceSpiritNeedle
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\fe\fe27c20e27fc13c0ee71d5efa0282cd6fe02e4eb.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\fe\fe27c20e27fc13c0ee71d5efa0282cd6fe02e4eb.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register JustOneSwordDivideWorld
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/fe/fe27c20e27fc13c0ee71d5efa0282cd6fe02e4eb.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\5d\5d79bb8507181aff7d82b355e6fdb7dad2180fdd.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\5d\5d79bb8507181aff7d82b355e6fdb7dad2180fdd.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/5d/5d79bb8507181aff7d82b355e6fdb7dad2180fdd.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register LandFire
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\4f\4f096e49d1641f6af2b643fb036877773be8acef.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\4f\4f096e49d1641f6af2b643fb036877773be8acef.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register MoveLikeFire
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/4f/4f096e49d1641f6af2b643fb036877773be8acef.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\76\76e32a41d35cf3b5079fd9bb92e0183858b94978.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\76\76e32a41d35cf3b5079fd9bb92e0183858b94978.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register MoveLikeShadow
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/76/76e32a41d35cf3b5079fd9bb92e0183858b94978.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\8c\8ce51bccd22a8d1e57deb703d73c837e344777d5.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\8c\8ce51bccd22a8d1e57deb703d73c837e344777d5.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register SamadhiTrueFire
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/8c/8ce51bccd22a8d1e57deb703d73c837e344777d5.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\06\06ae4a93ed5b0337162e5103cf4b681eecb7bc34.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\06\06ae4a93ed5b0337162e5103cf4b681eecb7bc34.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/06/06ae4a93ed5b0337162e5103cf4b681eecb7bc34.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register SkillManager
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\c3\c307354fc9f4b17b421a6a61465d502171d82e82.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\c3\c307354fc9f4b17b421a6a61465d502171d82e82.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register SkyThunder
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/c3/c307354fc9f4b17b421a6a61465d502171d82e82.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\a7\a7ba07a1d5fb49051f19c5b3fe843db94f4f455e.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\a7\a7ba07a1d5fb49051f19c5b3fe843db94f4f455e.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Spell
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/a7/a7ba07a1d5fb49051f19c5b3fe843db94f4f455e.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\cd\cd86b42b3fe4b598f1fa08018fcc81f9a56ad7fe.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\cd\cd86b42b3fe4b598f1fa08018fcc81f9a56ad7fe.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/cd/cd86b42b3fe4b598f1fa08018fcc81f9a56ad7fe.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register SpiritBullet
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\d4\d4ada95eb6e3802c20f57258f1d364e7f351bf74.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\d4\d4ada95eb6e3802c20f57258f1d364e7f351bf74.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Sword
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/d4/d4ada95eb6e3802c20f57258f1d364e7f351bf74.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\6f\6fbf9d96bb3d64749536dba6bf1eb75266f97143.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\6f\6fbf9d96bb3d64749536dba6bf1eb75266f97143.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register SwordRain
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/6f/6fbf9d96bb3d64749536dba6bf1eb75266f97143.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\11\11581d545a2dd598e586452ea1073caf10c7f2f5.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\11\11581d545a2dd598e586452ea1073caf10c7f2f5.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register Taijihuan
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/11/11581d545a2dd598e586452ea1073caf10c7f2f5.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\99\999e7f1eebab83d2fde3d5c0032d09c1ec56f027.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\99\999e7f1eebab83d2fde3d5c0032d09c1ec56f027.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/99/999e7f1eebab83d2fde3d5c0032d09c1ec56f027.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register ThousandsSwordToTomb
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\93\93140dacf2825ff6c51ea5a626fb6b7ee693525d.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\93\93140dacf2825ff6c51ea5a626fb6b7ee693525d.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register ThunderFissionBead
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/93/93140dacf2825ff6c51ea5a626fb6b7ee693525d.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\45\4550a086598f8796525ca27c5809019775334c59.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\45\4550a086598f8796525ca27c5809019775334c59.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register ThunderRunning
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/45/4550a086598f8796525ca27c5809019775334c59.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\30\30efad189849b4a39bbc9a2c44a33edc64ace393.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\30\30efad189849b4a39bbc9a2c44a33edc64ace393.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/30/30efad189849b4a39bbc9a2c44a33edc64ace393.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register Thundercloud
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\aa\aafb36046037a11e6933a01177eca3e6e9072bd6.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\aa\aafb36046037a11e6933a01177eca3e6e9072bd6.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register weaponManager
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/aa/aafb36046037a11e6933a01177eca3e6e9072bd6.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\5b\5b0310cc87ce20b65bdd4b6a72006e3dca12f0e4.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\5b\5b0310cc87ce20b65bdd4b6a72006e3dca12f0e4.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register ItemInPlaying
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/5b/5b0310cc87ce20b65bdd4b6a72006e3dca12f0e4.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\1e\1ea2cc7c5cbd566e92684a8226659ef22f1a2403.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\1e\1ea2cc7c5cbd566e92684a8226659ef22f1a2403.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register MapLayer
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/1e/1ea2cc7c5cbd566e92684a8226659ef22f1a2403.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\f5\f5d1367de025a17926366898ef8dc15f5d472edf.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\f5\f5d1367de025a17926366898ef8dc15f5d472edf.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register ShowLayer
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/f5/f5d1367de025a17926366898ef8dc15f5d472edf.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\ae\aeb01ae91f58fcff4bd3b41faa54dda4c438ab11.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\ae\aeb01ae91f58fcff4bd3b41faa54dda4c438ab11.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/ae/aeb01ae91f58fcff4bd3b41faa54dda4c438ab11.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register Canvas
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\c6\c6ea8cfba01b6b084ccc14ca1e8ba165f877e3f0.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\c6\c6ea8cfba01b6b084ccc14ca1e8ba165f877e3f0.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register AddItemsLayer
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/c6/c6ea8cfba01b6b084ccc14ca1e8ba165f877e3f0.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\3e\3e7a20839926d499f333f52c84d3187728110f92.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\3e\3e7a20839926d499f333f52c84d3187728110f92.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register GetsControl
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/3e/3e7a20839926d499f333f52c84d3187728110f92.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\41\41b8555e8964cfd27cbde6ec274db4f188e1a87a.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\41\41b8555e8964cfd27cbde6ec274db4f188e1a87a.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/41/41b8555e8964cfd27cbde6ec274db4f188e1a87a.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register HeroInfoLayer
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\fa\fa57ab976ce4aee2f820eb01fbe01536933db10d.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\fa\fa57ab976ce4aee2f820eb01fbe01536933db10d.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register MainMenu
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/fa/fa57ab976ce4aee2f820eb01fbe01536933db10d.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\93\93678bb13b202aa61c7e56cb99525de6ad70013a.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\93\93678bb13b202aa61c7e56cb99525de6ad70013a.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register MainMenuGuide
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/93/93678bb13b202aa61c7e56cb99525de6ad70013a.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\60\6087358b6630e485faf137312a67f31842d39acb.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\60\6087358b6630e485faf137312a67f31842d39acb.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register MakePillsLayer
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/60/6087358b6630e485faf137312a67f31842d39acb.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\8f\8fd204b3b8dcd88f70f6b1916b4039e0b0cbeffd.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\8f\8fd204b3b8dcd88f70f6b1916b4039e0b0cbeffd.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register MergeEquLayer
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/8f/8fd204b3b8dcd88f70f6b1916b4039e0b0cbeffd.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\89\89f980273a5622ff0bb69c6224030fd83bfdf77a.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\89\89f980273a5622ff0bb69c6224030fd83bfdf77a.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register PrizeHallLayer
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/89/89f980273a5622ff0bb69c6224030fd83bfdf77a.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\34\34f7f5d2a50619b6b1b155aa12cbe4c6ca674173.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\34\34f7f5d2a50619b6b1b155aa12cbe4c6ca674173.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register SelectCheckpointLayer
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/34/34f7f5d2a50619b6b1b155aa12cbe4c6ca674173.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\e3\e3b56c97de9af07083d11baa92a2b1cb9e3c6bb6.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\e3\e3b56c97de9af07083d11baa92a2b1cb9e3c6bb6.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register SkillBookLayer
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/e3/e3b56c97de9af07083d11baa92a2b1cb9e3c6bb6.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\27\278b3c103950c11958bc1e031bffa06b84f455c7.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\27\278b3c103950c11958bc1e031bffa06b84f455c7.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register TrainingLayer
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/27/278b3c103950c11958bc1e031bffa06b84f455c7.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\f5\f5fbdfc0ea039edab969cc87a297924e45e2040b.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\f5\f5fbdfc0ea039edab969cc87a297924e45e2040b.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/f5/f5fbdfc0ea039edab969cc87a297924e45e2040b.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register UpgradeEquLvLayer
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\8c\8ca351cc3babb7ccbe6947e4a6e2eb4c12e0e9a2.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\8c\8ca351cc3babb7ccbe6947e4a6e2eb4c12e0e9a2.js is not in module cache!
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\a1\a1c5caa4573acdb626cfc5073c0b5cae80c63d46.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\a1\a1c5caa4573acdb626cfc5073c0b5cae80c63d46.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register PreLoad
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/a1/a1c5caa4573acdb626cfc5073c0b5cae80c63d46.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register DynamicLoading
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/8c/8ca351cc3babb7ccbe6947e4a6e2eb4c12e0e9a2.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\b7\b769e79e0dd327d9baf295fa9dfe2286811fd6f7.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\b7\b769e79e0dd327d9baf295fa9dfe2286811fd6f7.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register AD_SDK
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/b7/b769e79e0dd327d9baf295fa9dfe2286811fd6f7.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\83\8311896723dc3cd8e4830f3e6f648dd9b1e031c5.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\83\8311896723dc3cd8e4830f3e6f648dd9b1e031c5.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/83/8311896723dc3cd8e4830f3e6f648dd9b1e031c5.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\f3\f382bab0467b46894b58e5cb412ff1a81c9c89e2.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\f3\f382bab0467b46894b58e5cb412ff1a81c9c89e2.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register testAds
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/f3/f382bab0467b46894b58e5cb412ff1a81c9c89e2.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\00\00de68e0575803d050278d3d26400febab6e45d2.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\00\00de68e0575803d050278d3d26400febab6e45d2.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register WX_GAME
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/00/00de68e0575803d050278d3d26400febab6e45d2.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\26\26f3db405438e4828825ac76d2a0f482c8d59b10.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\26\26f3db405438e4828825ac76d2a0f482c8d59b10.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register DynamicSupFrame
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/26/26f3db405438e4828825ac76d2a0f482c8d59b10.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\74\747639b2b06712c9090e658f8d856c30d1789a47.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\74\747639b2b06712c9090e658f8d856c30d1789a47.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register AudioManager
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/74/747639b2b06712c9090e658f8d856c30d1789a47.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\0b\0b945b48281b971d7ff19a00687f8e96104fce4b.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\0b\0b945b48281b971d7ff19a00687f8e96104fce4b.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register GameReward
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/0b/0b945b48281b971d7ff19a00687f8e96104fce4b.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\fb\fb3e1178fa1cee2fdc7daea61288b452162f19d5.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\fb\fb3e1178fa1cee2fdc7daea61288b452162f19d5.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/fb/fb3e1178fa1cee2fdc7daea61288b452162f19d5.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register HeroBaseProperty
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\fd\fd1d7d03f343134f770265292ce61775bceabcb2.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\fd\fd1d7d03f343134f770265292ce61775bceabcb2.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/fd/fd1d7d03f343134f770265292ce61775bceabcb2.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\e3\e33b592f7606ac3b7ad39c0cfc132d985c76e3a3.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\e3\e33b592f7606ac3b7ad39c0cfc132d985c76e3a3.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register SavingManager
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/e3/e33b592f7606ac3b7ad39c0cfc132d985c76e3a3.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\3c\3c010570d399a46c8ea8707c8bd9b631f71fc5f8.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\3c\3c010570d399a46c8ea8707c8bd9b631f71fc5f8.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register StorageSpace
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/3c/3c010570d399a46c8ea8707c8bd9b631f71fc5f8.js" loaded.
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\f7\f79a240f5a5a7a1189eaafdcbec73680e86921a1.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\f7\f79a240f5a5a7a1189eaafdcbec73680e86921a1.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/f7/f79a240f5a5a7a1189eaafdcbec73680e86921a1.js" loaded.
+2024-1-16 06:01:13-debug: [[Executor]] Register TipView
+2024-1-16 06:01:13-debug: C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\88\88ba4a2596f39512712aab81965a6ac10d8bc09d.js resolved to C:\Users\Administrator\Desktop\修了个仙\temp\programming\packer-driver\targets\editor\chunks\88\88ba4a2596f39512712aab81965a6ac10d8bc09d.js is not in module cache!
+2024-1-16 06:01:13-debug: [[Executor]] Register helpLayer
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/88/88ba4a2596f39512712aab81965a6ac10d8bc09d.js" loaded.
+2024-1-16 06:01:13-debug: Incremental keys: javaToJs
+2024-1-16 06:01:13-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2024-1-16 06:01:13-groupEnd: Imports all modules
+2024-1-16 06:01:13-debug: 查询 Asset Bundle start11%
+2024-1-16 06:01:13-debug: // ---- build task 查询 Asset Bundle ----
+2024-1-16 06:01:13-debug: Init bundle root assets start...11%
+2024-1-16 06:01:13-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,511d2633-09a7-4bdd-ac42-f778032124b3,5d45aa00-e064-4938-b314-4265f0c2258c,9361fd90-ba52-4f84-aa93-6e878fd576ca,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,d1346436-ac96-4271-b863-1f4fdead95b0,971bdb23-3ff6-43eb-b422-1c30165a3663,17debcc3-0a6b-4b8a-b00b-dc58b885581e,711ebe11-f673-4cd9-9a83-63c60ba54c5b,c0143906-9aed-447e-9436-2ae8512d1b6e,14da1725-c4c2-42b4-ab08-ee0aeb6898b3,081cab31-dccd-428e-8652-f2404cc81c47,78e0584a-4343-4727-8f37-e14e65c2a2db,ba21476f-2866-4f81-9c4d-6e359316e448,871c3b6c-7379-419d-bda3-794b239ab90d,1d08ef62-a503-4ce2-8b9a-46c90873f7d3
+2024-1-16 06:01:13-debug: Init bundle root assets success...11%
+2024-1-16 06:01:13-debug: Init bundle share assets start...11%
+2024-1-16 06:01:13-debug: Init bundle share assets success...11%
+2024-1-16 06:01:13-debug: handle json group in bundle internal
+2024-1-16 06:01:13-debug: handle json group in bundle internal success
+2024-1-16 06:01:13-debug: handle json group in bundle main
+2024-1-16 06:01:13-debug: handle json group in bundle resources
+2024-1-16 06:01:13-debug: init image compress task 0 in bundle internal
+2024-1-16 06:01:13-debug: handle json group in bundle res
+2024-1-16 06:01:13-debug: handle json group in bundle res success
+2024-1-16 06:01:13-debug: init image compress task 0 in bundle res
+2024-1-16 06:01:13-debug: handle json group in bundle main success
+2024-1-16 06:01:13-debug: handle json group in bundle resources success
+2024-1-16 06:01:13-debug: init image compress task 0 in bundle main
+2024-1-16 06:01:13-debug: init image compress task 0 in bundle resources
+2024-1-16 06:01:13-debug: // ---- build task 查询 Asset Bundle ---- (144ms)
+2024-1-16 06:01:13-debug: run build task 查询 Asset Bundle success in 144 ms √16%
+2024-1-16 06:01:13-debug: [Build Memory track]: 查询 Asset Bundle start:295.30MB, end 301.02MB, increase: 5.73MB
+2024-1-16 06:01:13-debug: 查询 Asset Bundle start16%
+2024-1-16 06:01:13-debug: // ---- build task 查询 Asset Bundle ----
+2024-1-16 06:01:13-debug: // ---- build task 查询 Asset Bundle ---- (8ms)
+2024-1-16 06:01:13-debug: run build task 查询 Asset Bundle success in 8 ms √21%
+2024-1-16 06:01:13-debug: 打包脚本 start21%
+2024-1-16 06:01:13-debug: [Build Memory track]: 查询 Asset Bundle start:301.05MB, end 301.13MB, increase: 78.81KB
+2024-1-16 06:01:13-debug: // ---- build task 打包脚本 ----
+2024-1-16 06:01:16-debug: Build script in bundle start21%
+2024-1-16 06:01:17-log: Run build task(build-script) in child, see: chrome://inspect/#devices
+2024-1-16 06:01:17-log: [build-script]enter sub process 29828, C:\ProgramData\cocos\editors\Creator\3.8.1\CocosCreator.exe,C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\static\sub-process-index
+2024-1-16 06:01:22-warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/Administrator/Desktop/%E4%BF%AE%E4%BA%86%E4%B8%AA%E4%BB%99/assets/script/RVO/Agent.ts -> file:///C:/Users/Administrator/Desktop/%E4%BF%AE%E4%BA%86%E4%B8%AA%E4%BB%99/assets/script/RVO/Simulator.ts -> file:///C:/Users/Administrator/Desktop/%E4%BF%AE%E4%BA%86%E4%B8%AA%E4%BB%99/assets/script/RVO/Agent.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/Administrator/Desktop/%E4%BF%AE%E4%BA%86%E4%B8%AA%E4%BB%99/assets/script/RVO/Simulator.ts -> file:///C:/Users/Administrator/Desktop/%E4%BF%AE%E4%BA%86%E4%B8%AA%E4%BB%99/assets/script/RVO/KdTree.ts -> file:///C:/Users/Administrator/Desktop/%E4%BF%AE%E4%BA%86%E4%B8%AA%E4%BB%99/assets/script/RVO/Simulator.ts
+2024-1-16 06:01:22-log: 资源数据库已锁定，资源操作(refresh)将会延迟响应，请稍侯
+2024-1-16 06:01:24-log: 资源数据库已锁定，资源操作(refresh)将会延迟响应，请稍侯
+2024-1-16 06:01:24-debug: excute-script over with build-script 7487ms
+2024-1-16 06:01:24-debug: Copy externalScripts success!
+2024-1-16 06:01:24-debug: Build script in bundle success21%
+2024-1-16 06:01:24-debug: Engine cache ({link(C:\Users\ADMINI~1\AppData\Local\Temp\CocosCreator\3.8.1\builder\engine\d9dadcecfc9e01a951e003de962d1413)}) does not exist.
+2024-1-16 06:01:24-log: Run build task(build-engine) in child, see: chrome://inspect/#devices
+2024-1-16 06:01:25-log: [build-engine]enter sub process 70748, C:\ProgramData\cocos\editors\Creator\3.8.1\CocosCreator.exe,C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\static\sub-process-index
+2024-1-16 06:01:26-log: [build-engine]Module source "internal-constants":function tryDefineGlobal (name, value) {    const _global = typeof window === 'undefined' ? global : window;    if (typeof _global[name] === 'undefined') {        return (_global[name] = value);    } else {        // eslint-disable-next-line @typescript-eslint/no-unsafe-return        return _global[name];    }}export const HTML5 = false;export const NATIVE = false;export const ANDROID = false;export const IOS = false;export const MAC = false;export const WINDOWS = false;export const LINUX = false;export const OHOS = false;export const OPEN_HARMONY = false;export const WECHAT = true;tryDefineGlobal('CC_WECHAT', true);export const WECHAT_MINI_PROGRAM = false;export const BAIDU = false;tryDefineGlobal('CC_BAIDU', false);export const XIAOMI = false;tryDefineGlobal('CC_XIAOMI', false);export const ALIPAY = false;tryDefineGlobal('CC_ALIPAY', false);export const TAOBAO = false;export const TAOBAO_MINIGAME = false;export const BYTEDANCE = false;tryDefineGlobal('CC_BYTEDANCE', false);export const OPPO = false;tryDefineGlobal('CC_OPPO', false);export const VIVO = false;tryDefineGlobal('CC_VIVO', false);export const HUAWEI = false;tryDefineGlobal('CC_HUAWEI', false);export const COCOSPLAY = false;tryDefineGlobal('CC_COCOSPLAY', false);export const QTT = false;tryDefineGlobal('CC_QTT', false);export const LINKSURE = false;tryDefineGlobal('CC_LINKSURE', false);export const EDITOR = false;tryDefineGlobal('CC_EDITOR', false);export const EDITOR_NOT_IN_PREVIEW = false;export const PREVIEW = false;tryDefineGlobal('CC_PREVIEW', false);export const BUILD = true;tryDefineGlobal('CC_BUILD', true);export const TEST = false;tryDefineGlobal('CC_TEST', false);export const DEBUG = false;tryDefineGlobal('CC_DEBUG', false);export const SERVER_MODE = false;export const DEV = false;tryDefineGlobal('CC_DEV', false);export const MINIGAME = true;tryDefineGlobal('CC_MINIGAME', true);export const RUNTIME_BASED = false;tryDefineGlobal('CC_RUNTIME_BASED', false);export const SUPPORT_JIT = false;tryDefineGlobal('CC_SUPPORT_JIT', false);export const JSB = false;tryDefineGlobal('CC_JSB', false);export const NOT_PACK_PHYSX_LIBS = false;export const NET_MODE = 0;export const WEBGPU = false;export const WASM_SUPPORT_MODE = 1;export const FORCE_BANNING_BULLET_WASM = false;export const CULL_ASM_JS_MODULE = false;export const WASM_FALLBACK = false;export const WASM_SUBPACKAGE = false;export const CULL_MESHOPT = false;
+2024-1-16 06:01:26-log: [build-engine]Module source "cc":export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\2d.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\sorting.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\3d.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\animation.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\audio.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\base.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\dragon-bones.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\gfx-webgl.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\intersection-2d.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\light-probe.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\particle.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\particle-2d.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\physics-2d-builtin.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\physics-2d-framework.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\physics-ammo.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\physics-framework.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\wait-for-ammo-instantiation.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\primitive.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\profiler.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\skeletal-animation.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\spine.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\terrain.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\tiled-map.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\tween.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\ui.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\video.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\webview.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\exports\\xr.ts';
+2024-1-16 06:01:27-log: [build-engine]Redirect module internal:native to C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\native-binding\impl.ts
+2024-1-16 06:01:27-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\physics\framework\deprecated.ts
+2024-1-16 06:01:27-log: [build-engine]Redirect module pal/wasm to C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\pal\wasm\wasm-minigame.ts
+2024-1-16 06:01:28-log: [build-engine]Redirect module pal/screen-adapter to C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\pal\screen-adapter\minigame\screen-adapter.ts
+2024-1-16 06:01:28-log: [build-engine]Redirect module pal/minigame to C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\pal\minigame\wechat.ts
+2024-1-16 06:01:28-log: [build-engine]Redirect module pal/system-info to C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\pal\system-info\minigame\system-info.ts
+2024-1-16 06:01:29-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\core\deprecated.ts
+2024-1-16 06:01:29-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\core\deprecated-3.7.0.ts
+2024-1-16 06:01:29-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\rendering\deprecated.ts
+2024-1-16 06:01:29-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\input\deprecated.ts
+2024-1-16 06:01:29-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\gfx\deprecated-3.0.0.ts
+2024-1-16 06:01:29-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\gfx\deprecated-3.5.0.ts
+2024-1-16 06:01:30-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\render-scene\deprecated.ts
+2024-1-16 06:01:30-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\particle\deprecated.ts
+2024-1-16 06:01:30-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\misc\deprecated.ts
+2024-1-16 06:01:30-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\game\deprecated.ts
+2024-1-16 06:01:30-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\audio\deprecated.ts
+2024-1-16 06:01:30-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\scene-graph\deprecated.ts
+2024-1-16 06:01:30-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\scene-graph\deprecated-3.7.0.ts
+2024-1-16 06:01:31-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\video\deprecated.ts
+2024-1-16 06:01:31-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\ui\deprecated.ts
+2024-1-16 06:01:31-log: [build-engine]Redirect module pal/input to C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\pal\input\minigame\index.ts
+2024-1-16 06:01:32-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\2d\renderer\deprecated.ts
+2024-1-16 06:01:32-log: [build-engine]Redirect module pal/audio to C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\pal\audio\minigame\player.ts
+2024-1-16 06:01:32-log: [build-engine]Redirect module pal/env to C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\pal\env\minigame\env.ts
+2024-1-16 06:01:32-log: [build-engine]Redirect module pal/pacer to C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\pal\pacer\pacer-minigame.ts
+2024-1-16 06:01:33-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\asset\asset-manager\deprecated.ts
+2024-1-16 06:01:33-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\3d\skeletal-animation\deprecated.ts
+2024-1-16 06:01:36-log: [build-engine]Rollup warning 'THIS_IS_UNDEFINED' is omitted for C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\node_modules\@cocos\dragonbones-js\out\dragonBones.js
+2024-1-16 06:01:36-log: [build-engine]Rollup warning 'THIS_IS_UNDEFINED' is omitted for C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\node_modules\@cocos\dragonbones-js\out\dragonBones.js
+2024-1-16 06:01:37-log: [build-engine]Redirect module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\2d\renderer\native-2d.ts to C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\2d\renderer\native-2d-empty.ts
+2024-1-16 06:01:38-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\2d\framework\deprecated-1.2.0.ts
+2024-1-16 06:01:38-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\2d\framework\deprecated.ts
+2024-1-16 06:01:38-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\2d\framework\deprecated-3.6.0.ts
+2024-1-16 06:01:38-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\2d\framework\deprecated-3.0.0.ts
+2024-1-16 06:01:39-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\core\utils\deprecated-3.6.0.ts
+2024-1-16 06:01:39-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\core\platform\deprecated.ts
+2024-1-16 06:01:39-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\3d\framework\deprecated.ts
+2024-1-16 06:01:39-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\3d\assets\deprecated.ts
+2024-1-16 06:01:39-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\core\math\deprecated.ts
+2024-1-16 06:01:39-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\core\geometry\deprecated.ts
+2024-1-16 06:01:39-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\core\geometry\deprecated-3.0.0.ts
+2024-1-16 06:01:39-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\3d\lights\deprecated.ts
+2024-1-16 06:01:39-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\3d\skinned-mesh-renderer\deprecated.ts
+2024-1-16 06:01:40-log: [build-engine]Exclude deprecated module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\2d\components\deprecated.ts
+2024-1-16 06:01:41-log: [build-engine]Redirect module C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\animation\marionette\pose-graph\runtime-exports.ts to C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\cocos\animation\marionette\pose-graph\runtime-exports-empty.ts
+2024-1-16 06:01:45-log: [build-engine]==== Performance ===={"# BUILD":[18407.93810003996,467385464,583351484],"## generate module graph":[16954.6114000082,381328480,497299956],"- plugin 1 (@cocos/ccbuild|external-loader) - resolveId":[16.402900993824005,-4851520,871936752],"- plugin 1 (@cocos/ccbuild|external-loader) - resolveId (async)":[65.76260387897491,27160912,871937432],"- plugin 2 (@cocos/ccbuild|module-overrides) - resolveId":[5.111398458480835,858948,871938336],"- plugin 3 (virtual) - resolveId":[18.292200207710266,6653508,871941964],"load modules":[59072.33899950981,1948126088,874112468],"- plugin 0 (@cocos/ccbuild|remove-deprecated-features) - load":[5.387600123882294,508900,875021744],"- plugin 1 (@cocos/ccbuild|external-loader) - load":[4.236400842666626,898196,875022856],"- plugin 1 (@cocos/ccbuild|external-loader) - load (async)":[170.96189868450165,9722344,875023320],"- plugin 2 (@cocos/ccbuild|module-overrides) - load":[4.58940052986145,579196,875024004],"- plugin 3 (virtual) - load":[1.5460011959075928,110180,875024400],"- plugin 7 (json) - transform":[2.5569998025894165,748220,874116184],"- plugin 8 (commonjs) - transform":[111.36020004749298,11689468,874119272],"- plugin 9 (babel) - transform":[139.17379969358444,2390032,874144192],"generate ast":[403.99559992551804,44696428,872650800],"analyse ast":[666.6529997587204,109576280,872736848],"- plugin 4 (@cocos/ccbuild|module-query-plugin) - resolveId":[15.705199658870697,9589304,871946652],"- plugin 4 (@cocos/ccbuild|module-query-plugin) - resolveId (async)":[70.78819715976715,2734544,871947396],"- plugin 5 (ts-paths) - resolveId":[3.4083009362220764,585480,871948196],"- plugin 6 (node-resolve) - resolveId":[26.593600034713745,1272088,871952768],"- plugin 6 (node-resolve) - resolveId (async)":[103748.8832963109,-409627156,875143236],"- plugin 6 (node-resolve) - load":[1.2673982977867126,115980,875024804],"- plugin 8 (commonjs) - load":[4.082698345184326,917392,875026116],"- plugin 9 (babel) - load":[167.777498960495,10260204,875026512],"- plugin 9 (babel) - transform (async)":[12127.982599914074,243378248,872626452],"- plugin 8 (commonjs) - resolveId":[3.042098641395569,-5049088,871958476],"- plugin 9 (babel) - resolveId":[0.6439999938011169,69372,871958880],"## sort modules":[120.69279998540878,6823960,504124220],"## mark included statements":[1332.5422999858856,79225360,583349824],"treeshaking pass 1":[640.506099998951,59908544,564510232],"treeshaking pass 2":[178.55119997262955,11102316,575612792],"treeshaking pass 3":[96.18080002069473,2193152,577806188],"treeshaking pass 4":[74.03450000286102,-1621724,576184708],"treeshaking pass 5":[53.46579998731613,6471572,582656524],"treeshaking pass 6":[45.101799964904785,-2216540,580440228],"treeshaking pass 7":[41.0067999958992,2222912,582663384],"treeshaking pass 8":[41.30970001220703,954040,583617668],"treeshaking pass 9":[41.61650002002716,573120,584191032],"treeshaking pass 10":[39.686100006103516,-17220,584174056],"treeshaking pass 11":[39.37870001792908,-377912,583796388],"treeshaking pass 12":[40.883399963378906,-447180,583349452]}====             ====
+2024-1-16 06:01:55-debug: excute-script over with build-engine 30451ms
+2024-1-16 06:01:55-debug: // ---- build task 打包脚本 ---- (41441ms)
+2024-1-16 06:01:55-debug: run build task 打包脚本 success in 41441 ms √26%
+2024-1-16 06:01:55-debug: Build Assets start26%
+2024-1-16 06:01:55-debug: // ---- build task Build Assets ----
+2024-1-16 06:01:55-debug: Pack Images start26%
+2024-1-16 06:01:55-debug: [Build Memory track]: 打包脚本 start:301.69MB, end 365.26MB, increase: 63.58MB
+2024-1-16 06:01:56-debug: Start trim sprite image ...
+2024-1-16 06:01:56-debug: Start trim sprite image ...
+2024-1-16 06:01:56-debug: Start trim sprite image ...
+2024-1-16 06:01:56-debug: Start trim sprite image ...
+2024-1-16 06:01:56-debug: Start trim sprite image ...
+2024-1-16 06:01:56-debug: Start trim sprite image ...
+2024-1-16 06:01:56-debug: Start trim sprite image ...
+2024-1-16 06:01:56-debug: Start trim sprite image ...
+2024-1-16 06:01:56-debug: Start trim sprite image ...
+2024-1-16 06:01:56-debug: Start trim sprite image ...
+2024-1-16 06:01:56-debug: Start trim sprite image ...
+2024-1-16 06:01:56-debug: Start trim sprite image ...
+2024-1-16 06:01:56-debug: Start trim sprite image ...
+2024-1-16 06:01:56-debug: Start trim sprite image ...
+2024-1-16 06:01:56-debug: Start trim sprite image ...
+2024-1-16 06:01:56-debug: Start trim sprite image ...
+2024-1-16 06:01:56-debug: determine atlas size...
+2024-1-16 06:01:56-debug: Start generate atlas image...
+2024-1-16 06:01:56-debug: determine atlas size...
+2024-1-16 06:01:56-debug: Start generate atlas image...
+2024-1-16 06:01:56-debug: determine atlas size...
+2024-1-16 06:01:56-debug: Start generate atlas image...
+2024-1-16 06:01:56-debug: determine atlas size...
+2024-1-16 06:01:56-debug: Start generate atlas image...
+2024-1-16 06:01:56-debug: determine atlas size...
+2024-1-16 06:01:56-debug: Start generate atlas image...
+2024-1-16 06:01:56-debug: determine atlas size...
+2024-1-16 06:01:56-debug: Start generate atlas image...
+2024-1-16 06:01:57-debug: determine atlas size...
+2024-1-16 06:01:57-debug: Start generate atlas image...
+2024-1-16 06:01:57-debug: determine atlas size...
+2024-1-16 06:01:57-debug: Start generate atlas image...
+2024-1-16 06:01:57-debug: determine atlas size...
+2024-1-16 06:01:57-debug: Start generate atlas image...
+2024-1-16 06:01:57-debug: determine atlas size...
+2024-1-16 06:01:57-debug: Start generate atlas image...
+2024-1-16 06:01:57-debug: determine atlas size...
+2024-1-16 06:01:57-debug: Start generate atlas image...
+2024-1-16 06:01:57-debug: determine atlas size...
+2024-1-16 06:01:57-debug: Start generate atlas image...
+2024-1-16 06:01:57-debug: determine atlas size...
+2024-1-16 06:01:57-debug: Start generate atlas image...
+2024-1-16 06:01:57-debug: determine atlas size...
+2024-1-16 06:01:57-debug: Start generate atlas image...
+2024-1-16 06:01:57-debug: determine atlas size...
+2024-1-16 06:01:57-debug: Start generate atlas image...
+2024-1-16 06:01:57-debug: determine atlas size...
+2024-1-16 06:01:57-debug: Start generate atlas image...
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(6aea6b35-8cc1-4992-a655-5b86c4b6f33e)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/preload/auto-atlas)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(6aea6b35-8cc1-4992-a655-5b86c4b6f33e)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(6aea6b35-8cc1-4992-a655-5b86c4b6f33e)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/gameScene/layers/auto-atlas)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(afa661bf-8483-45e8-b05f-2cb590e41a2d)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(afa661bf-8483-45e8-b05f-2cb590e41a2d)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/resources/images/resourcesImages)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(4ac3a8ae-c35a-4ba9-8d5e-014a359dca88)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/resources/images/icons/baseProperty/auto-atlas)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(b35f98d5-f688-415f-80f6-f6cdf2aa0aa8)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(351a6d66-9710-4756-9820-f7f660681d47)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(351a6d66-9710-4756-9820-f7f660681d47)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/gameScene/hero/auto-atlas)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(351a6d66-9710-4756-9820-f7f660681d47)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/resources/images/icons/auto-atlas)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(7d668e15-72c5-427c-a4ae-9582953bf701)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(e0e2111e-9d07-484d-94ae-df6cf0bfce6a)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/gameScene/enemy/monster/31-34/auto-atlas)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(e0e2111e-9d07-484d-94ae-df6cf0bfce6a)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/resources/images/items/auto-atlas)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(204c7561-4465-4e1d-97bd-0e12da481eb5)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/resources/images/items/auto-atlas)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(204c7561-4465-4e1d-97bd-0e12da481eb5)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(3fdb2248-fd75-46a1-bbbf-c8aaa7150261)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/gameScene/enemy/monster/1-6/auto-atlas)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(415169f9-962b-468e-be91-bb65fd93c617)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/gameScene/enemy/monster/7-12/auto-atlas)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(415169f9-962b-468e-be91-bb65fd93c617)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(3fdb2248-fd75-46a1-bbbf-c8aaa7150261)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(2adc9ccc-21e9-4a11-bc15-1d14ae6cf641)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(2adc9ccc-21e9-4a11-bc15-1d14ae6cf641)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(2adc9ccc-21e9-4a11-bc15-1d14ae6cf641)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/gameScene/bulletLayer/auto-atlas)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(2adc9ccc-21e9-4a11-bc15-1d14ae6cf641)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(2adc9ccc-21e9-4a11-bc15-1d14ae6cf641)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/gameScene/bulletLayer/auto-atlas)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(2adc9ccc-21e9-4a11-bc15-1d14ae6cf641)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(2adc9ccc-21e9-4a11-bc15-1d14ae6cf641)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(2adc9ccc-21e9-4a11-bc15-1d14ae6cf641)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/gameScene/bulletLayer/auto-atlas)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(2adc9ccc-21e9-4a11-bc15-1d14ae6cf641)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(5590c701-28ca-4481-b230-b5725230e203)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/gameScene/enemy/monster/13-18/auto-atlas)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(5590c701-28ca-4481-b230-b5725230e203)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(e3889e96-a003-459a-b4f3-f28b83783268)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/gameScene/enemy/monster/19-24/auto-atlas)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(e3889e96-a003-459a-b4f3-f28b83783268)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(0972f49c-63b1-450b-9930-b1968fc3d09a)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/gameScene/enemy/monster/25-27/auto-atlas)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(0972f49c-63b1-450b-9930-b1968fc3d09a)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/mainMenu/mainMenu)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/mainMenu/mainMenu)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/mainMenu/mainMenu)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/mainMenu/mainMenu)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/mainMenu/mainMenu)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/mainMenu/mainMenu)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/mainMenu/mainMenu)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/mainMenu/mainMenu)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(a9794c2e-bf6f-4dcd-9574-fcc5d190b13f)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(f9b21c47-38c3-4c18-93b5-b53e66146248)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/gameScene/bulletLayer/skill/auto-atlas)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(f9b21c47-38c3-4c18-93b5-b53e66146248)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(f9b21c47-38c3-4c18-93b5-b53e66146248)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/gameScene/bulletLayer/skill/auto-atlas)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(f9b21c47-38c3-4c18-93b5-b53e66146248)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(f9b21c47-38c3-4c18-93b5-b53e66146248)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/gameScene/bulletLayer/skill/auto-atlas)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(f9b21c47-38c3-4c18-93b5-b53e66146248)}
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(f9b21c47-38c3-4c18-93b5-b53e66146248)}
+2024-1-16 06:02:02-debug: Asset {asset(db://assets/res/gameScene/bulletLayer/skill/auto-atlas)} is Bundle
+2024-1-16 06:02:02-debug: remove spriteAtlas._uuid : {asset(f9b21c47-38c3-4c18-93b5-b53e66146248)}
+2024-1-16 06:02:02-debug: builder:pack-auto-atlas-image (7931ms)
+2024-1-16 06:02:02-debug: Pack Images success26%
+2024-1-16 06:02:02-debug: Compress image start...26%
+2024-1-16 06:02:02-group: Compress image...
+2024-1-16 06:02:02-debug: No image need to compress
+2024-1-16 06:02:02-debug: Num of image compress task 0
+2024-1-16 06:02:02-debug: Compress image success...26%
+2024-1-16 06:02:02-groupEnd: Compress image...
+2024-1-16 06:02:02-debug: Handle all json groups in bundle internal
+2024-1-16 06:02:02-debug: handle json group
+2024-1-16 06:02:02-debug: Ouput asset in bundles start26%
+2024-1-16 06:02:02-debug: Handle all json groups in bundle resources
+2024-1-16 06:02:03-debug: handle json group
+2024-1-16 06:02:03-debug: handle json group
+2024-1-16 06:02:03-debug: Handle all json groups in bundle main
+2024-1-16 06:02:03-debug: Handle all json groups in bundle res
+2024-1-16 06:02:03-debug: handle json group
+2024-1-16 06:02:03-debug: Json group(0ec72fba0) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0ef6f46df) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0815db95e) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0f146ee80) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(03aacba7e) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(090ecb9fe) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0aa424fc6) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(01fbf1219) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0a1aa50f7) compile success，json number: 6
+2024-1-16 06:02:03-debug: handle single json
+2024-1-16 06:02:03-debug: Json group(05c20a53f) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(05e85c0c2) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0b2bbb7a0) compile success，json number: 6
+2024-1-16 06:02:03-debug: handle single json
+2024-1-16 06:02:03-debug: Json group(037e069a7) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(028b49b93) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(08ba6c186) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(097f8e32f) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(07d20cebd) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(05ee9fd38) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0c4d249a4) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(018ab0ab5) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0a5cc9d81) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0a2ba0aaf) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0a3cb7695) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0a2aec5b6) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(03ca0666e) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(04b793959) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(043e62cad) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0613abd3f) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(06df6a933) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0f0409cb0) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0f9fec6f2) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0847cb201) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0622465c3) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(014be49bb) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(03d1908c8) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(01c5be220) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(080a4e8e3) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0612979d2) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(08e2d18f9) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0bb6bdfbb) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(048542171) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0a35dd986) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(056cb93c7) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0ae627905) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0f8748657) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(08d96aa64) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(076e980cc) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(05684188f) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(018324dc2) compile success，json number: 6
+2024-1-16 06:02:03-debug: handle single json
+2024-1-16 06:02:03-debug: Json group(0821516c6) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0387d4cbd) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0c20d445d) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0c5699fb2) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0e9696d5e) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(01e412b7c) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0a09d0807) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0c7b75244) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(06def8b6c) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(081485a08) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0e4b4b489) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0e82b5046) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0163ad1c8) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(01cfee468) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0847cb201) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0622465c3) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0612979d2) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0bb6bdfbb) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(02c321b02) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0a35dd986) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0aaf7d0ee) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0ae627905) compile success，json number: 6
+2024-1-16 06:02:03-debug: Json group(0f8748657) compile success，json number: 6
+2024-1-16 06:02:03-debug: handle single json
+2024-1-16 06:02:03-debug: Output asset in bundles success26%
+2024-1-16 06:02:03-debug: // ---- build task Build Assets ---- (8707ms)
+2024-1-16 06:02:03-debug: run build task Build Assets success in 8707 ms √31%
+2024-1-16 06:02:03-debug: [Build Memory track]: Build Assets start:365.28MB, end 322.84MB, increase: -43458.15KB
+2024-1-16 06:02:03-debug: wechatgame:(onAfterBundleBuildTask) start...31%
+2024-1-16 06:02:03-debug: // ---- build task wechatgame：onAfterBundleBuildTask ----
+2024-1-16 06:02:03-debug: // ---- build task wechatgame：onAfterBundleBuildTask ---- (8ms)
+2024-1-16 06:02:03-debug: wechatgame:(onAfterBundleBuildTask) in 8 ms ✓31%
+2024-1-16 06:02:03-debug: wechatgame:(onAfterBuildAssets) start...31%
+2024-1-16 06:02:03-debug: // ---- build task wechatgame：onAfterBuildAssets ----
+2024-1-16 06:02:03-debug: // ---- build task wechatgame：onAfterBuildAssets ---- (8ms)
+2024-1-16 06:02:03-debug: wechatgame:(onAfterBuildAssets) in 8 ms ✓33%
+2024-1-16 06:02:03-debug: 给所有的资源加上 MD5 后缀 start33%
+2024-1-16 06:02:03-debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
+2024-1-16 06:02:03-debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (8ms)
+2024-1-16 06:02:03-debug: run build task 给所有的资源加上 MD5 后缀 success in 8 ms √38%
+2024-1-16 06:02:03-debug: [Build Memory track]: 给所有的资源加上 MD5 后缀 start:323.08MB, end 323.14MB, increase: 60.24KB
+2024-1-16 06:02:03-debug: // ---- build task 查询 Asset Bundle ----
+2024-1-16 06:02:03-debug: Output asset in bundles start38%
+2024-1-16 06:02:03-debug: 查询 Asset Bundle start38%
+2024-1-16 06:02:03-debug: compress config of bundle internal...
+2024-1-16 06:02:03-debug: compress config of bundle internal success
+2024-1-16 06:02:03-debug: ouput config of bundle internal
+2024-1-16 06:02:03-debug: output config of bundle internal success
+2024-1-16 06:02:03-debug: compress config of bundle res...
+2024-1-16 06:02:03-debug: compress config of bundle res success
+2024-1-16 06:02:03-debug: ouput config of bundle res
+2024-1-16 06:02:03-debug: compress config of bundle main...
+2024-1-16 06:02:03-debug: compress config of bundle main success
+2024-1-16 06:02:03-debug: ouput config of bundle main
+2024-1-16 06:02:03-debug: output config of bundle main success
+2024-1-16 06:02:03-debug: compress config of bundle resources...
+2024-1-16 06:02:03-debug: compress config of bundle resources success
+2024-1-16 06:02:03-debug: ouput config of bundle resources
+2024-1-16 06:02:03-debug: output config of bundle res success
+2024-1-16 06:02:03-debug: output config of bundle resources success
+2024-1-16 06:02:03-debug: Output asset in bundles success38%
+2024-1-16 06:02:03-debug: run build task 查询 Asset Bundle success in 45 ms √43%
+2024-1-16 06:02:03-debug: [Build Memory track]: 查询 Asset Bundle start:323.16MB, end 325.93MB, increase: 2.76MB
+2024-1-16 06:02:03-debug: // ---- build task 查询 Asset Bundle ---- (45ms)
+2024-1-16 06:02:03-debug: 整理部分构建选项内数据到 settings.json start43%
+2024-1-16 06:02:03-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-1-16 06:02:03-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (7ms)
+2024-1-16 06:02:03-debug: run build task 整理部分构建选项内数据到 settings.json success in 7 ms √45%
+2024-1-16 06:02:03-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:325.95MB, end 326.01MB, increase: 61.76KB
+2024-1-16 06:02:03-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-1-16 06:02:03-debug: 填充脚本数据到 settings.json start45%
+2024-1-16 06:02:03-debug: // ---- build task 填充脚本数据到 settings.json ---- (8ms)
+2024-1-16 06:02:03-debug: run build task 填充脚本数据到 settings.json success in 8 ms √47%
+2024-1-16 06:02:03-debug: 整理部分构建选项内数据到 settings.json start47%
+2024-1-16 06:02:03-debug: [Build Memory track]: 填充脚本数据到 settings.json start:326.03MB, end 326.11MB, increase: 76.27KB
+2024-1-16 06:02:03-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-1-16 06:02:03-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (12ms)
+2024-1-16 06:02:03-debug: run build task 整理部分构建选项内数据到 settings.json success in 12 ms √48%
+2024-1-16 06:02:03-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:326.13MB, end 326.29MB, increase: 166.89KB
+2024-1-16 06:02:03-debug: wechatgame:(onBeforeCompressSettings) start...48%
+2024-1-16 06:02:03-debug: // ---- build task wechatgame：onBeforeCompressSettings ----
+2024-1-16 06:02:03-debug: // ---- build task wechatgame：onBeforeCompressSettings ---- (9ms)
+2024-1-16 06:02:03-debug: wechatgame:(onBeforeCompressSettings) in 9 ms ✓51%
+2024-1-16 06:02:03-debug: cocos-service:(onBeforeCompressSettings) start...51%
+2024-1-16 06:02:03-debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+2024-1-16 06:02:04-debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (173ms)
+2024-1-16 06:02:04-debug: cocos-service:(onBeforeCompressSettings) in 173 ms ✓53%
+2024-1-16 06:02:04-debug: 保存 settings.json start53%
+2024-1-16 06:02:04-debug: // ---- build task 保存 settings.json ----
+2024-1-16 06:02:04-debug: // ---- build task 保存 settings.json ---- (9ms)
+2024-1-16 06:02:04-debug: run build task 保存 settings.json success in 9 ms √55%
+2024-1-16 06:02:04-debug: [Build Memory track]: 保存 settings.json start:326.51MB, end 326.68MB, increase: 174.90KB
+2024-1-16 06:02:04-debug: // ---- build task 整理静态模板文件 ----
+2024-1-16 06:02:04-debug: 整理静态模板文件 start55%
+2024-1-16 06:02:04-debug: // ---- build task 整理静态模板文件 ---- (35ms)
+2024-1-16 06:02:04-debug: run build task 整理静态模板文件 success in 35 ms √58%
+2024-1-16 06:02:04-debug: [Build Memory track]: 整理静态模板文件 start:326.70MB, end 322.52MB, increase: -4280.70KB
+2024-1-16 06:02:04-debug: cocos-service:(onAfterCompressSettings) start...58%
+2024-1-16 06:02:04-debug: // ---- build task cocos-service：onAfterCompressSettings ----
+2024-1-16 06:02:04-debug: // ---- build task cocos-service：onAfterCompressSettings ---- (147ms)
+2024-1-16 06:02:04-debug: wechatgame:(onAfterBuild) start...60%
+2024-1-16 06:02:04-debug: // ---- build task wechatgame：onAfterBuild ----
+2024-1-16 06:02:04-debug: cocos-service:(onAfterCompressSettings) in 147 ms ✓60%
+2024-1-16 06:02:04-log: 资源数据库已锁定，资源操作(refresh)将会延迟响应，请稍侯
+2024-1-16 06:02:04-debug: // ---- build task wechatgame：onAfterBuild ---- (192ms)
+2024-1-16 06:02:04-debug: cocos-service:(onAfterBuild) start...62%
+2024-1-16 06:02:04-debug: wechatgame:(onAfterBuild) in 192 ms ✓62%
+2024-1-16 06:02:04-debug: // ---- build task cocos-service：onAfterBuild ----
+2024-1-16 06:02:04-debug: // ---- build task cocos-service：onAfterBuild ---- (152ms)
+2024-1-16 06:02:04-debug: adsense-h5g-plugin:(onAfterBuild) start...64%
+2024-1-16 06:02:04-debug: cocos-service:(onAfterBuild) in 152 ms ✓64%
+2024-1-16 06:02:04-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
+2024-1-16 06:02:04-debug: adsense-h5g-plugin:(onAfterBuild) in 15 ms ✓67%
+2024-1-16 06:02:04-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (15ms)
+2024-1-16 06:02:04-log: Asset DB is resume!
+2024-1-16 06:02:04-debug: builder:build-project-total (51957ms)
+2024-1-16 06:02:04-debug: build success in 51957 ms!
+2024-1-16 06:02:04-debug: [Build Memory track]: builder:build-project-total start:315.60MB, end 327.07MB, increase: 11.47MB
+2024-1-16 06:02:04-debug: ================================ build Task (wechatgame) Finished in (52189)ms ================================

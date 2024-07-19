@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "treasureChest4_open",
+    "atlas": "",
+    "rect": {
+      "x": 24,
+      "y": 39,
+      "width": 202,
+      "height": 173
+    },
+    "offset": {
+      "x": 0,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 250,
+      "height": 250
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -101,
+        -86.5,
+        0,
+        101,
+        -86.5,
+        0,
+        -101,
+        86.5,
+        0,
+        101,
+        86.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        24,
+        211,
+        226,
+        211,
+        24,
+        38,
+        226,
+        38
+      ],
+      "nuv": [
+        0.096,
+        0.152,
+        0.904,
+        0.152,
+        0.096,
+        0.844,
+        0.904,
+        0.844
+      ],
+      "minPos": {
+        "x": -101,
+        "y": -86.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 101,
+        "y": 86.5,
+        "z": 0
+      }
+    },
+    "texture": "413717c3-d6be-4334-b445-b0f60c94ce19@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

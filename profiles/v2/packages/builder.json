@@ -1,0 +1,72 @@
+{
+  "__version__": "1.3.7",
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "buildPath": "project://build",
+    "outputName": "wechatgame",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "wechatgame"
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1705356072552": {
+        "type": "build",
+        "id": "1705356072552",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2024-1-16 06:02:04 build success in 52190 ms!",
+        "options": {
+          "name": "修了个仙",
+          "server": "",
+          "platform": "wechatgame",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "ecf9f657-a586-4565-aae7-21fdd9a378a0",
+          "outputName": "wechatgame",
+          "taskName": "wechatgame",
+          "scenes": [
+            {
+              "url": "db://assets/scene/game.scene",
+              "uuid": "ecf9f657-a586-4565-aae7-21fdd9a378a0"
+            },
+            {
+              "url": "db://assets/scene/mainMenu.scene",
+              "uuid": "047de972-cd7b-4191-af60-f2090cf15b93"
+            },
+            {
+              "url": "db://assets/scene/preLoad.scene",
+              "uuid": "c5959bdb-ecb9-40c9-8ddc-04d430f5785e"
+            }
+          ],
+          "packages": {},
+          "__version__": "1.3.7",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/wechatgame2024-1-16 06-01.log"
+        },
+        "time": "2024-1-16 06:01:12",
+        "dirty": false
+      }
+    }
+  }
+}

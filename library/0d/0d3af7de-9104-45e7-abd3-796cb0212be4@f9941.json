@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "monster33_05",
+    "atlas": "",
+    "rect": {
+      "x": 15,
+      "y": 0,
+      "width": 99,
+      "height": 125
+    },
+    "offset": {
+      "x": 4.5,
+      "y": 1.5
+    },
+    "originalSize": {
+      "width": 120,
+      "height": 128
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -49.5,
+        -62.5,
+        0,
+        49.5,
+        -62.5,
+        0,
+        -49.5,
+        62.5,
+        0,
+        49.5,
+        62.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        15,
+        128,
+        114,
+        128,
+        15,
+        3,
+        114,
+        3
+      ],
+      "nuv": [
+        0.125,
+        0.0234375,
+        0.95,
+        0.0234375,
+        0.125,
+        1,
+        0.95,
+        1
+      ],
+      "minPos": {
+        "x": -49.5,
+        "y": -62.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 49.5,
+        "y": 62.5,
+        "z": 0
+      }
+    },
+    "texture": "0d3af7de-9104-45e7-abd3-796cb0212be4@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

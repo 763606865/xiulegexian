@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bagua_00003",
+    "atlas": "",
+    "rect": {
+      "x": 14,
+      "y": 16,
+      "width": 73,
+      "height": 72
+    },
+    "offset": {
+      "x": 0.5,
+      "y": -2
+    },
+    "originalSize": {
+      "width": 100,
+      "height": 100
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -36.5,
+        -36,
+        0,
+        36.5,
+        -36,
+        0,
+        -36.5,
+        36,
+        0,
+        36.5,
+        36,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        14,
+        84,
+        87,
+        84,
+        14,
+        12,
+        87,
+        12
+      ],
+      "nuv": [
+        0.14,
+        0.12,
+        0.87,
+        0.12,
+        0.14,
+        0.84,
+        0.87,
+        0.84
+      ],
+      "minPos": {
+        "x": -36.5,
+        "y": -36,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 36.5,
+        "y": 36,
+        "z": 0
+      }
+    },
+    "texture": "4d9b223b-7dd6-445d-a339-8efff79c1a1b@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

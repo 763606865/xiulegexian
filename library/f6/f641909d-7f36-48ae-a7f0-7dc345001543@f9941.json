@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "monster15_01",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 72,
+      "height": 124
+    },
+    "offset": {
+      "x": -0.5,
+      "y": 0.5
+    },
+    "originalSize": {
+      "width": 73,
+      "height": 125
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -36,
+        -62,
+        0,
+        36,
+        -62,
+        0,
+        -36,
+        62,
+        0,
+        36,
+        62,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        125,
+        72,
+        125,
+        0,
+        1,
+        72,
+        1
+      ],
+      "nuv": [
+        0,
+        0.008,
+        0.9863013698630136,
+        0.008,
+        0,
+        1,
+        0.9863013698630136,
+        1
+      ],
+      "minPos": {
+        "x": -36,
+        "y": -62,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 36,
+        "y": 62,
+        "z": 0
+      }
+    },
+    "texture": "f641909d-7f36-48ae-a7f0-7dc345001543@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

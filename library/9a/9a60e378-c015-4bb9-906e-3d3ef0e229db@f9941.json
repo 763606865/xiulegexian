@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "unstudy",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 90,
+      "height": 273
+    },
+    "offset": {
+      "x": -1,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 92,
+      "height": 273
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -45,
+        -136.5,
+        0,
+        45,
+        -136.5,
+        0,
+        -45,
+        136.5,
+        0,
+        45,
+        136.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        273,
+        90,
+        273,
+        0,
+        0,
+        90,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        0.9782608695652174,
+        0,
+        0,
+        1,
+        0.9782608695652174,
+        1
+      ],
+      "minPos": {
+        "x": -45,
+        "y": -136.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 45,
+        "y": 136.5,
+        "z": 0
+      }
+    },
+    "texture": "9a60e378-c015-4bb9-906e-3d3ef0e229db@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

@@ -1,0 +1,144 @@
+2024-2-25 22:29:55-log: Cannot access game frame or container.
+2024-2-25 22:29:56-debug: asset-db:require-engine-code (721ms)
+2024-2-25 22:29:56-log: Cocos Creator v3.8.1
+2024-2-25 22:29:56-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:15.44MB, end 92.15MB, increase: 76.71MB
+2024-2-25 22:29:56-debug: [Assets Memory track]: asset-db-plugin-enable: project start:96.62MB, end 100.06MB, increase: 3.44MB
+2024-2-25 22:29:56-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:92.16MB, end 100.07MB, increase: 7.91MB
+2024-2-25 22:29:56-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:96.44MB, end 100.06MB, increase: 3.61MB
+2024-2-25 22:29:56-debug: [Assets Memory track]: asset-db-plugin-register: programming start:92.96MB, end 96.40MB, increase: 3.43MB
+2024-2-25 22:29:56-debug: asset-db:worker-init: initPlugin (92ms)
+2024-2-25 22:29:56-debug: [Assets Memory track]: asset-db:worker-init start:15.44MB, end 94.60MB, increase: 79.16MB
+2024-2-25 22:29:56-debug: Run asset db hook programming:beforePreStart success!
+2024-2-25 22:29:56-debug: Run asset db hook engine-extends:beforePreStart ...
+2024-2-25 22:29:56-debug: Run asset db hook engine-extends:beforePreStart success!
+2024-2-25 22:29:56-debug: Run asset db hook programming:beforePreStart ...
+2024-2-25 22:29:56-debug: asset-db:worker-init (1603ms)
+2024-2-25 22:29:57-debug: asset-db-hook-programming-beforePreStart (447ms)
+2024-2-25 22:29:57-debug: asset-db-hook-engine-extends-beforePreStart (446ms)
+2024-2-25 22:29:57-debug: Preimport db internal success
+2024-2-25 22:29:57-debug: Preimport db assets success
+2024-2-25 22:29:57-debug: Run asset db hook programming:afterPreStart ...
+2024-2-25 22:29:59-debug: run package(builder) handler(enable) start
+2024-2-25 22:30:02-debug: [Assets Memory track]: asset-db-plugin-enable: builder start:113.88MB, end 302.59MB, increase: 188.72MB
+2024-2-25 22:30:02-debug: run package(builder) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(shortcuts) handler(enable) start
+2024-2-25 22:30:02-debug: run package(animation-graph) handler(enable) start
+2024-2-25 22:30:02-debug: run package(animation-graph) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(about) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(assets) handler(enable) start
+2024-2-25 22:30:02-debug: run package(assets) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(console) handler(enable) start
+2024-2-25 22:30:02-debug: run package(console) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(crash-reporter) handler(enable) start
+2024-2-25 22:30:02-debug: run package(crash-reporter) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(shortcuts) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(extension) handler(enable) start
+2024-2-25 22:30:02-debug: run package(extension) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(hierarchy) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(inspector) handler(enable) start
+2024-2-25 22:30:02-debug: run package(hierarchy) handler(enable) start
+2024-2-25 22:30:02-debug: run package(inspector) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(light-probe) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(lightmap) handler(enable) start
+2024-2-25 22:30:02-debug: run package(lightmap) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(node-library) handler(enable) start
+2024-2-25 22:30:02-debug: run package(node-library) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(package-asset) handler(enable) start
+2024-2-25 22:30:02-debug: run package(package-asset) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(process) handler(enable) start
+2024-2-25 22:30:02-debug: run package(process) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(reference-image) handler(enable) start
+2024-2-25 22:30:02-debug: run package(reference-image) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(reflection-probe) handler(enable) start
+2024-2-25 22:30:02-debug: run package(reflection-probe) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(light-probe) handler(enable) start
+2024-2-25 22:30:02-debug: run package(engine-extends) handler(enable) start
+2024-2-25 22:30:02-debug: run package(engine-extends) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(adsense-h5g-plugin) handler(enable) start
+2024-2-25 22:30:02-debug: run package(adsense-h5g-plugin) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(alipay-mini-game) handler(enable) start
+2024-2-25 22:30:02-debug: run package(android) handler(enable) start
+2024-2-25 22:30:02-debug: run package(android) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(bytedance-mini-game) handler(enable) start
+2024-2-25 22:30:02-debug: run package(bytedance-mini-game) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(about) handler(enable) start
+2024-2-25 22:30:02-debug: run package(alipay-mini-game) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(certificate) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(certificate) handler(enable) start
+2024-2-25 22:30:02-debug: run package(channel-upload-tools) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(fb-instant-games) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(huawei-agc) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(huawei-quick-game) handler(enable) start
+2024-2-25 22:30:02-debug: run package(huawei-quick-game) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(ios) handler(enable) start
+2024-2-25 22:30:02-debug: run package(ios) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(channel-upload-tools) handler(enable) start
+2024-2-25 22:30:02-debug: run package(huawei-agc) handler(enable) start
+2024-2-25 22:30:02-debug: run package(fb-instant-games) handler(enable) start
+2024-2-25 22:30:02-debug: run package(linux) handler(enable) start
+2024-2-25 22:30:02-debug: run package(linux) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(native) handler(enable) start
+2024-2-25 22:30:02-debug: run package(mac) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(native) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(ohos) handler(enable) start
+2024-2-25 22:30:02-debug: run package(ohos) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(openharmony) handler(enable) start
+2024-2-25 22:30:02-debug: run package(oppo-mini-game) handler(enable) start
+2024-2-25 22:30:02-debug: run package(oppo-mini-game) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(runtime-dev-tools) handler(enable) start
+2024-2-25 22:30:02-debug: run package(runtime-dev-tools) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(mac) handler(enable) start
+2024-2-25 22:30:02-debug: run package(taobao-creative-app) handler(enable) start
+2024-2-25 22:30:02-debug: run package(taobao-creative-app) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(openharmony) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(taobao-mini-game) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(vivo-mini-game) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(vivo-mini-game) handler(enable) start
+2024-2-25 22:30:02-debug: run package(web-desktop) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(web-desktop) handler(enable) start
+2024-2-25 22:30:02-debug: run package(web-mobile) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(web-mobile) handler(enable) start
+2024-2-25 22:30:02-debug: run package(wechatgame) handler(enable) start
+2024-2-25 22:30:02-debug: run package(wechatgame) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(wechatprogram) handler(enable) start
+2024-2-25 22:30:02-debug: run package(wechatprogram) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(windows) handler(enable) start
+2024-2-25 22:30:02-debug: run package(xiaomi-quick-game) handler(enable) start
+2024-2-25 22:30:02-debug: run package(xiaomi-quick-game) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(windows) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(cocos-service) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(im-plugin) handler(enable) start
+2024-2-25 22:30:02-debug: run package(cocos-service) handler(enable) start
+2024-2-25 22:30:02-debug: run package(im-plugin) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(placeholder) handler(enable) start
+2024-2-25 22:30:02-debug: run package(placeholder) handler(enable) success!
+2024-2-25 22:30:02-debug: run package(taobao-mini-game) handler(enable) start
+2024-2-25 22:30:03-debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-2-25 22:30:03-debug: Run asset db hook programming:afterPreStart success!
+2024-2-25 22:30:03-debug: Run asset db hook engine-extends:afterPreStart ...
+2024-2-25 22:30:03-debug: Start up the 'internal' database...
+2024-2-25 22:30:03-debug: [Assets Memory track]: asset-db:worker-init: preStart start:94.61MB, end 306.70MB, increase: 212.09MB
+2024-2-25 22:30:03-debug: Run asset db hook engine-extends:afterPreStart success!
+2024-2-25 22:30:03-debug: asset-db-hook-programming-afterPreStart (6540ms)
+2024-2-25 22:30:03-debug: asset-db:worker-effect-data-processing (49ms)
+2024-2-25 22:30:03-debug: asset-db-hook-engine-extends-afterPreStart (49ms)
+2024-2-25 22:30:03-debug: start asset-db(internal) with asset: 463
+2024-2-25 22:30:03-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:111.58MB, end 303.32MB, increase: 191.74MB
+2024-2-25 22:30:03-debug: Start up the 'assets' database...
+2024-2-25 22:30:04-debug: asset-db:worker-startup-database[internal] (7492ms)
+2024-2-25 22:30:04-debug: start asset-db(assets) with asset: 1699
+2024-2-25 22:30:04-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:113.90MB, end 311.05MB, increase: 197.15MB
+2024-2-25 22:30:04-debug: [Assets Memory track]: asset-db:worker-init: startup start:306.71MB, end 311.06MB, increase: 4.35MB
+2024-2-25 22:30:04-debug: asset-db:worker-startup-database[assets] (7881ms)
+2024-2-25 22:30:04-debug: asset-db:start-database (8374ms)
+2024-2-25 22:30:04-debug: asset-db:ready (11550ms)
+2024-2-25 22:30:05-debug: [Build Memory track]: builder:worker-init start:308.79MB, end 324.38MB, increase: 15.59MB
+2024-2-25 22:30:04-debug: init worker message success
+2024-2-25 22:30:05-debug: programming:execute-script (3ms)
+2024-2-25 22:30:05-debug: builder:worker-init (413ms)
+2024-2-25 22:30:06-debug: programming:execute-script (18ms)
+2024-2-25 22:30:57-debug: refresh db internal success
+2024-2-25 22:30:57-debug: refresh db assets success
+2024-2-25 22:30:57-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-2-25 22:30:57-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-2-25 22:30:57-debug: asset-db:refresh-all-database (379ms)

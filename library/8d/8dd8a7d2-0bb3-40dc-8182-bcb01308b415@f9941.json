@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jneng_00024",
+    "atlas": "",
+    "rect": {
+      "x": 25,
+      "y": 26,
+      "width": 150,
+      "height": 150
+    },
+    "offset": {
+      "x": 0,
+      "y": -1
+    },
+    "originalSize": {
+      "width": 200,
+      "height": 200
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -75,
+        -75,
+        0,
+        75,
+        -75,
+        0,
+        -75,
+        75,
+        0,
+        75,
+        75,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        25,
+        174,
+        175,
+        174,
+        25,
+        24,
+        175,
+        24
+      ],
+      "nuv": [
+        0.125,
+        0.12,
+        0.875,
+        0.12,
+        0.125,
+        0.87,
+        0.875,
+        0.87
+      ],
+      "minPos": {
+        "x": -75,
+        "y": -75,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 75,
+        "y": 75,
+        "z": 0
+      }
+    },
+    "texture": "8dd8a7d2-0bb3-40dc-8182-bcb01308b415@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

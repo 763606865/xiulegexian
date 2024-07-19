@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "normalEquBox",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 18,
+      "width": 400,
+      "height": 366
+    },
+    "offset": {
+      "x": 0,
+      "y": -1
+    },
+    "originalSize": {
+      "width": 400,
+      "height": 400
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -200,
+        -183,
+        0,
+        200,
+        -183,
+        0,
+        -200,
+        183,
+        0,
+        200,
+        183,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        382,
+        400,
+        382,
+        0,
+        16,
+        400,
+        16
+      ],
+      "nuv": [
+        0,
+        0.04,
+        1,
+        0.04,
+        0,
+        0.955,
+        1,
+        0.955
+      ],
+      "minPos": {
+        "x": -200,
+        "y": -183,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 200,
+        "y": 183,
+        "z": 0
+      }
+    },
+    "texture": "a272ba19-b974-4922-be1f-50b4645739c5@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}
