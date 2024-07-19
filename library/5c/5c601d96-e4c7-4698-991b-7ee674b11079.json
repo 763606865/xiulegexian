@@ -35,16 +35,7 @@
   "shaders": [
     {
       "blocks": [],
-      "samplerTextures": [
-        {
-          "name": "outputResultMap",
-          "type": 28,
-          "count": 1,
-          "defines": [],
-          "stageFlags": 16,
-          "binding": 0
-        }
-      ],
+      "samplerTextures": [],
       "samplers": [],
       "textures": [],
       "buffers": [],

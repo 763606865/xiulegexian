@@ -1091,6 +1091,279 @@
     ],
     "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\res\\font\\damageTex-export.fnt": [
       "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\res\\font\\damageTex-export.png"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/defaultSprite2D.effect": [
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/sprite-vs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-local.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/common-define.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/unlit-fs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/sprite-vs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/uniforms/cc-local.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/common/common-define.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/unlit-fs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/legacy/output.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/common/color/gamma.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/internal/sprite-texture.chunk"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/effect.effect": [
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dvs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dfs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dvs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dfs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/legacy/output.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/common/color/gamma.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/internal/sprite-texture.chunk"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/enemyDied.effect": [
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dvs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dfs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/shader/common-fun.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dvs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dfs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/legacy/output.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/common/color/gamma.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/common-fun.chunk"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/fireBall.effect": [
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dvs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-local.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/common-define.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dfs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dvs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/uniforms/cc-local.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/common/common-define.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dfs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/legacy/output.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/common/color/gamma.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/internal/sprite-texture.chunk"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/flashWhite.effect": [
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/sprite-vs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-local.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/common-define.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/unlit-fs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/shader/flashWhite.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/sprite-vs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/uniforms/cc-local.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/common/common-define.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/unlit-fs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/flashWhite.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/legacy/output.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/common/color/gamma.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/internal/sprite-texture.chunk"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/gray.effect": [
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dvs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dfs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dvs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dfs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/legacy/output.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/common/color/gamma.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/internal/sprite-texture.chunk"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/imageStroke.effect": [
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dvs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dfs-shadow.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dvs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dfs-shadow.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/legacy/output.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/common/color/gamma.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/internal/sprite-texture.chunk"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/labelDynamicEffect.effect": [
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dvs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dfs-sin.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/shader/common-fun.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dfs-one-after-another.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dvs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dfs-sin.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/legacy/output.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/common/color/gamma.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/common-fun.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dfs-one-after-another.chunk"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/labelStroke.effect": [
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dvs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dfs-shadow.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dvs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dfs-shadow.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/legacy/output.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/common/color/gamma.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/internal/sprite-texture.chunk"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/loadingFog.effect": [
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dvs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dfs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/shader/common-fun.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dvs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dfs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/legacy/output.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/common/color/gamma.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/common-fun.chunk"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/mapFrozen.effect": [
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dvs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dfs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/shader/common-fun.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dvs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dfs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/legacy/output.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/common/color/gamma.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/common-fun.chunk"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/shadow.effect": [
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dvs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dfs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dvs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dfs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/legacy/output.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/common/color/gamma.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/internal/sprite-texture.chunk"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/selfFog.effect": [
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dvs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dfs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/shader/common-fun.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dvs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dfs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/legacy/output.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/common/color/gamma.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/common-fun.chunk"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/monsterLeader.effect": [
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dvs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dfs-shadow.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dvs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dfs-shadow.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/legacy/output.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/common/color/gamma.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/internal/sprite-texture.chunk"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/shieldColor.effect": [
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dvs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dfs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dvs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dfs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/legacy/output.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/common/color/gamma.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/internal/sprite-texture.chunk"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/thousandsSwordToTomb.effect": [
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dvs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dfs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dvs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dfs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/legacy/output.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/common/color/gamma.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/internal/sprite-texture.chunk"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/thunder.effect": [
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dvs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-local.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/common-define.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/2dfs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/shader/common-fun.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dvs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/uniforms/cc-local.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/common/common-define.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/2dfs.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/legacy/output.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/common/color/gamma.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/chunks/builtin/internal/sprite-texture.chunk",
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/common-fun.chunk"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/res/font/damageTex-export.fnt": [
+      "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/res/font/C:\\Users\\Administrator\\Desktop\\aa\\damageTex-export.png"
     ]
   },
   "uuid": {
@@ -1500,6 +1773,108 @@
       "c6e53088-e574-400e-8ba3-3e7aa652e312"
     ],
     "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\prefab\\hero\\material\\wudifenghuolun.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/material/killCountLabel.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/material/frozen111.mtl": [
+      "26f619da-2ddd-4093-a04c-c509c4e86341"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/material/loadingFog.mtl": [
+      "3f2a9faa-b362-4db4-9049-d5a4b173cf46"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/material/map_frozen.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/material/massMonsterComming.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/material/shieldColor.mtl": [
+      "25803919-e565-4566-8321-eb40e8d0a8ee"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/material/thousandsSwordToTomb.mtl": [
+      "8ea0cfd9-daf1-479c-a515-492e41169b8e"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/material/timeLabel.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/material/trainingLvLabel.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/particleEffect/snowEffect.plist": [
+      "77823cd8-0070-4cb6-bb97-cfc3c5a32865@f9941"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/material/mainColor/mianColor_gray.mtl": [
+      "f7dab14e-f690-400e-91fb-973b9eadcc71"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/material/AAA.mtl": [
+      "d42ae1ac-d936-45da-b366-b07493159e83"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/material/fireBall.mtl": [
+      "2502acf1-0068-4186-bf0c-3eb98d34bd85"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/material/flashWhite.mtl": [
+      "b40485bb-b881-4ddd-8ea9-f5247fe684ce"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/material/imageStroke.mtl": [
+      "9c599f56-ff23-4fdd-a430-b0ada56dcb36"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/material/labelStroke.mtl": [
+      "38ef8779-3ff3-4329-b205-288900656632"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/material/monsterLeader.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/material/selfFog.mtl": [
+      "74971f3e-d6cf-4d3f-9837-048614c3ceeb"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/shader/material/thunder.mtl": [
+      "422c60ae-0e57-427f-bbf3-4a9d7d503ad9"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/prefab/enemy/material/MLStrengthBlood.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/prefab/enemy/material/MLStrengthDamage.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/prefab/enemy/material/MLStrengthMoveSpeed.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/prefab/enemy/material/MLSuperArmor.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/prefab/enemy/material/boss_material_purple.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/prefab/enemy/material/defaultSprite2D_green.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/prefab/enemy/material/defaultSprite2D_normal.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/prefab/enemy/material/defaultSprite2D_red.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/prefab/enemy/material/enemyDied.mtl": [
+      "089b8572-0b2d-4152-a3ef-553faa0111d6"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/prefab/enemy/material/defaultSprite2D_yellow.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/prefab/enemy/material/enemy_debuff_frozen.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/prefab/enemy/material/enemy_debuff_paralysis.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/prefab/enemy/material/enemy_effect_frozen.mtl": [
+      "252257cb-bf94-4496-8f5e-710422774063"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/prefab/hero/material/heroNormal.mtl": [
+      "c6e53088-e574-400e-8ba3-3e7aa652e312"
+    ],
+    "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/prefab/hero/material/wudifenghuolun.mtl": [
       "252257cb-bf94-4496-8f5e-710422774063"
     ]
   }

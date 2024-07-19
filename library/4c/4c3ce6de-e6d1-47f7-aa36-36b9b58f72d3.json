@@ -110,30 +110,6 @@
           "defines": [],
           "stageFlags": 16,
           "binding": 1
-        },
-        {
-          "name": "inputTexture",
-          "type": 28,
-          "count": 1,
-          "defines": [],
-          "stageFlags": 16,
-          "binding": 2
-        },
-        {
-          "name": "depthTex",
-          "type": 28,
-          "count": 1,
-          "defines": [],
-          "stageFlags": 16,
-          "binding": 3
-        },
-        {
-          "name": "taaPrevTexture",
-          "type": 28,
-          "count": 1,
-          "defines": [],
-          "stageFlags": 16,
-          "binding": 4
         }
       ],
       "samplers": [],

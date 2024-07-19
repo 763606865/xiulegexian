@@ -6,16 +6,16 @@
     "strict": true,
     "types": [
       "./temp/declarations/cc.custom-macro",
-      "./temp/declarations/jsb",
       "./temp/declarations/cc",
+      "./temp/declarations/jsb",
       "./temp/declarations/cc.env"
     ],
     "paths": {
       "db://internal/*": [
-        "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\*"
+        "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/*"
       ],
       "db://assets/*": [
-        "C:\\Users\\Administrator\\Desktop\\Cocos\\ZA\\修了个仙\\assets\\*"
+        "/Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/*"
       ]
     },
     "experimentalDecorators": true,

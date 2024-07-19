@@ -23,6 +23,14 @@
           "depthStencilState": {
             "depthTest": true,
             "depthWrite": false
+          },
+          "properties": {
+            "BrushDepthOffset": {
+              "value": [
+                0.05
+              ],
+              "type": 13
+            }
           }
         }
       ]
@@ -30,7 +38,21 @@
   ],
   "shaders": [
     {
-      "blocks": [],
+      "blocks": [
+        {
+          "name": "Constant",
+          "members": [
+            {
+              "name": "BrushDepthOffset",
+              "type": 13,
+              "count": 1
+            }
+          ],
+          "defines": [],
+          "stageFlags": 1,
+          "binding": 0
+        }
+      ],
       "samplerTextures": [],
       "samplers": [],
       "textures": [],
@@ -137,7 +159,21 @@
         },
         {
           "rate": 1,
-          "blocks": [],
+          "blocks": [
+            {
+              "name": "Constant",
+              "members": [
+                {
+                  "name": "BrushDepthOffset",
+                  "type": 13,
+                  "count": 1
+                }
+              ],
+              "defines": [],
+              "stageFlags": 1,
+              "binding": 0
+            }
+          ],
           "samplerTextures": [],
           "samplers": [],
           "textures": [],
@@ -355,17 +391,17 @@
           "subpassInputs": []
         }
       ],
-      "hash": 1287702379,
+      "hash": 3142510684,
       "glsl4": {
-        "vert": "\nprecision mediump float;\nlayout(set = 0, binding = 0) uniform CCGlobal {\n  highp   vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_nativeSize;\n  mediump vec4 cc_probeInfo;\n  mediump vec4 cc_debug_view_mode;\n};\nlayout(set = 0, binding = 1) uniform CCCamera {\n  highp   mat4 cc_matView;\n  highp   mat4 cc_matViewInv;\n  highp   mat4 cc_matProj;\n  highp   mat4 cc_matProjInv;\n  highp   mat4 cc_matViewProj;\n  highp   mat4 cc_matViewProjInv;\n  highp   vec4 cc_cameraPos;\n  mediump vec4 cc_surfaceTransform;\n  mediump vec4 cc_screenScale;\n  mediump vec4 cc_exposure;\n  mediump vec4 cc_mainLitDir;\n  mediump vec4 cc_mainLitColor;\n  mediump vec4 cc_ambientSky;\n  mediump vec4 cc_ambientGround;\n  mediump vec4 cc_fogColor;\n  mediump vec4 cc_fogBase;\n  mediump vec4 cc_fogAdd;\n  mediump vec4 cc_nearFar;\n  mediump vec4 cc_viewPort;\n};\nlayout(set = 2, binding = 0) uniform CCLocal {\n  highp mat4 cc_matWorld;\n  highp mat4 cc_matWorldIT;\n  highp vec4 cc_lightingMapUVParam;\n  highp vec4 cc_localShadowBias;\n  highp vec4 cc_reflectionProbeData1;\n  highp vec4 cc_reflectionProbeData2;\n  highp vec4 cc_reflectionProbeBlendData1;\n  highp vec4 cc_reflectionProbeBlendData2;\n};\nlayout(location = 0) in vec3 a_position;\nvec4 vert () {\n  vec3 worldPos;\n  worldPos.x = cc_matWorld[3][0] + a_position.x;\n  worldPos.y = cc_matWorld[3][1] + a_position.y;\n  worldPos.z = cc_matWorld[3][2] + a_position.z;\n  worldPos.y += 0.01;\n  vec4 pos = vec4(worldPos, 1);\n  pos = cc_matViewProj * pos;\n  return pos;\n}\nvoid main() { gl_Position = vert(); }",
+        "vert": "\nprecision mediump float;\nlayout(set = 0, binding = 0) uniform CCGlobal {\n  highp   vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_nativeSize;\n  mediump vec4 cc_probeInfo;\n  mediump vec4 cc_debug_view_mode;\n};\nlayout(set = 0, binding = 1) uniform CCCamera {\n  highp   mat4 cc_matView;\n  highp   mat4 cc_matViewInv;\n  highp   mat4 cc_matProj;\n  highp   mat4 cc_matProjInv;\n  highp   mat4 cc_matViewProj;\n  highp   mat4 cc_matViewProjInv;\n  highp   vec4 cc_cameraPos;\n  mediump vec4 cc_surfaceTransform;\n  mediump vec4 cc_screenScale;\n  mediump vec4 cc_exposure;\n  mediump vec4 cc_mainLitDir;\n  mediump vec4 cc_mainLitColor;\n  mediump vec4 cc_ambientSky;\n  mediump vec4 cc_ambientGround;\n  mediump vec4 cc_fogColor;\n  mediump vec4 cc_fogBase;\n  mediump vec4 cc_fogAdd;\n  mediump vec4 cc_nearFar;\n  mediump vec4 cc_viewPort;\n};\nlayout(set = 2, binding = 0) uniform CCLocal {\n  highp mat4 cc_matWorld;\n  highp mat4 cc_matWorldIT;\n  highp vec4 cc_lightingMapUVParam;\n  highp vec4 cc_localShadowBias;\n  highp vec4 cc_reflectionProbeData1;\n  highp vec4 cc_reflectionProbeData2;\n  highp vec4 cc_reflectionProbeBlendData1;\n  highp vec4 cc_reflectionProbeBlendData2;\n};\nlayout(location = 0) in vec3 a_position;\nlayout(set = 1, binding = 0) uniform Constant {\n  float BrushDepthOffset;\n};\nvec4 vert () {\n  vec3 worldPos;\n  worldPos.x = cc_matWorld[3][0] + a_position.x;\n  worldPos.y = cc_matWorld[3][1] + a_position.y;\n  worldPos.z = cc_matWorld[3][2] + a_position.z;\n  worldPos.y += BrushDepthOffset;\n  vec4 pos = vec4(worldPos, 1);\n  pos = cc_matViewProj * pos;\n  return pos;\n}\nvoid main() { gl_Position = vert(); }",
         "frag": "\nprecision mediump float;\nlayout(set = 0, binding = 0) uniform CCGlobal {\n  highp   vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_nativeSize;\n  mediump vec4 cc_probeInfo;\n  mediump vec4 cc_debug_view_mode;\n};\nlayout(set = 0, binding = 1) uniform CCCamera {\n  highp   mat4 cc_matView;\n  highp   mat4 cc_matViewInv;\n  highp   mat4 cc_matProj;\n  highp   mat4 cc_matProjInv;\n  highp   mat4 cc_matViewProj;\n  highp   mat4 cc_matViewProjInv;\n  highp   vec4 cc_cameraPos;\n  mediump vec4 cc_surfaceTransform;\n  mediump vec4 cc_screenScale;\n  mediump vec4 cc_exposure;\n  mediump vec4 cc_mainLitDir;\n  mediump vec4 cc_mainLitColor;\n  mediump vec4 cc_ambientSky;\n  mediump vec4 cc_ambientGround;\n  mediump vec4 cc_fogColor;\n  mediump vec4 cc_fogBase;\n  mediump vec4 cc_fogAdd;\n  mediump vec4 cc_nearFar;\n  mediump vec4 cc_viewPort;\n};\nvec4 CCFragOutput (vec4 color) {\n  return color;\n}\nvec4 frag () {\n  vec4 color = vec4(0.0, 0.0, 0.0, 0.0);\n  color.rgb = vec3(100, 100, 135) / 255.0;\n  color.a = 0.5;\n  return CCFragOutput(color);\n}\nlayout(location = 0) out vec4 cc_FragColor;\nvoid main() { cc_FragColor = frag(); }"
       },
       "glsl3": {
-        "vert": "\nprecision mediump float;\nlayout(std140) uniform CCGlobal {\n  highp   vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_nativeSize;\n  mediump vec4 cc_probeInfo;\n  mediump vec4 cc_debug_view_mode;\n};\nlayout(std140) uniform CCCamera {\n  highp   mat4 cc_matView;\n  highp   mat4 cc_matViewInv;\n  highp   mat4 cc_matProj;\n  highp   mat4 cc_matProjInv;\n  highp   mat4 cc_matViewProj;\n  highp   mat4 cc_matViewProjInv;\n  highp   vec4 cc_cameraPos;\n  mediump vec4 cc_surfaceTransform;\n  mediump vec4 cc_screenScale;\n  mediump vec4 cc_exposure;\n  mediump vec4 cc_mainLitDir;\n  mediump vec4 cc_mainLitColor;\n  mediump vec4 cc_ambientSky;\n  mediump vec4 cc_ambientGround;\n  mediump vec4 cc_fogColor;\n  mediump vec4 cc_fogBase;\n  mediump vec4 cc_fogAdd;\n  mediump vec4 cc_nearFar;\n  mediump vec4 cc_viewPort;\n};\nlayout(std140) uniform CCLocal {\n  highp mat4 cc_matWorld;\n  highp mat4 cc_matWorldIT;\n  highp vec4 cc_lightingMapUVParam;\n  highp vec4 cc_localShadowBias;\n  highp vec4 cc_reflectionProbeData1;\n  highp vec4 cc_reflectionProbeData2;\n  highp vec4 cc_reflectionProbeBlendData1;\n  highp vec4 cc_reflectionProbeBlendData2;\n};\nin vec3 a_position;\nvec4 vert () {\n  vec3 worldPos;\n  worldPos.x = cc_matWorld[3][0] + a_position.x;\n  worldPos.y = cc_matWorld[3][1] + a_position.y;\n  worldPos.z = cc_matWorld[3][2] + a_position.z;\n  worldPos.y += 0.01;\n  vec4 pos = vec4(worldPos, 1);\n  pos = cc_matViewProj * pos;\n  return pos;\n}\nvoid main() { gl_Position = vert(); }",
+        "vert": "\nprecision mediump float;\nlayout(std140) uniform CCGlobal {\n  highp   vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_nativeSize;\n  mediump vec4 cc_probeInfo;\n  mediump vec4 cc_debug_view_mode;\n};\nlayout(std140) uniform CCCamera {\n  highp   mat4 cc_matView;\n  highp   mat4 cc_matViewInv;\n  highp   mat4 cc_matProj;\n  highp   mat4 cc_matProjInv;\n  highp   mat4 cc_matViewProj;\n  highp   mat4 cc_matViewProjInv;\n  highp   vec4 cc_cameraPos;\n  mediump vec4 cc_surfaceTransform;\n  mediump vec4 cc_screenScale;\n  mediump vec4 cc_exposure;\n  mediump vec4 cc_mainLitDir;\n  mediump vec4 cc_mainLitColor;\n  mediump vec4 cc_ambientSky;\n  mediump vec4 cc_ambientGround;\n  mediump vec4 cc_fogColor;\n  mediump vec4 cc_fogBase;\n  mediump vec4 cc_fogAdd;\n  mediump vec4 cc_nearFar;\n  mediump vec4 cc_viewPort;\n};\nlayout(std140) uniform CCLocal {\n  highp mat4 cc_matWorld;\n  highp mat4 cc_matWorldIT;\n  highp vec4 cc_lightingMapUVParam;\n  highp vec4 cc_localShadowBias;\n  highp vec4 cc_reflectionProbeData1;\n  highp vec4 cc_reflectionProbeData2;\n  highp vec4 cc_reflectionProbeBlendData1;\n  highp vec4 cc_reflectionProbeBlendData2;\n};\nin vec3 a_position;\nlayout(std140) uniform Constant {\n  float BrushDepthOffset;\n};\nvec4 vert () {\n  vec3 worldPos;\n  worldPos.x = cc_matWorld[3][0] + a_position.x;\n  worldPos.y = cc_matWorld[3][1] + a_position.y;\n  worldPos.z = cc_matWorld[3][2] + a_position.z;\n  worldPos.y += BrushDepthOffset;\n  vec4 pos = vec4(worldPos, 1);\n  pos = cc_matViewProj * pos;\n  return pos;\n}\nvoid main() { gl_Position = vert(); }",
         "frag": "\nprecision mediump float;\nlayout(std140) uniform CCGlobal {\n  highp   vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_nativeSize;\n  mediump vec4 cc_probeInfo;\n  mediump vec4 cc_debug_view_mode;\n};\nlayout(std140) uniform CCCamera {\n  highp   mat4 cc_matView;\n  highp   mat4 cc_matViewInv;\n  highp   mat4 cc_matProj;\n  highp   mat4 cc_matProjInv;\n  highp   mat4 cc_matViewProj;\n  highp   mat4 cc_matViewProjInv;\n  highp   vec4 cc_cameraPos;\n  mediump vec4 cc_surfaceTransform;\n  mediump vec4 cc_screenScale;\n  mediump vec4 cc_exposure;\n  mediump vec4 cc_mainLitDir;\n  mediump vec4 cc_mainLitColor;\n  mediump vec4 cc_ambientSky;\n  mediump vec4 cc_ambientGround;\n  mediump vec4 cc_fogColor;\n  mediump vec4 cc_fogBase;\n  mediump vec4 cc_fogAdd;\n  mediump vec4 cc_nearFar;\n  mediump vec4 cc_viewPort;\n};\nvec4 CCFragOutput (vec4 color) {\n  return color;\n}\nvec4 frag () {\n  vec4 color = vec4(0.0, 0.0, 0.0, 0.0);\n  color.rgb = vec3(100, 100, 135) / 255.0;\n  color.a = 0.5;\n  return CCFragOutput(color);\n}\nlayout(location = 0) out vec4 cc_FragColor;\nvoid main() { cc_FragColor = frag(); }"
       },
       "glsl1": {
-        "vert": "\nprecision mediump float;\nuniform highp mat4 cc_matViewProj;\nuniform highp mat4 cc_matWorld;\nattribute vec3 a_position;\nvec4 vert () {\n  vec3 worldPos;\n  worldPos.x = cc_matWorld[3][0] + a_position.x;\n  worldPos.y = cc_matWorld[3][1] + a_position.y;\n  worldPos.z = cc_matWorld[3][2] + a_position.z;\n  worldPos.y += 0.01;\n  vec4 pos = vec4(worldPos, 1);\n  pos = cc_matViewProj * pos;\n  return pos;\n}\nvoid main() { gl_Position = vert(); }",
+        "vert": "\nprecision mediump float;\nuniform highp mat4 cc_matViewProj;\nuniform highp mat4 cc_matWorld;\nattribute vec3 a_position;\n   uniform float BrushDepthOffset;\nvec4 vert () {\n  vec3 worldPos;\n  worldPos.x = cc_matWorld[3][0] + a_position.x;\n  worldPos.y = cc_matWorld[3][1] + a_position.y;\n  worldPos.z = cc_matWorld[3][2] + a_position.z;\n  worldPos.y += BrushDepthOffset;\n  vec4 pos = vec4(worldPos, 1);\n  pos = cc_matViewProj * pos;\n  return pos;\n}\nvoid main() { gl_Position = vert(); }",
         "frag": "\nprecision mediump float;\nvec4 CCFragOutput (vec4 color) {\n  return color;\n}\nvec4 frag () {\n  vec4 color = vec4(0.0, 0.0, 0.0, 0.0);\n  color.rgb = vec3(100, 100, 135) / 255.0;\n  color.a = 0.5;\n  return CCFragOutput(color);\n}\nvoid main() { gl_FragColor = frag(); }"
       },
       "builtins": {
@@ -396,7 +432,7 @@
           "images": []
         },
         "statistics": {
-          "CC_EFFECT_USED_VERTEX_UNIFORM_VECTORS": 56,
+          "CC_EFFECT_USED_VERTEX_UNIFORM_VECTORS": 57,
           "CC_EFFECT_USED_FRAGMENT_UNIFORM_VECTORS": 42
         }
       },

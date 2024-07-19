@@ -1094,3 +1094,772 @@
 2024-1-16 06:02:04-debug: build success in 51957 ms!
 2024-1-16 06:02:04-debug: [Build Memory track]: builder:build-project-total start:315.60MB, end 327.07MB, increase: 11.47MB
 2024-1-16 06:02:04-debug: ================================ build Task (wechatgame) Finished in (52189)ms ================================
+2024-7-19 18:13:19 - debug: =================================== build Task (wechatgame) Start ================================
+2024-7-19 18:13:19 - debug: Start build task, options:{"name":"修了个仙","server":"","platform":"wechatgame","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"polyfills":{"asyncFunctions":false},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"ecf9f657-a586-4565-aae7-21fdd9a378a0","outputName":"wechatgame","taskName":"wechatgame","scenes":[{"url":"db://assets/scene/game.scene","uuid":"ecf9f657-a586-4565-aae7-21fdd9a378a0"},{"url":"db://assets/scene/mainMenu.scene","uuid":"047de972-cd7b-4191-af60-f2090cf15b93"},{"url":"db://assets/scene/preLoad.scene","uuid":"c5959bdb-ecb9-40c9-8ddc-04d430f5785e"}],"packages":{"wechatgame":{"orientation":"portrait","appid":"wx6ac3f5090a6b99c5","buildOpenDataContextTemplate":"","separateEngine":false,"highPerformanceMode":false,"__version__":"1.0.4"},"cocos-service":{"configID":"49f21d","services":[]}},"__version__":"1.3.7","buildMode":"normal","logDest":"project://temp/builder/log/wechatgame2024-1-16 06-01.log","overwriteProjectSettings":{"includeModules":{"physics":"physics-ammo","physics-2d":"inherit-project-setting","gfx-webgl2":"off"},"macroConfig":{"cleanupImageCache":"on"}},"nativeCodeBundleMode":"wasm","wasmCompressionMode":false}
+2024-7-19 18:13:19 - debug: Build with Cocos Creator 3.8.3
+2024-7-19 18:13:19 - debug: cocos-service:(onBeforeBuild) start..., progress: 0%
+2024-7-19 18:13:19 - debug: // ---- build task cocos-service：onBeforeBuild ----
+2024-7-19 18:13:19 - debug: // ---- build task cocos-service：onBeforeBuild ---- (150ms)
+2024-7-19 18:13:19 - debug: cocos-service:(onBeforeBuild) in 150 ms ✓, progress: 2%
+2024-7-19 18:13:19 - debug: scene:(onBeforeBuild) start..., progress: 2%
+2024-7-19 18:13:19 - debug: // ---- build task scene：onBeforeBuild ----
+2024-7-19 18:13:19 - debug: // ---- build task scene：onBeforeBuild ---- (10ms)
+2024-7-19 18:13:19 - debug: scene:(onBeforeBuild) in 10 ms ✓, progress: 4%
+2024-7-19 18:13:20 - debug: Start lock asset db..., progress: 4%
+2024-7-19 18:13:20 - log: Asset DB is paused with build!
+2024-7-19 18:13:20 - debug: Query all assets info in project
+2024-7-19 18:13:20 - debug: init custom config: keepNodeUuid: false, useCache: true
+2024-7-19 18:13:20 - debug: wechatgame:(onAfterInit) start..., progress: 4%
+2024-7-19 18:13:20 - debug: // ---- build task wechatgame：onAfterInit ----
+2024-7-19 18:13:20 - debug: // ---- build task wechatgame：onAfterInit ---- (12ms)
+2024-7-19 18:13:20 - debug: wechatgame:(onAfterInit) in 12 ms ✓, progress: 5%
+2024-7-19 18:13:20 - debug: cocos-service:(onAfterInit) start..., progress: 5%
+2024-7-19 18:13:20 - debug: // ---- build task cocos-service：onAfterInit ----
+2024-7-19 18:13:20 - debug: // ---- build task cocos-service：onAfterInit ---- (134ms)
+2024-7-19 18:13:20 - debug: cocos-service:(onAfterInit) in 134 ms ✓, progress: 7%
+2024-7-19 18:13:20 - debug: engine:(onAfterInit) start..., progress: 7%
+2024-7-19 18:13:20 - debug: // ---- build task engine：onAfterInit ----
+2024-7-19 18:13:20 - debug: // ---- build task engine：onAfterInit ---- (8ms)
+2024-7-19 18:13:20 - debug: engine:(onAfterInit) in 8 ms ✓, progress: 9%
+2024-7-19 18:13:20 - debug: wechatgame:(onBeforeBundleInit) start..., progress: 9%
+2024-7-19 18:13:20 - debug: // ---- build task wechatgame：onBeforeBundleInit ----
+2024-7-19 18:13:20 - debug: // ---- build task wechatgame：onBeforeBundleInit ---- (8ms)
+2024-7-19 18:13:20 - debug: wechatgame:(onBeforeBundleInit) in 8 ms ✓, progress: 9%
+2024-7-19 18:13:20 - debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 9%
+2024-7-19 18:13:20 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
+2024-7-19 18:13:20 - debug: [adsense-h5g-plugin] remove script success
+2024-7-19 18:13:20 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (6ms)
+2024-7-19 18:13:20 - debug: adsense-h5g-plugin:(onBeforeBundleInit) in 6 ms ✓, progress: 9%
+2024-7-19 18:13:20 - debug: Init all bundles start..., progress: 9%
+2024-7-19 18:13:20 - warn: Bundle res 已配置为远程包，构建平台未配置远程服务器地址，可能会运行异常
+2024-7-19 18:13:20 - warn: Bundle resources 已配置为远程包，构建平台未配置远程服务器地址，可能会运行异常
+2024-7-19 18:13:20 - debug: Num of bundles: 4..., progress: 9%
+2024-7-19 18:13:20 - debug: 查询 Asset Bundle start, progress: 9%
+2024-7-19 18:13:20 - debug: // ---- build task 查询 Asset Bundle ----
+2024-7-19 18:13:20 - debug: Init bundle root assets start..., progress: 9%
+2024-7-19 18:13:20 - debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,511d2633-09a7-4bdd-ac42-f778032124b3,5d45aa00-e064-4938-b314-4265f0c2258c,9361fd90-ba52-4f84-aa93-6e878fd576ca,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,d1346436-ac96-4271-b863-1f4fdead95b0,971bdb23-3ff6-43eb-b422-1c30165a3663,17debcc3-0a6b-4b8a-b00b-dc58b885581e,711ebe11-f673-4cd9-9a83-63c60ba54c5b,c0143906-9aed-447e-9436-2ae8512d1b6e,14da1725-c4c2-42b4-ab08-ee0aeb6898b3,081cab31-dccd-428e-8652-f2404cc81c47,78e0584a-4343-4727-8f37-e14e65c2a2db,ba21476f-2866-4f81-9c4d-6e359316e448,871c3b6c-7379-419d-bda3-794b239ab90d,1d08ef62-a503-4ce2-8b9a-46c90873f7d3
+2024-7-19 18:13:20 - debug:   Number of all scenes: 3
+2024-7-19 18:13:20 - debug:   Number of all scripts: 190
+2024-7-19 18:13:20 - debug:   Number of other assets: 3546
+2024-7-19 18:13:20 - debug: Init bundle root assets success..., progress: 9%
+2024-7-19 18:13:20 - debug: reload all scripts.
+2024-7-19 18:13:20 - debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-7-19 18:13:20 - groupCollapsed: Invalidate all modules
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2024-7-19 18:13:20 - debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+2024-7-19 18:13:20 - groupEnd: Invalidate all modules
+2024-7-19 18:13:20 - groupCollapsed: Imports all modules
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/31/31e3c2f26607ebb67e59edfae1b48b9458089fb9.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/31/31e3c2f26607ebb67e59edfae1b48b9458089fb9.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register DebugViewRuntimeControl
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/31/31e3c2f26607ebb67e59edfae1b48b9458089fb9.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/04/04b28bb09419bbd1a98d386b5739071dbd63b338.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/04/04b28bb09419bbd1a98d386b5739071dbd63b338.js is not in module cache!
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js is not in module cache!
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/f0/f072f5bb2c7164e0fc5c538d89c5467e40b1356b.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/f0/f072f5bb2c7164e0fc5c538d89c5467e40b1356b.js is not in module cache!
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a5/a5322b6c4b2ad2c103c2323368c71683a7a35e01.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a5/a5322b6c4b2ad2c103c2323368c71683a7a35e01.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/a5/a5322b6c4b2ad2c103c2323368c71683a7a35e01.js" loaded.
+2024-7-19 18:13:20 - log: wx-v-1.0.3.2
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/f0/f072f5bb2c7164e0fc5c538d89c5467e40b1356b.js" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Register PassRewardLayer
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/04/04b28bb09419bbd1a98d386b5739071dbd63b338.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/53/53934af07e3db0141468b01213e8910ced1aa17f.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/53/53934af07e3db0141468b01213e8910ced1aa17f.js is not in module cache!
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/b0/b00839ae99473e8fbe0b6c37e1b8183fc6156a43.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/b0/b00839ae99473e8fbe0b6c37e1b8183fc6156a43.js is not in module cache!
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a3/a3b1b0ad69a1cd9ed4ec8ac50375bebda5a09197.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a3/a3b1b0ad69a1cd9ed4ec8ac50375bebda5a09197.js is not in module cache!
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a4/a4b151e611f343fec70b297be73f5b540a70aacc.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a4/a4b151e611f343fec70b297be73f5b540a70aacc.js is not in module cache!
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/c9/c9f82591a5796615af39db7db80243abd3b973ea.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/c9/c9f82591a5796615af39db7db80243abd3b973ea.js is not in module cache!
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/64/64e46587aee6059509998970c3a9b89f5ab68eb8.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/64/64e46587aee6059509998970c3a9b89f5ab68eb8.js is not in module cache!
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/e5/e59779e032b97919560c646528ee7f1e6d5500d3.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/e5/e59779e032b97919560c646528ee7f1e6d5500d3.js is not in module cache!
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/0a/0aa688a28943f677506760f9c41ca67fd256962e.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/0a/0aa688a28943f677506760f9c41ca67fd256962e.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/c9/c9f82591a5796615af39db7db80243abd3b973ea.js" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/a4/a4b151e611f343fec70b297be73f5b540a70aacc.js" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/64/64e46587aee6059509998970c3a9b89f5ab68eb8.js" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/b0/b00839ae99473e8fbe0b6c37e1b8183fc6156a43.js" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/0a/0aa688a28943f677506760f9c41ca67fd256962e.js" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/e5/e59779e032b97919560c646528ee7f1e6d5500d3.js" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/a3/a3b1b0ad69a1cd9ed4ec8ac50375bebda5a09197.js" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/53/53934af07e3db0141468b01213e8910ced1aa17f.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/20/20c748a305152570614303fe8a91020d141e66db.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/20/20c748a305152570614303fe8a91020d141e66db.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/20/20c748a305152570614303fe8a91020d141e66db.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d3/d3b33dd870b0beab30eb6e2512f845a8b03d7485.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d3/d3b33dd870b0beab30eb6e2512f845a8b03d7485.js is not in module cache!
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d4/d45b0fbc8d06fa78d2318a81e8433b7d4f567b14.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d4/d45b0fbc8d06fa78d2318a81e8433b7d4f567b14.js is not in module cache!
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/44/4498ad37d802b5d3279942529ec6276ce31f3612.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/44/4498ad37d802b5d3279942529ec6276ce31f3612.js is not in module cache!
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/2b/2bf82802df39c99f5775c52e4998b32998ab6353.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/2b/2bf82802df39c99f5775c52e4998b32998ab6353.js is not in module cache!
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/b8/b8c4d22384a34c9c6e5b2912ab3e970412d81541.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/b8/b8c4d22384a34c9c6e5b2912ab3e970412d81541.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/d4/d45b0fbc8d06fa78d2318a81e8433b7d4f567b14.js" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/44/4498ad37d802b5d3279942529ec6276ce31f3612.js" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/2b/2bf82802df39c99f5775c52e4998b32998ab6353.js" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/b8/b8c4d22384a34c9c6e5b2912ab3e970412d81541.js" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/d3/d3b33dd870b0beab30eb6e2512f845a8b03d7485.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/76/76528802786dd790810824ee73adb4b198eddf96.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/76/76528802786dd790810824ee73adb4b198eddf96.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss1
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/76/76528802786dd790810824ee73adb4b198eddf96.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/f5/f581fbb1c5a7ffbb905360812de7425973826c7b.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/f5/f581fbb1c5a7ffbb905360812de7425973826c7b.js is not in module cache!
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/f1/f10fe9f89bd7607597043ac79d05be7138b0cf0e.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/f1/f10fe9f89bd7607597043ac79d05be7138b0cf0e.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss5
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/f1/f10fe9f89bd7607597043ac79d05be7138b0cf0e.js" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss10
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/f5/f581fbb1c5a7ffbb905360812de7425973826c7b.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/2d/2d22f5d04fb34152579e1cd2a5bf7de1f218b3cb.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/2d/2d22f5d04fb34152579e1cd2a5bf7de1f218b3cb.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss11
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/2d/2d22f5d04fb34152579e1cd2a5bf7de1f218b3cb.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/cb/cb88b7ea6f014c51dbcdd7d9bc51b383c71e3185.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/cb/cb88b7ea6f014c51dbcdd7d9bc51b383c71e3185.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss12
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/cb/cb88b7ea6f014c51dbcdd7d9bc51b383c71e3185.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/4d/4d55ab5842cd7acdd343fb7e12426debd9f11978.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/4d/4d55ab5842cd7acdd343fb7e12426debd9f11978.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss13
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/4d/4d55ab5842cd7acdd343fb7e12426debd9f11978.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/52/525acc61539444ed994a1d48eb232a2536aa9f46.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/52/525acc61539444ed994a1d48eb232a2536aa9f46.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss14
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/52/525acc61539444ed994a1d48eb232a2536aa9f46.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/50/50c2c599e53cdb6fb3c2b3818056e24f70f565f1.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/50/50c2c599e53cdb6fb3c2b3818056e24f70f565f1.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss15
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/50/50c2c599e53cdb6fb3c2b3818056e24f70f565f1.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/05/054a7259bb066ddd4b0e9318f99c1ec525361650.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/05/054a7259bb066ddd4b0e9318f99c1ec525361650.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss16
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/05/054a7259bb066ddd4b0e9318f99c1ec525361650.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/1d/1dd522b8e99d171d4ccdce3a470217857ec4f30b.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/1d/1dd522b8e99d171d4ccdce3a470217857ec4f30b.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss17
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/1d/1dd522b8e99d171d4ccdce3a470217857ec4f30b.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a9/a9fe6339521e03adaf1895569edececd57f1b47d.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a9/a9fe6339521e03adaf1895569edececd57f1b47d.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss18
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/a9/a9fe6339521e03adaf1895569edececd57f1b47d.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/f6/f6c68aa7ea1fee4bf002439facba929f8445e812.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/f6/f6c68aa7ea1fee4bf002439facba929f8445e812.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss19
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/f6/f6c68aa7ea1fee4bf002439facba929f8445e812.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/56/56a23107fd8466927bdcd9a1470eb63cf3f2c3a2.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/56/56a23107fd8466927bdcd9a1470eb63cf3f2c3a2.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss2
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/56/56a23107fd8466927bdcd9a1470eb63cf3f2c3a2.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ea/eaf180b2bcd1495a8896f25929783c371610c208.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ea/eaf180b2bcd1495a8896f25929783c371610c208.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss20
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/ea/eaf180b2bcd1495a8896f25929783c371610c208.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/90/907d419ef3fc78825e4906fe13d7465626af7e46.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/90/907d419ef3fc78825e4906fe13d7465626af7e46.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss21
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/90/907d419ef3fc78825e4906fe13d7465626af7e46.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/cb/cb6c00c04806ef025147ef9b20ffddeade73a8be.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/cb/cb6c00c04806ef025147ef9b20ffddeade73a8be.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss22
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/cb/cb6c00c04806ef025147ef9b20ffddeade73a8be.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a5/a5d992e776e590ac9d36c8cdea49a0a83482c4b3.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a5/a5d992e776e590ac9d36c8cdea49a0a83482c4b3.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss23
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/a5/a5d992e776e590ac9d36c8cdea49a0a83482c4b3.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/c7/c7df553647dd6e554e396f8df1006cda43aaef60.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/c7/c7df553647dd6e554e396f8df1006cda43aaef60.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss24
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/c7/c7df553647dd6e554e396f8df1006cda43aaef60.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/68/6824f2653282455695c9818088ee63acdd5ce4dd.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/68/6824f2653282455695c9818088ee63acdd5ce4dd.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss25
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/68/6824f2653282455695c9818088ee63acdd5ce4dd.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/6b/6b12f309ad379a7f95aaff1f0a68f8fc82b62836.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/6b/6b12f309ad379a7f95aaff1f0a68f8fc82b62836.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss26
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/6b/6b12f309ad379a7f95aaff1f0a68f8fc82b62836.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d3/d3b92d7eff6a202d4ad491d2a054729cacf5ea1d.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d3/d3b92d7eff6a202d4ad491d2a054729cacf5ea1d.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss27
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/d3/d3b92d7eff6a202d4ad491d2a054729cacf5ea1d.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a9/a9b0936b28b46a6571dfbdc2adeb842f990baea3.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a9/a9b0936b28b46a6571dfbdc2adeb842f990baea3.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss28
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/a9/a9b0936b28b46a6571dfbdc2adeb842f990baea3.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d4/d48236daad31334dca0ecd6f52bc02f50e60389c.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d4/d48236daad31334dca0ecd6f52bc02f50e60389c.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss29
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/d4/d48236daad31334dca0ecd6f52bc02f50e60389c.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/17/17294e7b4a0a74b7169e1fe937d0e678a149a110.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/17/17294e7b4a0a74b7169e1fe937d0e678a149a110.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss3
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/17/17294e7b4a0a74b7169e1fe937d0e678a149a110.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/73/735f025a38b600ba64b945fc0fe97b190ee3982a.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/73/735f025a38b600ba64b945fc0fe97b190ee3982a.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss30
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/73/735f025a38b600ba64b945fc0fe97b190ee3982a.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/3a/3af69022c0dff76965be9ad539a7c4cbc0e6af9e.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/3a/3af69022c0dff76965be9ad539a7c4cbc0e6af9e.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss31
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/3a/3af69022c0dff76965be9ad539a7c4cbc0e6af9e.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d5/d5b2253792a1f59ed55ccb7b46b5b8e7f982e23f.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d5/d5b2253792a1f59ed55ccb7b46b5b8e7f982e23f.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss32
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/d5/d5b2253792a1f59ed55ccb7b46b5b8e7f982e23f.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/03/031b15ffb0734916334ccfc5c9b784f3b92e87f1.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/03/031b15ffb0734916334ccfc5c9b784f3b92e87f1.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss33
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/03/031b15ffb0734916334ccfc5c9b784f3b92e87f1.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/61/619e2d58889167ca9b8752bd28ff179322cec8a4.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/61/619e2d58889167ca9b8752bd28ff179322cec8a4.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss34
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/61/619e2d58889167ca9b8752bd28ff179322cec8a4.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/8b/8be26c1fc9bbb494d2d8d3d092c05190e836adb1.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/8b/8be26c1fc9bbb494d2d8d3d092c05190e836adb1.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss35
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/8b/8be26c1fc9bbb494d2d8d3d092c05190e836adb1.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/69/6902f90eba4bfe14b65f76fa8e0f0983f190b1cf.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/69/6902f90eba4bfe14b65f76fa8e0f0983f190b1cf.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss36
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/69/6902f90eba4bfe14b65f76fa8e0f0983f190b1cf.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/35/3552cffb9aaea87d1d4836187bd869ed4b53a9bc.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/35/3552cffb9aaea87d1d4836187bd869ed4b53a9bc.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss37
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/35/3552cffb9aaea87d1d4836187bd869ed4b53a9bc.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a3/a3109d1386305d362008c4f8f4931ed768ae1ce9.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a3/a3109d1386305d362008c4f8f4931ed768ae1ce9.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss38
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/a3/a3109d1386305d362008c4f8f4931ed768ae1ce9.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/76/7661d96939c6845cb6eb3d673c9c9f36265807d6.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/76/7661d96939c6845cb6eb3d673c9c9f36265807d6.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss39
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/76/7661d96939c6845cb6eb3d673c9c9f36265807d6.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/84/84f2921ffe1d44287dbb98a6c3b2ec32a1eaf79f.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/84/84f2921ffe1d44287dbb98a6c3b2ec32a1eaf79f.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss4
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/84/84f2921ffe1d44287dbb98a6c3b2ec32a1eaf79f.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/78/7854d58d970ab7c205c5988b9a1f8d03d36f2a1f.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/78/7854d58d970ab7c205c5988b9a1f8d03d36f2a1f.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss40
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/78/7854d58d970ab7c205c5988b9a1f8d03d36f2a1f.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/dd/dde4ef95fed96e284ee46c97b729a220f240daa8.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/dd/dde4ef95fed96e284ee46c97b729a220f240daa8.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss41
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/dd/dde4ef95fed96e284ee46c97b729a220f240daa8.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/df/dfa8d08b982616d07ade7302108a4a2ea599133a.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/df/dfa8d08b982616d07ade7302108a4a2ea599133a.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss42
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/df/dfa8d08b982616d07ade7302108a4a2ea599133a.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/4a/4a0376f06170b2f0ca5bab11512ceedfc6a788b2.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/4a/4a0376f06170b2f0ca5bab11512ceedfc6a788b2.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss43
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/4a/4a0376f06170b2f0ca5bab11512ceedfc6a788b2.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/e8/e8d80cb69a41a37126581e605269e40b8752c501.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/e8/e8d80cb69a41a37126581e605269e40b8752c501.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss44
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/e8/e8d80cb69a41a37126581e605269e40b8752c501.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/b9/b9847dff62f87a1542e48f33ac2c4033c1d502ba.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/b9/b9847dff62f87a1542e48f33ac2c4033c1d502ba.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss45
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/b9/b9847dff62f87a1542e48f33ac2c4033c1d502ba.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/75/75fd0287539922d3088a25e2f7b5bf47344ad3d8.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/75/75fd0287539922d3088a25e2f7b5bf47344ad3d8.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss46
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/75/75fd0287539922d3088a25e2f7b5bf47344ad3d8.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/5d/5d065279f3e339b5b77b283d36e316c339a8e0c9.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/5d/5d065279f3e339b5b77b283d36e316c339a8e0c9.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss47
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/5d/5d065279f3e339b5b77b283d36e316c339a8e0c9.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/9d/9d9b017c20f118551abad9057587fe0d808289c7.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/9d/9d9b017c20f118551abad9057587fe0d808289c7.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss48
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/9d/9d9b017c20f118551abad9057587fe0d808289c7.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/7a/7a72301a06cf4beb585fe2bb80c771bab47c9e44.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/7a/7a72301a06cf4beb585fe2bb80c771bab47c9e44.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss49
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/7a/7a72301a06cf4beb585fe2bb80c771bab47c9e44.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/75/75023b5bec440455e3d494843faf07724a90a79e.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/75/75023b5bec440455e3d494843faf07724a90a79e.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss50
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/75/75023b5bec440455e3d494843faf07724a90a79e.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/84/84811e667723657970a4880fef68f7c442bc5741.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/84/84811e667723657970a4880fef68f7c442bc5741.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss51
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/84/84811e667723657970a4880fef68f7c442bc5741.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/57/57ca5fd7739df52fc27bf3c2a62a57eed6eb7e91.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/57/57ca5fd7739df52fc27bf3c2a62a57eed6eb7e91.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss52
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/57/57ca5fd7739df52fc27bf3c2a62a57eed6eb7e91.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/4b/4b232650953a29944402c4bf3649dbbde5e008ee.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/4b/4b232650953a29944402c4bf3649dbbde5e008ee.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss53
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/4b/4b232650953a29944402c4bf3649dbbde5e008ee.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ba/bae1617c2b2e1c9e1cea5e73237ad71dbf199987.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ba/bae1617c2b2e1c9e1cea5e73237ad71dbf199987.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss54
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/ba/bae1617c2b2e1c9e1cea5e73237ad71dbf199987.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/e1/e1618c422cd45fb3e2d25185c8b627a71e738fe9.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/e1/e1618c422cd45fb3e2d25185c8b627a71e738fe9.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss55
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/e1/e1618c422cd45fb3e2d25185c8b627a71e738fe9.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/94/94e5d00bcd36fdd0bfeae3520f47261b42a60f71.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/94/94e5d00bcd36fdd0bfeae3520f47261b42a60f71.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss56
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/94/94e5d00bcd36fdd0bfeae3520f47261b42a60f71.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/dc/dcf6642f0d486dc2bea96c9b4133a81b547d6347.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/dc/dcf6642f0d486dc2bea96c9b4133a81b547d6347.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss57
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/dc/dcf6642f0d486dc2bea96c9b4133a81b547d6347.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/dc/dcfdb21fba77e3ac2ec078b542299af61588c77b.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/dc/dcfdb21fba77e3ac2ec078b542299af61588c77b.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss58
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/dc/dcfdb21fba77e3ac2ec078b542299af61588c77b.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/f9/f96e353bc9e4ea9da4cd9324f456b49fe2a440da.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/f9/f96e353bc9e4ea9da4cd9324f456b49fe2a440da.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss59
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/f9/f96e353bc9e4ea9da4cd9324f456b49fe2a440da.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/12/12a37e2e0faa2b3e1c5e95e17c1766a9da29f160.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/12/12a37e2e0faa2b3e1c5e95e17c1766a9da29f160.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss6
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/12/12a37e2e0faa2b3e1c5e95e17c1766a9da29f160.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/c8/c85fa4b1a658a1fe24ebf31da1be45852facff12.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/c8/c85fa4b1a658a1fe24ebf31da1be45852facff12.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss60
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/c8/c85fa4b1a658a1fe24ebf31da1be45852facff12.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a5/a582138aee745d1e07695906b2b31b07297b8995.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a5/a582138aee745d1e07695906b2b31b07297b8995.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss61
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/a5/a582138aee745d1e07695906b2b31b07297b8995.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/c3/c3cb97ba3bdaa2ca329ec5b44896d1bba049625d.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/c3/c3cb97ba3bdaa2ca329ec5b44896d1bba049625d.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss62
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/c3/c3cb97ba3bdaa2ca329ec5b44896d1bba049625d.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d6/d6f22f641bfe9b926b23f3b311ff8682d065b8a7.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d6/d6f22f641bfe9b926b23f3b311ff8682d065b8a7.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss63
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/d6/d6f22f641bfe9b926b23f3b311ff8682d065b8a7.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/5f/5fc8499f098877fdcb22842706e48c84148c54bb.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/5f/5fc8499f098877fdcb22842706e48c84148c54bb.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss64
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/5f/5fc8499f098877fdcb22842706e48c84148c54bb.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/14/1490756bfa699f25065748b421e8ef679cfc265a.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/14/1490756bfa699f25065748b421e8ef679cfc265a.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss65
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/14/1490756bfa699f25065748b421e8ef679cfc265a.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/6e/6e0866758dca081fc007f464de4c46423764eed6.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/6e/6e0866758dca081fc007f464de4c46423764eed6.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss66
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/6e/6e0866758dca081fc007f464de4c46423764eed6.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/f2/f22656799c518a3fbde33e87daa470ad67341e84.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/f2/f22656799c518a3fbde33e87daa470ad67341e84.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss67
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/f2/f22656799c518a3fbde33e87daa470ad67341e84.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d5/d5354947394242949abf051c192d4013b4e7da99.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d5/d5354947394242949abf051c192d4013b4e7da99.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss68
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/d5/d5354947394242949abf051c192d4013b4e7da99.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/5b/5b17e64d0bff9b7f2fa06b140536535c831c5eab.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/5b/5b17e64d0bff9b7f2fa06b140536535c831c5eab.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss69
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/5b/5b17e64d0bff9b7f2fa06b140536535c831c5eab.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/c1/c1bcb335a6e3de1f61f8fd56e1f78a0a9e49a584.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/c1/c1bcb335a6e3de1f61f8fd56e1f78a0a9e49a584.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss7
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/c1/c1bcb335a6e3de1f61f8fd56e1f78a0a9e49a584.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/cc/cc57235e569beb62dcc48b30b3adc179990dc433.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/cc/cc57235e569beb62dcc48b30b3adc179990dc433.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss70
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/cc/cc57235e569beb62dcc48b30b3adc179990dc433.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a3/a3dcd3772c74bd4bb520527c05237377f7b57692.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a3/a3dcd3772c74bd4bb520527c05237377f7b57692.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss71
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/a3/a3dcd3772c74bd4bb520527c05237377f7b57692.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/97/97e1098cd52f385debb14fc1fe8e6ede0c77b2ff.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/97/97e1098cd52f385debb14fc1fe8e6ede0c77b2ff.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss72
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/97/97e1098cd52f385debb14fc1fe8e6ede0c77b2ff.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/4c/4cc8256f59d32b6c75893776a1e59644f8960cf6.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/4c/4cc8256f59d32b6c75893776a1e59644f8960cf6.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss73
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/4c/4cc8256f59d32b6c75893776a1e59644f8960cf6.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/0b/0b8ea253d2cc0a826e6445142cda49afbe2ef092.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/0b/0b8ea253d2cc0a826e6445142cda49afbe2ef092.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss74
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/0b/0b8ea253d2cc0a826e6445142cda49afbe2ef092.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/b9/b9967cdb130584602c08f13132bce95ef4a2a639.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/b9/b9967cdb130584602c08f13132bce95ef4a2a639.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss75
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/b9/b9967cdb130584602c08f13132bce95ef4a2a639.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/c7/c7572a70e1b5253de55ab8eb49ebe2ac721fdf8e.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/c7/c7572a70e1b5253de55ab8eb49ebe2ac721fdf8e.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss76
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/c7/c7572a70e1b5253de55ab8eb49ebe2ac721fdf8e.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/47/474018dfe342d79a87bfaef71f0875395699eab1.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/47/474018dfe342d79a87bfaef71f0875395699eab1.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss77
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/47/474018dfe342d79a87bfaef71f0875395699eab1.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/19/19ed44263b57d7f2552c71277d8a6c9db551f90a.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/19/19ed44263b57d7f2552c71277d8a6c9db551f90a.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss78
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/19/19ed44263b57d7f2552c71277d8a6c9db551f90a.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/83/83a293f4e2352258d34531a2e201400b07ac6aa5.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/83/83a293f4e2352258d34531a2e201400b07ac6aa5.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss79
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/83/83a293f4e2352258d34531a2e201400b07ac6aa5.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/c8/c86944a429965e7d8084c98aecaae6fcf5654155.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/c8/c86944a429965e7d8084c98aecaae6fcf5654155.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss8
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/c8/c86944a429965e7d8084c98aecaae6fcf5654155.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/7f/7faea99d76f0f77dfeb9072b8fe1ad94a261105c.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/7f/7faea99d76f0f77dfeb9072b8fe1ad94a261105c.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss80
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/7f/7faea99d76f0f77dfeb9072b8fe1ad94a261105c.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/6a/6a07c79f18ad49d8438ffb2d88a922ebbcf112fa.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/6a/6a07c79f18ad49d8438ffb2d88a922ebbcf112fa.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Boss9
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/6a/6a07c79f18ad49d8438ffb2d88a922ebbcf112fa.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/38/38c9e6df8eeeb0ed9e305e59d5f68342570de3ab.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/38/38c9e6df8eeeb0ed9e305e59d5f68342570de3ab.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Monster
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/38/38c9e6df8eeeb0ed9e305e59d5f68342570de3ab.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/b8/b885edffc15091dbdedb25313520941faa0c4ad4.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/b8/b885edffc15091dbdedb25313520941faa0c4ad4.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register MonsterLeader
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/b8/b885edffc15091dbdedb25313520941faa0c4ad4.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/77/7785598ff6a44a23032475d6ef6743832ee0e499.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/77/7785598ff6a44a23032475d6ef6743832ee0e499.js is not in module cache!
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/f6/f6556443d5a8228e53d23e63e85fc81f1639159d.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/f6/f6556443d5a8228e53d23e63e85fc81f1639159d.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/f6/f6556443d5a8228e53d23e63e85fc81f1639159d.js" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Register MonsterManager
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/77/7785598ff6a44a23032475d6ef6743832ee0e499.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/72/728e2eec8608d2f9c2662da4c04aa2815798a6eb.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/72/728e2eec8608d2f9c2662da4c04aa2815798a6eb.js is not in module cache!
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/59/59bf3a39c4b3c051b3c0515fdf9e3b7479fa3a53.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/59/59bf3a39c4b3c051b3c0515fdf9e3b7479fa3a53.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register EnemySkill
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/59/59bf3a39c4b3c051b3c0515fdf9e3b7479fa3a53.js" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Register BlackHole
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/72/728e2eec8608d2f9c2662da4c04aa2815798a6eb.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ff/ff692df764e75d9d876197795095c8188113f266.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ff/ff692df764e75d9d876197795095c8188113f266.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register DarkMask
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/ff/ff692df764e75d9d876197795095c8188113f266.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/e8/e88127d9583c9662339dd98f0b212e70a342815e.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/e8/e88127d9583c9662339dd98f0b212e70a342815e.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register GreenThunder
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/e8/e88127d9583c9662339dd98f0b212e70a342815e.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ce/ce5c2feba575c4dccb41119cb82016b7134e8ef7.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ce/ce5c2feba575c4dccb41119cb82016b7134e8ef7.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register CommonCallback
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/ce/ce5c2feba575c4dccb41119cb82016b7134e8ef7.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/3b/3bf2e698991edc1055985cca5b122027dd097fb9.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/3b/3bf2e698991edc1055985cca5b122027dd097fb9.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register GameAnimManager
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/3b/3bf2e698991edc1055985cca5b122027dd097fb9.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ee/eecc03a323428bea1925163cf99e55879680509a.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ee/eecc03a323428bea1925163cf99e55879680509a.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register StageManager
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/ee/eecc03a323428bea1925163cf99e55879680509a.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d6/d620eed2da57a7ab990eec0d8a72897bc16667a2.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d6/d620eed2da57a7ab990eec0d8a72897bc16667a2.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register AnimCommonFun
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/d6/d620eed2da57a7ab990eec0d8a72897bc16667a2.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/47/4781e61b7888823763a4558e2f6b468d516ea8ec.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/47/4781e61b7888823763a4558e2f6b468d516ea8ec.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/47/4781e61b7888823763a4558e2f6b468d516ea8ec.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/04/04dc17ae1d4fe8a529c89ef4abf03426eb5279b1.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/04/04dc17ae1d4fe8a529c89ef4abf03426eb5279b1.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/04/04dc17ae1d4fe8a529c89ef4abf03426eb5279b1.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ff/ff729982323df5afdcbccd95392e27748f3cd99e.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ff/ff729982323df5afdcbccd95392e27748f3cd99e.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/ff/ff729982323df5afdcbccd95392e27748f3cd99e.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d6/d6ae397e3a5b625120ec5db1d72e0c227a82987c.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d6/d6ae397e3a5b625120ec5db1d72e0c227a82987c.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register VersionNotice
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/d6/d6ae397e3a5b625120ec5db1d72e0c227a82987c.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/72/72305b635282b13ceba4f91a18658b62cd5d856e.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/72/72305b635282b13ceba4f91a18658b62cd5d856e.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register HeroCollider
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/72/72305b635282b13ceba4f91a18658b62cd5d856e.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/97/976d2de57f47c16fe33d85bed1306ea1a0c89f34.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/97/976d2de57f47c16fe33d85bed1306ea1a0c89f34.js is not in module cache!
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/6f/6f6d307fe7b10f03741363ef782a3f128411f49d.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/6f/6f6d307fe7b10f03741363ef782a3f128411f49d.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/6f/6f6d307fe7b10f03741363ef782a3f128411f49d.js" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Register HeroControl
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/97/976d2de57f47c16fe33d85bed1306ea1a0c89f34.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ae/ae3e1926d4d49d28e6a8ec5fc6e757f56c14b79f.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ae/ae3e1926d4d49d28e6a8ec5fc6e757f56c14b79f.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register HerpWeapon
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/ae/ae3e1926d4d49d28e6a8ec5fc6e757f56c14b79f.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d8/d8f61eeb77fa79171dfadd93a0b9599946af0fa2.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d8/d8f61eeb77fa79171dfadd93a0b9599946af0fa2.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Puppet
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/d8/d8f61eeb77fa79171dfadd93a0b9599946af0fa2.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/5a/5a09186f950b6c4a6b310ae8c3cdf95fddb50bd7.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/5a/5a09186f950b6c4a6b310ae8c3cdf95fddb50bd7.js is not in module cache!
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/0e/0e69504d1409a87845b77920160e023d8df7f947.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/0e/0e69504d1409a87845b77920160e023d8df7f947.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Weapon
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/0e/0e69504d1409a87845b77920160e023d8df7f947.js" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Register ContinueArrow
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/5a/5a09186f950b6c4a6b310ae8c3cdf95fddb50bd7.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/9c/9c80f59bbf6cec5e90650c6818cc6aecc8024354.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/9c/9c80f59bbf6cec5e90650c6818cc6aecc8024354.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register GiantArrow
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/9c/9c80f59bbf6cec5e90650c6818cc6aecc8024354.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ab/ab3ed13bb2b0ab1fcfac84e5b93899094fde74db.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ab/ab3ed13bb2b0ab1fcfac84e5b93899094fde74db.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register GiantAxe
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/ab/ab3ed13bb2b0ab1fcfac84e5b93899094fde74db.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/6e/6e3a0a6205827eb66039d4fc6035cd6f9ba2a412.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/6e/6e3a0a6205827eb66039d4fc6035cd6f9ba2a412.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register GiantSword
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/6e/6e3a0a6205827eb66039d4fc6035cd6f9ba2a412.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ad/add63293a0dfe49866a65b67d05249691eec86a1.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ad/add63293a0dfe49866a65b67d05249691eec86a1.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register LongSword
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/ad/add63293a0dfe49866a65b67d05249691eec86a1.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ac/acf5d8238b3412f307f773f19d58dc7c015fea3f.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ac/acf5d8238b3412f307f773f19d58dc7c015fea3f.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register RotationAxeChild
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/ac/acf5d8238b3412f307f773f19d58dc7c015fea3f.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/99/99cb775e54cc2ce3c9af2b4c40a7ac368b023619.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/99/99cb775e54cc2ce3c9af2b4c40a7ac368b023619.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register RotationAxe
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/99/99cb775e54cc2ce3c9af2b4c40a7ac368b023619.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/33/333d91a391f6760f7143ef590a1ad933a02bea46.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/33/333d91a391f6760f7143ef590a1ad933a02bea46.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register ShockWave
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/33/333d91a391f6760f7143ef590a1ad933a02bea46.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a5/a5a0c7d20f16e62cacaad9a76b5806cffb3e3592.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a5/a5a0c7d20f16e62cacaad9a76b5806cffb3e3592.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register CurrentRoundMessage
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/a5/a5a0c7d20f16e62cacaad9a76b5806cffb3e3592.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/2a/2a6f01c0568c1399a386f62fae9495f8be69477f.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/2a/2a6f01c0568c1399a386f62fae9495f8be69477f.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register GameSettings
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/2a/2a6f01c0568c1399a386f62fae9495f8be69477f.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/6d/6de9fd2e226b6404ecbaef10d84376b4fc7d4c85.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/6d/6de9fd2e226b6404ecbaef10d84376b4fc7d4c85.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register DangerWindToNear
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/6d/6de9fd2e226b6404ecbaef10d84376b4fc7d4c85.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/55/556c5031ca396c2ceaecf1a2c75120e6785ae788.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/55/556c5031ca396c2ceaecf1a2c75120e6785ae788.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Darts
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/55/556c5031ca396c2ceaecf1a2c75120e6785ae788.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/c8/c8071bf7570b9a25288c8c49dac9f481e7536997.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/c8/c8071bf7570b9a25288c8c49dac9f481e7536997.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register DoomsdayStorm
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/c8/c8071bf7570b9a25288c8c49dac9f481e7536997.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/f7/f7d5fc1e7929e35fd023c742819596bdfe52fa61.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/f7/f7d5fc1e7929e35fd023c742819596bdfe52fa61.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register FanPrefab
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/f7/f7d5fc1e7929e35fd023c742819596bdfe52fa61.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d2/d2eff67fe1141ce98d726f19c79a9c279f360d2d.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d2/d2eff67fe1141ce98d726f19c79a9c279f360d2d.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register FingerLikeWind
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/d2/d2eff67fe1141ce98d726f19c79a9c279f360d2d.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/46/46d1332580b25f02853bfcf0501a2a68c933d383.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/46/46d1332580b25f02853bfcf0501a2a68c933d383.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register FireBloom
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/46/46d1332580b25f02853bfcf0501a2a68c933d383.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/92/92fa56fd6acd9a64a0cfd6b59ddc95ca962025e9.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/92/92fa56fd6acd9a64a0cfd6b59ddc95ca962025e9.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register FlySword
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/92/92fa56fd6acd9a64a0cfd6b59ddc95ca962025e9.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/b2/b2d73af7d15752adf8ecc5882026bb715e814eb9.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/b2/b2d73af7d15752adf8ecc5882026bb715e814eb9.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register FlyingThunderGod
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/b2/b2d73af7d15752adf8ecc5882026bb715e814eb9.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ef/ef823a4b9b355aa89d6f249d432fdc6ef7beaa6e.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ef/ef823a4b9b355aa89d6f249d432fdc6ef7beaa6e.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Guard
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/ef/ef823a4b9b355aa89d6f249d432fdc6ef7beaa6e.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/3f/3fa2da2a22179660f58e978101bf8aedad0f8a98.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/3f/3fa2da2a22179660f58e978101bf8aedad0f8a98.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register HellFire
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/3f/3fa2da2a22179660f58e978101bf8aedad0f8a98.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a4/a42795b80f68c97d1da2e530d6daebf4efc4076e.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a4/a42795b80f68c97d1da2e530d6daebf4efc4076e.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register IceCone
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/a4/a42795b80f68c97d1da2e530d6daebf4efc4076e.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/3c/3c42fbf72a903e5ee023f6e58270bb6515c5d78b.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/3c/3c42fbf72a903e5ee023f6e58270bb6515c5d78b.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register IceSpiritNeedle
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/3c/3c42fbf72a903e5ee023f6e58270bb6515c5d78b.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/53/538d769d0613da108ac43ac1afa09cf40aeff8e3.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/53/538d769d0613da108ac43ac1afa09cf40aeff8e3.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register JustOneSwordDivideWorld
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/53/538d769d0613da108ac43ac1afa09cf40aeff8e3.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/90/909e83b9a52b56e7bb3275d8e2f21e23976d1191.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/90/909e83b9a52b56e7bb3275d8e2f21e23976d1191.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register LandFire
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/90/909e83b9a52b56e7bb3275d8e2f21e23976d1191.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/44/44feee7237d3573ddb5daa8cc47808107f688642.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/44/44feee7237d3573ddb5daa8cc47808107f688642.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register MoveLikeFire
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/44/44feee7237d3573ddb5daa8cc47808107f688642.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/7a/7abb82ae05b32f97bdb90ea89accfb68a5dd769c.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/7a/7abb82ae05b32f97bdb90ea89accfb68a5dd769c.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register MoveLikeShadow
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/7a/7abb82ae05b32f97bdb90ea89accfb68a5dd769c.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/c2/c2cdf9614d7e3d062a4b061c4598f2afe4e81815.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/c2/c2cdf9614d7e3d062a4b061c4598f2afe4e81815.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register SamadhiTrueFire
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/c2/c2cdf9614d7e3d062a4b061c4598f2afe4e81815.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/db/db5755854783292569d0cf68c030c8a8aed0f65b.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/db/db5755854783292569d0cf68c030c8a8aed0f65b.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register SkillManager
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/db/db5755854783292569d0cf68c030c8a8aed0f65b.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/95/95f7b6bd27dcdf00b7da8d409457c47a1b5c8d2e.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/95/95f7b6bd27dcdf00b7da8d409457c47a1b5c8d2e.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register SkyThunder
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/95/95f7b6bd27dcdf00b7da8d409457c47a1b5c8d2e.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/e4/e49009ce4fe25182367a6852572ff2e0b91f4a6e.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/e4/e49009ce4fe25182367a6852572ff2e0b91f4a6e.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Spell
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/e4/e49009ce4fe25182367a6852572ff2e0b91f4a6e.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/3b/3b0c5789f5067f98d56695a187723de7e7ebfded.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/3b/3b0c5789f5067f98d56695a187723de7e7ebfded.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register SpiritBullet
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/3b/3b0c5789f5067f98d56695a187723de7e7ebfded.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/93/93b4a5dec310936f4993ff9d869186d87c492762.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/93/93b4a5dec310936f4993ff9d869186d87c492762.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Sword
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/93/93b4a5dec310936f4993ff9d869186d87c492762.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/72/72fc9e6ae85603ea54db7c84ffb3641c3d459d67.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/72/72fc9e6ae85603ea54db7c84ffb3641c3d459d67.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register SwordRain
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/72/72fc9e6ae85603ea54db7c84ffb3641c3d459d67.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/62/629ddb9453a5ff00f1a2ef19f292aace6672bf1c.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/62/629ddb9453a5ff00f1a2ef19f292aace6672bf1c.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Taijihuan
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/62/629ddb9453a5ff00f1a2ef19f292aace6672bf1c.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/7a/7a4ac94b88bb75b315067399c97c255c92cf946c.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/7a/7a4ac94b88bb75b315067399c97c255c92cf946c.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register ThousandsSwordToTomb
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/7a/7a4ac94b88bb75b315067399c97c255c92cf946c.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/52/5203789d0bf0b0df48a8844df772afa2243bfb38.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/52/5203789d0bf0b0df48a8844df772afa2243bfb38.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register ThunderFissionBead
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/52/5203789d0bf0b0df48a8844df772afa2243bfb38.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ac/acb8d672496aad50df81e4a2e3052d1fb09d415c.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ac/acb8d672496aad50df81e4a2e3052d1fb09d415c.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register ThunderRunning
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/ac/acb8d672496aad50df81e4a2e3052d1fb09d415c.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/f2/f2156f964389a6794c7f8aee5540ccb3ff4efbfa.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/f2/f2156f964389a6794c7f8aee5540ccb3ff4efbfa.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Thundercloud
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/f2/f2156f964389a6794c7f8aee5540ccb3ff4efbfa.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/36/36e86f17b9b6e89191ee0cab080d5f21bdcd182d.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/36/36e86f17b9b6e89191ee0cab080d5f21bdcd182d.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register weaponManager
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/36/36e86f17b9b6e89191ee0cab080d5f21bdcd182d.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ae/ae766c016b71d841b33ba39c5dc7a0c0a9bbfbc9.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ae/ae766c016b71d841b33ba39c5dc7a0c0a9bbfbc9.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register ItemInPlaying
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/ae/ae766c016b71d841b33ba39c5dc7a0c0a9bbfbc9.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/11/11f7cdfcd6ebe90815b7ff6df49f51d336e6f051.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/11/11f7cdfcd6ebe90815b7ff6df49f51d336e6f051.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register MapLayer
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/11/11f7cdfcd6ebe90815b7ff6df49f51d336e6f051.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/cf/cf0335df3820ec6949479f6c7714c61584dc480a.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/cf/cf0335df3820ec6949479f6c7714c61584dc480a.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register ShowLayer
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/cf/cf0335df3820ec6949479f6c7714c61584dc480a.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/b6/b6c358ae890b403106d0f603d7f667fa1b384ea9.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/b6/b6c358ae890b403106d0f603d7f667fa1b384ea9.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register Canvas
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/b6/b6c358ae890b403106d0f603d7f667fa1b384ea9.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/39/3932edf081259300a9f6131ab239ae6b2645f0c8.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/39/3932edf081259300a9f6131ab239ae6b2645f0c8.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register AddItemsLayer
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/39/3932edf081259300a9f6131ab239ae6b2645f0c8.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/b0/b0c2e4daf49e9aaf2382ce6352660044cec2758e.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/b0/b0c2e4daf49e9aaf2382ce6352660044cec2758e.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register GetsControl
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/b0/b0c2e4daf49e9aaf2382ce6352660044cec2758e.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/df/dfa9941a5a1df7ddec70c45b388522015a8fd140.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/df/dfa9941a5a1df7ddec70c45b388522015a8fd140.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register HeroInfoLayer
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/df/dfa9941a5a1df7ddec70c45b388522015a8fd140.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a8/a8ac1e5074dc98c8e6b8c0b77f0fdc4e234206e3.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a8/a8ac1e5074dc98c8e6b8c0b77f0fdc4e234206e3.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register MainMenu
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/a8/a8ac1e5074dc98c8e6b8c0b77f0fdc4e234206e3.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/2b/2baaa3d17fc953a6125232676070d38ff143321c.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/2b/2baaa3d17fc953a6125232676070d38ff143321c.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register MainMenuGuide
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/2b/2baaa3d17fc953a6125232676070d38ff143321c.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/60/6044600d7c2ae051ad9fbdf3ed1ef1298e222935.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/60/6044600d7c2ae051ad9fbdf3ed1ef1298e222935.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register MakePillsLayer
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/60/6044600d7c2ae051ad9fbdf3ed1ef1298e222935.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/6a/6a2fa6f4a8a2a578565ecf76c1f0c2a39340ec76.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/6a/6a2fa6f4a8a2a578565ecf76c1f0c2a39340ec76.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register MergeEquLayer
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/6a/6a2fa6f4a8a2a578565ecf76c1f0c2a39340ec76.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/fb/fb577611ab8622aba152487801644be1be73b92d.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/fb/fb577611ab8622aba152487801644be1be73b92d.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register PrizeHallLayer
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/fb/fb577611ab8622aba152487801644be1be73b92d.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/dc/dc18c39d94a41ad1ef7502cdb01c7555b9b5031e.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/dc/dc18c39d94a41ad1ef7502cdb01c7555b9b5031e.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register SelectCheckpointLayer
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/dc/dc18c39d94a41ad1ef7502cdb01c7555b9b5031e.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ea/eaf8f34cc3cbe9c1bea8cee68805c771840b6029.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/ea/eaf8f34cc3cbe9c1bea8cee68805c771840b6029.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register SkillBookLayer
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/ea/eaf8f34cc3cbe9c1bea8cee68805c771840b6029.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/b0/b0807708ce44d38fe9da6fedb78c73b18da9326d.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/b0/b0807708ce44d38fe9da6fedb78c73b18da9326d.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register TrainingLayer
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/b0/b0807708ce44d38fe9da6fedb78c73b18da9326d.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/95/95d234e2e5f8244344efec19a19049d1e037b8dd.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/95/95d234e2e5f8244344efec19a19049d1e037b8dd.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register UpgradeEquLvLayer
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/95/95d234e2e5f8244344efec19a19049d1e037b8dd.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/f2/f2b15fc8be766647ba054a73c7aad2f7987792d2.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/f2/f2b15fc8be766647ba054a73c7aad2f7987792d2.js is not in module cache!
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/0d/0d206e30df726a71c0cd4a8416ab96d9a731e474.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/0d/0d206e30df726a71c0cd4a8416ab96d9a731e474.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register PreLoad
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/0d/0d206e30df726a71c0cd4a8416ab96d9a731e474.js" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Register DynamicLoading
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/f2/f2b15fc8be766647ba054a73c7aad2f7987792d2.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a8/a8e31f326c62db867895a93448b85ed0a93dfbb8.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/a8/a8e31f326c62db867895a93448b85ed0a93dfbb8.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register AD_SDK
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/a8/a8e31f326c62db867895a93448b85ed0a93dfbb8.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/8b/8b3f3f915f3aebc099bde5da71edadd60f38acad.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/8b/8b3f3f915f3aebc099bde5da71edadd60f38acad.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/8b/8b3f3f915f3aebc099bde5da71edadd60f38acad.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/85/85207d189b67605ebc39b58cd7ac69e3374ab6b1.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/85/85207d189b67605ebc39b58cd7ac69e3374ab6b1.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register testAds
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/85/85207d189b67605ebc39b58cd7ac69e3374ab6b1.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/4c/4c522022bd2fc178dad93f610ca177efdf6b8fa6.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/4c/4c522022bd2fc178dad93f610ca177efdf6b8fa6.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register WX_GAME
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/4c/4c522022bd2fc178dad93f610ca177efdf6b8fa6.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/7d/7d5b080abc51d94d91f73e0d6d28caf83d4cec2c.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/7d/7d5b080abc51d94d91f73e0d6d28caf83d4cec2c.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register DynamicSupFrame
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/7d/7d5b080abc51d94d91f73e0d6d28caf83d4cec2c.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/4f/4fe381336eda97a62276409cc485a035aef93c4c.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/4f/4fe381336eda97a62276409cc485a035aef93c4c.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register AudioManager
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/4f/4fe381336eda97a62276409cc485a035aef93c4c.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/41/41ad0206d9864179c78200e63baab1432bf66fa6.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/41/41ad0206d9864179c78200e63baab1432bf66fa6.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register GameReward
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/41/41ad0206d9864179c78200e63baab1432bf66fa6.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d5/d5488b01dea4897e25973a8a7920c1baa615388c.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/d5/d5488b01dea4897e25973a8a7920c1baa615388c.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register HeroBaseProperty
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/d5/d5488b01dea4897e25973a8a7920c1baa615388c.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/97/97955529381f262da608d0cb10111447e21eab35.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/97/97955529381f262da608d0cb10111447e21eab35.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/97/97955529381f262da608d0cb10111447e21eab35.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/b2/b2eb06441ef058230d0c72747cfb531deb15a898.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/b2/b2eb06441ef058230d0c72747cfb531deb15a898.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register SavingManager
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/b2/b2eb06441ef058230d0c72747cfb531deb15a898.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/32/323165eb2ec55867ce64a16e6cfdf6dda903c6ef.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/32/323165eb2ec55867ce64a16e6cfdf6dda903c6ef.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register StorageSpace
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/32/323165eb2ec55867ce64a16e6cfdf6dda903c6ef.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/af/af80341a2765557111e29f744f4ccc2b8c0c71c2.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/af/af80341a2765557111e29f744f4ccc2b8c0c71c2.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register TipView
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/af/af80341a2765557111e29f744f4ccc2b8c0c71c2.js" loaded.
+2024-7-19 18:13:20 - debug: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/03/037d2796c1af92357f708d7b40aa4b418fd5c05b.js resolved to /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/temp/programming/packer-driver/targets/editor/chunks/03/037d2796c1af92357f708d7b40aa4b418fd5c05b.js is not in module cache!
+2024-7-19 18:13:20 - debug: [[Executor]] Register helpLayer
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/03/037d2796c1af92357f708d7b40aa4b418fd5c05b.js" loaded.
+2024-7-19 18:13:20 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2024-7-19 18:13:20 - groupEnd: Imports all modules
+2024-7-19 18:13:20 - debug: Incremental keys: javaToJs
+2024-7-19 18:13:20 - debug: Init bundle share assets start..., progress: 9%
+2024-7-19 18:13:20 - debug: Init bundle share assets success..., progress: 9%
+2024-7-19 18:13:20 - debug: handle json group in bundle internal
+2024-7-19 18:13:20 - debug: handle json group in bundle internal success
+2024-7-19 18:13:20 - debug: handle json group in bundle resources
+2024-7-19 18:13:20 - debug: handle json group in bundle main
+2024-7-19 18:13:20 - debug: handle json group in bundle res
+2024-7-19 18:13:20 - debug: init image compress task 0 in bundle internal
+2024-7-19 18:13:20 - debug: handle json group in bundle res success
+2024-7-19 18:13:20 - debug: init image compress task 0 in bundle res
+2024-7-19 18:13:20 - debug: handle json group in bundle main success
+2024-7-19 18:13:20 - debug: init image compress task 0 in bundle main
+2024-7-19 18:13:20 - debug: handle json group in bundle resources success
+2024-7-19 18:13:20 - debug: init image compress task 0 in bundle resources
+2024-7-19 18:13:20 - debug: // ---- build task 查询 Asset Bundle ---- (466ms)
+2024-7-19 18:13:20 - debug: run build task 查询 Asset Bundle success in 466 ms√, progress: 14%
+2024-7-19 18:13:20 - debug: [Build Memory track]: 查询 Asset Bundle start:180.74MB, end 185.12MB, increase: 4.38MB
+2024-7-19 18:13:20 - debug: 查询 Asset Bundle start, progress: 14%
+2024-7-19 18:13:20 - debug: // ---- build task 查询 Asset Bundle ----
+2024-7-19 18:13:20 - debug: // ---- build task 查询 Asset Bundle ---- (9ms)
+2024-7-19 18:13:20 - debug: run build task 查询 Asset Bundle success in 9 ms√, progress: 19%
+2024-7-19 18:13:20 - debug: [Build Memory track]: 查询 Asset Bundle start:185.13MB, end 185.68MB, increase: 562.27KB
+2024-7-19 18:13:20 - debug: 打包脚本 start, progress: 19%
+2024-7-19 18:13:20 - debug: // ---- build task 打包脚本 ----
+2024-7-19 18:13:23 - debug: Generate systemJs..., progress: 19%
+2024-7-19 18:13:27 - debug: 构建项目脚本 start..., progress: 19%
+2024-7-19 18:13:27 - debug: Build script in bundle start, progress: 19%
+2024-7-19 18:13:37 - log: Run build task(build-script) in child, see: chrome://inspect/#devices
+2024-7-19 18:13:37 - log: [build-script]enter sub process 15881, /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Frameworks/CocosCreator Helper (Renderer).app/Contents/MacOS/CocosCreator Helper (Renderer),/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/static/sub-process-index
+2024-7-19 18:13:41 - warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/script/RVO/Agent.ts -> file:///Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/script/RVO/Simulator.ts -> file:///Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/script/RVO/Agent.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/script/RVO/Simulator.ts -> file:///Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/script/RVO/KdTree.ts -> file:///Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/script/RVO/Simulator.ts
+2024-7-19 18:13:44 - debug: excute-script over with build-script 6961ms
+2024-7-19 18:13:44 - debug: Copy externalScripts success!
+2024-7-19 18:13:44 - debug: Build script in bundle success, progress: 19%
+2024-7-19 18:13:44 - debug: 构建项目脚本 in (16921 ms) √, progress: 19%
+2024-7-19 18:13:44 - debug: 构建引擎脚本 start..., progress: 19%
+2024-7-19 18:13:44 - debug: Engine cache ({link(/var/folders/p_/lyyssy_s5v11pqgkscd643r80000gn/T/CocosCreator/3.8.3/builder/engine/a21b5e16cfcd64f9eeed9e41e46e3414)}) does not exist.
+2024-7-19 18:13:44 - debug: start build engine with options: {"incremental":"/var/folders/p_/lyyssy_s5v11pqgkscd643r80000gn/T/CocosCreator/3.8.3/builder/engine/a21b5e16cfcd64f9eeed9e41e46e3414.watch-files.json","engine":"/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine","out":"/var/folders/p_/lyyssy_s5v11pqgkscd643r80000gn/T/CocosCreator/3.8.3/builder/engine/a21b5e16cfcd64f9eeed9e41e46e3414","moduleFormat":"system","compress":true,"split":false,"nativeCodeBundleMode":"wasm","assetURLFormat":"relative-from-out","noDeprecatedFeatures":true,"sourceMap":false,"loose":true,"features":["2d","3d","animation","audio","base","dragon-bones","gfx-webgl","intersection-2d","light-probe","marionette","meshopt","particle","particle-2d","physics-2d-builtin","physics-ammo","primitive","profiler","skeletal-animation","spine","terrain","tiled-map","tween","ui","video","websocket","webview","xr"],"platform":"WECHAT","flags":{"DEBUG":false},"mode":"BUILD","metaFile":"/var/folders/p_/lyyssy_s5v11pqgkscd643r80000gn/T/CocosCreator/3.8.3/builder/engine/a21b5e16cfcd64f9eeed9e41e46e3414.meta/meta.json","wasmCompressionMode":false}
+2024-7-19 18:13:44 - log: Run build task(build-engine) in child, see: chrome://inspect/#devices
+2024-7-19 18:13:44 - log: [build-engine]enter sub process 15922, /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Frameworks/CocosCreator Helper (Renderer).app/Contents/MacOS/CocosCreator Helper (Renderer),/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/static/sub-process-index
+2024-7-19 18:13:45 - log: [build-engine]start build engine with options: {"engine":"/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine","out":"/var/folders/p_/lyyssy_s5v11pqgkscd643r80000gn/T/CocosCreator/3.8.3/builder/engine/a21b5e16cfcd64f9eeed9e41e46e3414","platform":"WECHAT","moduleFormat":"system","compress":true,"split":false,"nativeCodeBundleMode":"wasm","assetURLFormat":"relative-from-out","noDeprecatedFeatures":true,"sourceMap":false,"features":["2d","3d","animation","audio","base","dragon-bones","gfx-webgl","intersection-2d","light-probe","marionette","meshopt","particle","particle-2d","physics-2d-builtin","physics-ammo","primitive","profiler","skeletal-animation","spine","terrain","tiled-map","tween","ui","video","websocket","webview","xr"],"loose":true,"mode":"BUILD","flags":{"DEBUG":false},"metaFile":"/var/folders/p_/lyyssy_s5v11pqgkscd643r80000gn/T/CocosCreator/3.8.3/builder/engine/a21b5e16cfcd64f9eeed9e41e46e3414.meta/meta.json","incremental":"/var/folders/p_/lyyssy_s5v11pqgkscd643r80000gn/T/CocosCreator/3.8.3/builder/engine/a21b5e16cfcd64f9eeed9e41e46e3414.watch-files.json","wasmCompressionMode":false}
+2024-7-19 18:13:45 - log: [build-engine]Module source "internal-constants":function tryDefineGlobal (name, value) {    const _global = typeof window === 'undefined' ? global : window;    if (typeof _global[name] === 'undefined') {        return (_global[name] = value);    } else {        // eslint-disable-next-line @typescript-eslint/no-unsafe-return        return _global[name];    }}export const HTML5 = false;export const NATIVE = false;export const ANDROID = false;export const IOS = false;export const MAC = false;export const WINDOWS = false;export const LINUX = false;export const OHOS = false;export const OPEN_HARMONY = false;export const WECHAT = true;tryDefineGlobal('CC_WECHAT', true);export const WECHAT_MINI_PROGRAM = false;export const BAIDU = false;tryDefineGlobal('CC_BAIDU', false);export const XIAOMI = false;tryDefineGlobal('CC_XIAOMI', false);export const ALIPAY = false;tryDefineGlobal('CC_ALIPAY', false);export const TAOBAO = false;export const TAOBAO_MINIGAME = false;export const BYTEDANCE = false;tryDefineGlobal('CC_BYTEDANCE', false);export const OPPO = false;tryDefineGlobal('CC_OPPO', false);export const VIVO = false;tryDefineGlobal('CC_VIVO', false);export const HUAWEI = false;tryDefineGlobal('CC_HUAWEI', false);export const COCOSPLAY = false;tryDefineGlobal('CC_COCOSPLAY', false);export const QTT = false;tryDefineGlobal('CC_QTT', false);export const LINKSURE = false;tryDefineGlobal('CC_LINKSURE', false);export const EDITOR = false;tryDefineGlobal('CC_EDITOR', false);export const EDITOR_NOT_IN_PREVIEW = false;export const PREVIEW = false;tryDefineGlobal('CC_PREVIEW', false);export const BUILD = true;tryDefineGlobal('CC_BUILD', true);export const TEST = false;tryDefineGlobal('CC_TEST', false);export const DEBUG = false;tryDefineGlobal('CC_DEBUG', false);export const SERVER_MODE = false;export const DEV = false;tryDefineGlobal('CC_DEV', false);export const MINIGAME = true;tryDefineGlobal('CC_MINIGAME', true);export const RUNTIME_BASED = false;tryDefineGlobal('CC_RUNTIME_BASED', false);export const SUPPORT_JIT = false;tryDefineGlobal('CC_SUPPORT_JIT', false);export const JSB = false;tryDefineGlobal('CC_JSB', false);export const NOT_PACK_PHYSX_LIBS = false;export const NET_MODE = 0;export const WEBGPU = false;export const NATIVE_CODE_BUNDLE_MODE = 1;export const WASM_SUBPACKAGE = false;export const CULL_MESHOPT = false;
+2024-7-19 18:13:45 - log: [build-engine]Module source "cc":export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/2d.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/sorting.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/3d.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/animation.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/audio.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/base.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/dragon-bones.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/gfx-webgl.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/intersection-2d.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/light-probe.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/particle.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/particle-2d.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/physics-2d-builtin.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/physics-2d-framework.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/physics-ammo.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/physics-framework.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/wait-for-ammo-instantiation.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/primitive.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/profiler.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/skeletal-animation.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/spine.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/terrain.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/tiled-map.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/tween.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/ui.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/video.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/webview.ts';export * from '/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/xr.ts';
+2024-7-19 18:13:45 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/physics/framework/deprecated.ts
+2024-7-19 18:13:46 - log: [build-engine]Redirect module pal/wasm to /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/wasm/wasm-minigame.ts
+2024-7-19 18:13:46 - log: [build-engine]Redirect module internal:native to /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/native-binding/impl.ts
+2024-7-19 18:13:47 - log: [build-engine]Redirect module pal/minigame to /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/minigame/wechat.ts
+2024-7-19 18:13:47 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/rendering/deprecated.ts
+2024-7-19 18:13:48 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/gfx/deprecated-3.5.0.ts
+2024-7-19 18:13:48 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/gfx/deprecated-3.0.0.ts
+2024-7-19 18:13:48 - log: [build-engine]Redirect module pal/screen-adapter to /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/screen-adapter/minigame/screen-adapter.ts
+2024-7-19 18:13:48 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/input/deprecated.ts
+2024-7-19 18:13:48 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/core/deprecated.ts
+2024-7-19 18:13:48 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/core/deprecated-3.7.0.ts
+2024-7-19 18:13:48 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/render-scene/deprecated.ts
+2024-7-19 18:13:48 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/audio/deprecated.ts
+2024-7-19 18:13:48 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/scene-graph/deprecated-3.7.0.ts
+2024-7-19 18:13:48 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/misc/deprecated.ts
+2024-7-19 18:13:48 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/scene-graph/deprecated.ts
+2024-7-19 18:13:49 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/game/deprecated.ts
+2024-7-19 18:13:49 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/particle/deprecated.ts
+2024-7-19 18:13:49 - log: [build-engine]Redirect module pal/system-info to /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/system-info/minigame/system-info.ts
+2024-7-19 18:13:50 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/ui/deprecated.ts
+2024-7-19 18:13:51 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/2d/renderer/deprecated.ts
+2024-7-19 18:13:51 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/video/deprecated.ts
+2024-7-19 18:13:52 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/asset/asset-manager/deprecated.ts
+2024-7-19 18:13:53 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/3d/skeletal-animation/deprecated.ts
+2024-7-19 18:13:54 - log: [build-engine]Redirect module pal/input to /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/input/minigame/index.ts
+2024-7-19 18:13:55 - log: [build-engine]Redirect module pal/audio to /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/audio/minigame/player.ts
+2024-7-19 18:13:55 - log: [build-engine]Redirect module pal/env to /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/env/minigame/env.ts
+2024-7-19 18:13:55 - log: [build-engine]Redirect module pal/pacer to /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/pacer/pacer-minigame.ts
+2024-7-19 18:13:59 - log: [build-engine]Rollup warning 'THIS_IS_UNDEFINED' is omitted for /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/node_modules/@cocos/dragonbones-js/out/dragonBones.js
+2024-7-19 18:13:59 - log: [build-engine]Rollup warning 'THIS_IS_UNDEFINED' is omitted for /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/node_modules/@cocos/dragonbones-js/out/dragonBones.js
+2024-7-19 18:14:00 - log: [build-engine]Redirect module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/2d/renderer/native-2d.ts to /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/2d/renderer/native-2d-empty.ts
+2024-7-19 18:14:00 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/2d/framework/deprecated-1.2.0.ts
+2024-7-19 18:14:00 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/2d/framework/deprecated-3.0.0.ts
+2024-7-19 18:14:00 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/2d/framework/deprecated-3.6.0.ts
+2024-7-19 18:14:00 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/2d/framework/deprecated.ts
+2024-7-19 18:14:01 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/3d/assets/deprecated.ts
+2024-7-19 18:14:01 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/3d/framework/deprecated.ts
+2024-7-19 18:14:01 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/core/utils/deprecated-3.6.0.ts
+2024-7-19 18:14:01 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/core/platform/deprecated.ts
+2024-7-19 18:14:02 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/3d/skinned-mesh-renderer/deprecated.ts
+2024-7-19 18:14:02 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/3d/lights/deprecated.ts
+2024-7-19 18:14:02 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/core/geometry/deprecated.ts
+2024-7-19 18:14:03 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/core/geometry/deprecated-3.0.0.ts
+2024-7-19 18:14:03 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/core/math/deprecated.ts
+2024-7-19 18:14:04 - log: [build-engine]Exclude deprecated module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/2d/components/deprecated.ts
+2024-7-19 18:14:06 - log: [build-engine]Redirect module /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/animation/marionette/pose-graph/runtime-exports.ts to /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/animation/marionette/pose-graph/runtime-exports-empty.ts
+2024-7-19 18:14:12 - log: [build-engine]==== Performance ===={"# BUILD":[27319.900875091553,399481268,454139484],"## generate module graph":[25500.604291915894,366751676,421417588],"- plugin 1 (@cocos/ccbuild|external-loader) - resolveId":[457.5002956390381,1587000,573396768],"- plugin 1 (@cocos/ccbuild|external-loader) - resolveId (async)":[2053.5275678634644,-7931824,573397728],"- plugin 2 (@cocos/ccbuild|module-overrides) - resolveId":[452.7247037887573,948548,573399536],"- plugin 3 (virtual) - resolveId":[466.41543674468994,2397044,573404636],"load modules":[132004.04017543793,3440614404,573147344],"- plugin 0 (@cocos/ccbuild|remove-deprecated-features) - load":[99.1746711730957,290388,573151420],"- plugin 1 (@cocos/ccbuild|external-loader) - load":[91.14368915557861,845372,573152256],"- plugin 1 (@cocos/ccbuild|external-loader) - load (async)":[369.7489204406738,19307452,573155448],"- plugin 2 (@cocos/ccbuild|module-overrides) - load":[90.06641006469727,167480,573176656],"- plugin 3 (virtual) - load":[104.0001049041748,-18718776,573197028],"- plugin 7 (json) - transform":[100.70468139648438,740940,573151592],"- plugin 8 (commonjs) - transform":[251.84146308898926,13368964,573156236],"- plugin 9 (babel) - transform":[204.34113883972168,7113204,573176156],"generate ast":[564.4570837020874,18191832,573273656],"analyse ast":[906.5479068756104,89297328,573382560],"- plugin 4 (@cocos/ccbuild|module-query-plugin) - resolveId":[410.48842334747314,3691760,573408420],"- plugin 4 (@cocos/ccbuild|module-query-plugin) - resolveId (async)":[1714.9452304840088,-7625888,573409376],"- plugin 5 (ts-paths) - resolveId":[409.93421268463135,-4134396,573411412],"- plugin 6 (node-resolve) - resolveId":[423.2529106140137,1037804,573419484],"- plugin 6 (node-resolve) - resolveId (async)":[21563.599655151367,-1362208128,573705344],"- plugin 6 (node-resolve) - load":[89.00114917755127,123024,573228896],"- plugin 8 (commonjs) - load":[90.67515563964844,154488,573279408],"- plugin 9 (babel) - load":[261.60783100128174,10457372,573288668],"- plugin 9 (babel) - transform (async)":[14032.427605628967,335098580,573255732],"- plugin 8 (commonjs) - resolveId":[66.92770481109619,92444,573425412],"- plugin 9 (babel) - resolveId":[65.60883045196533,69516,573425816],"## sort modules":[147.38525009155273,7768668,429186560],"## mark included statements":[1671.311040878296,24948512,454135316],"treeshaking pass 1":[871.2138328552246,9523136,439187832],"treeshaking pass 2":[196.7906665802002,4336048,443524124],"treeshaking pass 3":[99.74716758728027,3306324,446830692],"treeshaking pass 4":[77.06441593170166,7193456,454024392],"treeshaking pass 5":[60.214417457580566,151480,454176116],"treeshaking pass 6":[51.825833320617676,-936412,453239948],"treeshaking pass 7":[47.01545810699463,4082220,457322412],"treeshaking pass 8":[45.723124504089355,-5645820,451676836],"treeshaking pass 9":[45.145124435424805,1823692,453500772],"treeshaking pass 10":[43.57991600036621,1097388,454598404],"treeshaking pass 11":[42.93170738220215,100736,454699384],"treeshaking pass 12":[43.044541358947754,-263680,454435948],"treeshaking pass 13":[43.278167724609375,-301248,454134944]}====             ====
+2024-7-19 18:14:12 - log: Asset DB is resume!
+2024-7-19 18:14:12 - debug: [Build Memory track]: 打包脚本 start:186.09MB, end 201.19MB, increase: 15.10MB
+2024-7-19 18:14:12 - debug: run build task 打包脚本 failed!, progress: 24%
+2024-7-19 18:14:12 - debug: [Build Memory track]: builder:build-project-total start:180.35MB, end 201.20MB, increase: 20.84MB
+2024-7-19 18:14:13 - debug: builder:build-project-total (53279ms)
+2024-7-19 18:14:13 - debug: build success in 53279!
+2024-7-19 18:14:13 - debug: ================================ build Task (wechatgame) Finished in (53 s)ms ================================

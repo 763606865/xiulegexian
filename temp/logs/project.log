@@ -1,5 +1,58 @@
-2024-2-25 22:29:52 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine
-2024-2-25 22:29:52 - log: Profile changed: engine (modules.includeModules: 2d,3d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,light-probe,marionette,particle,particle-2d,physics-2d-builtin,physics-ammo,primitive,profiler,skeletal-animation,spine,terrain,tiled-map,tween,ui,video,websocket,webview,xr)
-2024-2-25 22:29:52 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\native
-2024-2-25 22:30:04 - info: [PreviewInEditor] 预览环境初始化完毕
-2024-2-25 22:30:27 - warn: 为更好地打开脚本，请在 偏好设置 -> 外部程序 -> 默认脚本编辑器 里配置打开脚本的应用程序
+7-19-2024 18:12:02 - log: Load engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine
+7-19-2024 18:12:02 - log: Profile changed: engine (modules.includeModules: 2d,3d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,light-probe,marionette,meshopt,particle,particle-2d,physics-2d-builtin,physics-ammo,primitive,profiler,skeletal-animation,spine,terrain,tiled-map,tween,ui,video,websocket,webview,xr)
+7-19-2024 18:12:02 - log: Register native engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+7-19-2024 18:12:03 - log: Request namespace: device-list
+7-19-2024 18:12:08 - info: [PreviewInEditor] 预览环境初始化完毕
+7-19-2024 18:12:09 - warn: [Assets] Parse Error: Unable to find file Texture, the path: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/res/font/C:\Users\Administrator\Desktop\aa\damageTex-export.png[Assets] Parse Error: Unable to find file Texture, the path: /Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/res/font/C:\Users\Administrator\Desktop\aa\damageTex-export.png  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at getRealFntTexturePath (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/assets/bitmap-font.ccc:1:498)  
+at import (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/assets/bitmap-font.ccc:1:1289)  
+at CustomImporter.import (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/manager/asset-handler-manager.ccc:1:1206)
+7-19-2024 18:12:10 - log: [Scene] meshopt wasm decoder initialized
+7-19-2024 18:12:10 - log: [Scene] [box2d]:box2d wasm lib loaded.
+7-19-2024 18:12:10 - log: [Scene] [bullet]:bullet wasm lib loaded.
+7-19-2024 18:12:10 - log: [Scene] [PHYSICS]: using builtin.
+7-19-2024 18:12:10 - log: [Scene] Cocos Creator v3.8.3
+7-19-2024 18:12:10 - info: [Scene] Forward render pipeline initialized.
+7-19-2024 18:12:10 - log: [Scene] wx-v-1.0.3.2
+7-19-2024 18:12:10 - log: [Scene] [PHYSICS]: switch from builtin to bullet.
+7-19-2024 18:12:10 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to builtin.
+7-19-2024 18:12:33 - log: [PreviewInEditor] meshopt wasm decoder initialized
+7-19-2024 18:12:33 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+7-19-2024 18:12:33 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+7-19-2024 18:12:33 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+7-19-2024 18:12:33 - log: [PreviewInEditor] Cocos Creator v3.8.3
+7-19-2024 18:12:33 - info: [PreviewInEditor] Forward render pipeline initialized.
+7-19-2024 18:12:33 - log: [PreviewInEditor] wx-v-1.0.3.2
+7-19-2024 18:12:33 - log: [PreviewInEditor] [PHYSICS]: switch from builtin to bullet.
+7-19-2024 18:12:33 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to builtin.
+7-19-2024 18:12:46 - info: [PreviewInEditor] 预览环境初始化完毕
+7-19-2024 18:13:20 - warn: [Assets] Bundle res 已配置为远程包，构建平台未配置远程服务器地址，可能会运行异常[Assets] Bundle res 已配置为远程包，构建平台未配置远程服务器地址，可能会运行异常  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at BundleManager.patchProjectBundleConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/bundle/index.ccc:1:8794)  
+at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/bundle/index.ccc:1:5916  
+at Array.forEach (<anonymous>)  
+at BundleManager.initBundle (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/bundle/index.ccc:1:5897)
+7-19-2024 18:13:20 - warn: [Assets] Bundle resources 已配置为远程包，构建平台未配置远程服务器地址，可能会运行异常[Assets] Bundle resources 已配置为远程包，构建平台未配置远程服务器地址，可能会运行异常  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at BundleManager.patchProjectBundleConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/bundle/index.ccc:1:8794)  
+at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/bundle/index.ccc:1:5916  
+at Array.forEach (<anonymous>)  
+at BundleManager.initBundle (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/bundle/index.ccc:1:5897)
+7-19-2024 18:13:41 - warn: [Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/script/RVO/Agent.ts -> file:///Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/script/RVO/Simulator.ts -> file:///Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/script/RVO/Agent.ts
+[warning][[Build.Script.Rollup]] Circular dependency: file:///Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/script/RVO/Simulator.ts -> file:///Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/script/RVO/KdTree.ts -> file:///Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/script/RVO/Simulator.ts
+[Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/script/RVO/Agent.ts -> file:///Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/script/RVO/Simulator.ts -> file:///Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/script/RVO/Agent.ts
+[warning][[Build.Script.Rollup]] Circular dependency: file:///Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/script/RVO/Simulator.ts -> file:///Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/script/RVO/KdTree.ts -> file:///Users/liujunlin/docker-workspace/www/code/games/xiulegexian/assets/script/RVO/Simulator.ts
+  
+at Logger.record (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at NewConsole.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:2337)  
+at Socket.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/worker-pools/sub-process-manager.ccc:1:3352)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)  
+at Socket.Readable.push (internal/streams/readable.js:223:10)  
+at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)

@@ -3807,7 +3807,16 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 0,
-    "_id": "23An+48QdEGbk3RgEsmKe8"
+    "_id": "23An+48QdEGbk3RgEsmKe8",
+    "_enableOutline": true,
+    "_outlineWidth": 2,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    }
   },
   {
     "__type__": "cc.LabelOutline",
@@ -3818,14 +3827,6 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 0,
-      "g": 0,
-      "b": 0,
-      "a": 255
-    },
-    "_width": 2,
     "_id": "83d3I1RZhLpKIB9YUGs4+P"
   },
   {

@@ -72,16 +72,7 @@
           "binding": 0
         }
       ],
-      "samplerTextures": [
-        {
-          "name": "outputResultMap",
-          "type": 28,
-          "count": 1,
-          "defines": [],
-          "stageFlags": 16,
-          "binding": 1
-        }
-      ],
+      "samplerTextures": [],
       "samplers": [],
       "textures": [],
       "buffers": [],
@@ -630,16 +621,7 @@
           "binding": 0
         }
       ],
-      "samplerTextures": [
-        {
-          "name": "outputResultMap",
-          "type": 28,
-          "count": 1,
-          "defines": [],
-          "stageFlags": 16,
-          "binding": 1
-        }
-      ],
+      "samplerTextures": [],
       "samplers": [],
       "textures": [],
       "buffers": [],

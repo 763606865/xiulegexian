@@ -49,16 +49,7 @@
           "binding": 0
         }
       ],
-      "samplerTextures": [
-        {
-          "name": "inputTexture",
-          "type": 28,
-          "count": 1,
-          "defines": [],
-          "stageFlags": 16,
-          "binding": 1
-        }
-      ],
+      "samplerTextures": [],
       "samplers": [],
       "textures": [],
       "buffers": [],
